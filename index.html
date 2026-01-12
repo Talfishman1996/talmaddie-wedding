@@ -92,6 +92,26 @@
             border-bottom: 1px solid rgba(201, 169, 97, 0.15);
         }
 
+        /* Scroll fade indicators */
+        .category-nav::before,
+        .category-nav::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 40px;
+            pointer-events: none;
+            z-index: 2;
+        }
+        .category-nav::before {
+            left: 0;
+            background: linear-gradient(90deg, var(--black) 0%, transparent 100%);
+        }
+        .category-nav::after {
+            right: 0;
+            background: linear-gradient(270deg, var(--black) 0%, transparent 100%);
+        }
+
         .category-scroll {
             display: flex;
             overflow-x: auto;
@@ -110,6 +130,7 @@
             flex-shrink: 0;
             scroll-snap-align: start;
             padding: 10px 16px;
+            min-height: 44px;
             background: transparent;
             border: 1px solid rgba(201, 169, 97, 0.4);
             border-radius: 20px;
@@ -260,7 +281,8 @@
             display: inline-flex;
             align-items: center;
             gap: 3px;
-            padding: 3px 8px;
+            padding: 6px 10px;
+            min-height: 28px;
             background: rgba(201, 169, 97, 0.15);
             border-radius: 4px;
             font-size: 10px;
@@ -329,6 +351,22 @@
             outline-offset: 2px;
         }
 
+        /* Focus-visible styles for keyboard navigation */
+        :focus-visible {
+            outline: 2px solid var(--gold);
+            outline-offset: 2px;
+        }
+
+        .vendor-card-header:focus-visible,
+        .filter-chip:focus-visible,
+        .category-btn:focus-visible,
+        .favorite-btn:focus-visible,
+        .action-btn:focus-visible,
+        .nav-item:focus-visible {
+            outline: 2px solid var(--gold);
+            outline-offset: 2px;
+        }
+
         /* Search Bar */
         .search-container {
             position: fixed;
@@ -368,8 +406,10 @@
             color: rgba(255,255,255,0.4);
         }
         .search-clear {
-            width: 24px;
-            height: 24px;
+            min-width: 44px;
+            min-height: 44px;
+            width: 44px;
+            height: 44px;
             border-radius: 50%;
             background: rgba(255,255,255,0.1);
             border: none;
@@ -404,6 +444,7 @@
         .filter-chip {
             flex-shrink: 0;
             padding: 8px 14px;
+            min-height: 44px;
             background: transparent;
             border: 1px solid rgba(201, 169, 97, 0.3);
             border-radius: 20px;
@@ -1304,41 +1345,41 @@
     </header>
 
     <!-- Progress Bar -->
-    <div class="progress-bar">
+    <div class="progress-bar" role="progressbar" aria-label="Vendor booking progress" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0">
         <div class="progress-fill" id="progressFill"></div>
     </div>
 
     <!-- Category Navigation -->
-    <nav class="category-nav">
-        <div class="category-scroll">
-            <button class="category-btn active" data-category="photographers">
+    <nav class="category-nav" aria-label="Vendor categories">
+        <div class="category-scroll" role="tablist" aria-label="Vendor category tabs">
+            <button class="category-btn active" id="tab-photographers" data-category="photographers" role="tab" aria-selected="true" aria-controls="photographers" aria-label="Photographers, 15 vendors">
                 Photographers <span class="count">15</span>
             </button>
-            <button class="category-btn" data-category="videographers">
+            <button class="category-btn" id="tab-videographers" data-category="videographers" role="tab" aria-selected="false" aria-controls="videographers" aria-label="Videographers, 15 vendors">
                 Videographers <span class="count">15</span>
             </button>
-            <button class="category-btn" data-category="officiants">
+            <button class="category-btn" id="tab-officiants" data-category="officiants" role="tab" aria-selected="false" aria-controls="officiants" aria-label="Officiants, 15 vendors">
                 Officiants <span class="count">15</span>
             </button>
-            <button class="category-btn" data-category="djs">
+            <button class="category-btn" id="tab-djs" data-category="djs" role="tab" aria-selected="false" aria-controls="djs" aria-label="DJs, 15 vendors">
                 DJs <span class="count">15</span>
             </button>
-            <button class="category-btn" data-category="florists">
+            <button class="category-btn" id="tab-florists" data-category="florists" role="tab" aria-selected="false" aria-controls="florists" aria-label="Florists, 15 vendors">
                 Florists <span class="count">15</span>
             </button>
-            <button class="category-btn" data-category="cakes">
+            <button class="category-btn" id="tab-cakes" data-category="cakes" role="tab" aria-selected="false" aria-controls="cakes" aria-label="Cakes, 15 vendors">
                 Cakes <span class="count">15</span>
             </button>
-            <button class="category-btn" data-category="hairmakeup">
+            <button class="category-btn" id="tab-hairmakeup" data-category="hairmakeup" role="tab" aria-selected="false" aria-controls="hairmakeup" aria-label="Hair and Makeup, 15 vendors">
                 Hair & Makeup <span class="count">15</span>
             </button>
-            <button class="category-btn" data-category="dresses">
+            <button class="category-btn" id="tab-dresses" data-category="dresses" role="tab" aria-selected="false" aria-controls="dresses" aria-label="Bridesmaid Dresses, 15 vendors">
                 Bridesmaid <span class="count">15</span>
             </button>
-            <button class="category-btn" data-category="photobooths">
+            <button class="category-btn" id="tab-photobooths" data-category="photobooths" role="tab" aria-selected="false" aria-controls="photobooths" aria-label="Photo Booths, 15 vendors">
                 Photo Booths <span class="count">15</span>
             </button>
-            <button class="category-btn" data-category="creators">
+            <button class="category-btn" id="tab-creators" data-category="creators" role="tab" aria-selected="false" aria-controls="creators" aria-label="Content Creators, 15 vendors">
                 Content <span class="count">15</span>
             </button>
         </div>
@@ -1347,20 +1388,20 @@
     <!-- Search and Filters -->
     <div class="search-container" id="search-container">
         <div class="search-bar">
-            <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
             <input type="text" class="search-input" id="search-input" placeholder="Search vendors..." aria-label="Search vendors">
             <button class="search-clear" id="search-clear" aria-label="Clear search">
-                <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
             </button>
         </div>
     </div>
 
-    <div class="filter-chips" id="filter-chips">
-        <button class="filter-chip active" data-filter="all">All</button>
-        <button class="filter-chip" data-filter="local">LOCAL</button>
-        <button class="filter-chip" data-filter="top-pick">Top Picks</button>
-        <button class="filter-chip" data-filter="contacted">Contacted</button>
-        <button class="filter-chip" data-filter="booked">Booked</button>
+    <div class="filter-chips" id="filter-chips" role="group" aria-label="Filter vendors">
+        <button class="filter-chip active" data-filter="all" aria-label="Show all vendors" aria-pressed="true">All</button>
+        <button class="filter-chip" data-filter="local" aria-label="Show local vendors only" aria-pressed="false">LOCAL</button>
+        <button class="filter-chip" data-filter="top-pick" aria-label="Show top pick vendors only" aria-pressed="false">Top Picks</button>
+        <button class="filter-chip" data-filter="contacted" aria-label="Show contacted vendors only" aria-pressed="false">Contacted</button>
+        <button class="filter-chip" data-filter="booked" aria-label="Show booked vendors only" aria-pressed="false">Booked</button>
     </div>
 
     <!-- Main Content -->
@@ -1534,7 +1575,7 @@
         </section>
 
         <!-- PHOTOGRAPHERS SECTION -->
-        <section class="category-section active" id="photographers">
+        <section class="category-section active" id="photographers" role="tabpanel" aria-labelledby="tab-photographers">
             <div class="section-header">
                 <h2 class="section-title">Photographers</h2>
                 <p class="section-subtitle">15 VENDORS | COMPLETE</p>
@@ -2624,7 +2665,7 @@
         </section>
 
         <!-- Other category sections (placeholders) -->
-        <section class="category-section" id="videographers">
+        <section class="category-section" id="videographers" role="tabpanel" aria-labelledby="tab-videographers">
             <div class="section-header">
                 <h2 class="section-title">Videographers</h2>
                 <p class="section-subtitle">15 VENDORS | COMPLETE</p>
@@ -3053,7 +3094,7 @@
             </div>
         </section>
 
-        <section class="category-section" id="officiants">
+        <section class="category-section" id="officiants" role="tabpanel" aria-labelledby="tab-officiants">
             <div class="section-header">
                 <h2 class="section-title">Officiants</h2>
                 <p class="section-subtitle">15 VENDORS | COMPLETE</p>
@@ -3575,7 +3616,7 @@
             </div>
         </section>
 
-        <section class="category-section" id="djs">
+        <section class="category-section" id="djs" role="tabpanel" aria-labelledby="tab-djs">
             <div class="section-header">
                 <h2 class="section-title">DJs & Music</h2>
                 <p class="section-subtitle">15 VENDORS | COMPLETE</p>
@@ -4181,7 +4222,7 @@
             </div>
         </section>
 
-        <section class="category-section" id="florists">
+        <section class="category-section" id="florists" role="tabpanel" aria-labelledby="tab-florists">
             <div class="section-header">
                 <h2 class="section-title">Florists</h2>
                 <p class="section-subtitle">15 VENDORS | COMPLETE</p>
@@ -4641,7 +4682,7 @@
             </div>
         </section>
 
-        <section class="category-section" id="cakes">
+        <section class="category-section" id="cakes" role="tabpanel" aria-labelledby="tab-cakes">
             <div class="section-header">
                 <h2 class="section-title">Cakes & Desserts</h2>
                 <p class="section-subtitle">15 VENDORS | LAMBETH STYLE • CHERRIES</p>
@@ -5214,7 +5255,7 @@
             </div>
         </section>
 
-        <section class="category-section" id="hairmakeup">
+        <section class="category-section" id="hairmakeup" role="tabpanel" aria-labelledby="tab-hairmakeup">
             <div class="section-header">
                 <h2 class="section-title">Hair & Makeup</h2>
                 <p class="section-subtitle">15 VENDORS | BRIDE + 8 BRIDESMAIDS</p>
@@ -5790,7 +5831,7 @@
             </div>
         </section>
 
-        <section class="category-section" id="dresses">
+        <section class="category-section" id="dresses" role="tabpanel" aria-labelledby="tab-dresses">
             <div class="section-header">
                 <h2 class="section-title">Bridesmaid Dresses</h2>
                 <p class="section-subtitle">15 VENDORS | 8 BRIDESMAIDS • SAGE/OLIVE/BLACK</p>
@@ -6496,7 +6537,7 @@
             </div>
         </section>
 
-        <section class="category-section" id="photobooths">
+        <section class="category-section" id="photobooths" role="tabpanel" aria-labelledby="tab-photobooths">
             <div class="section-header">
                 <h2 class="section-title">Photo Booths</h2>
                 <p class="section-subtitle">15 VENDORS | B&W CLASSY AESTHETIC</p>
@@ -7055,7 +7096,7 @@
             </div>
         </section>
 
-        <section class="category-section" id="creators">
+        <section class="category-section" id="creators" role="tabpanel" aria-labelledby="tab-creators">
             <div class="section-header">
                 <h2 class="section-title">Content Creators</h2>
                 <p class="section-subtitle">15 VENDORS | SOCIAL MEDIA SPECIALISTS</p>
@@ -7589,6 +7630,7 @@
                 // Remove from favorites
                 favorites.splice(index, 1);
                 btn.classList.remove('favorited');
+                btn.setAttribute('aria-label', `Add ${vendorName} to favorites`);
             } else {
                 // Add to favorites
                 const category = card.closest('.category-section').id;
@@ -7604,6 +7646,7 @@
                     addedAt: Date.now()
                 });
                 btn.classList.add('favorited');
+                btn.setAttribute('aria-label', `Remove ${vendorName} from favorites`);
             }
 
             saveFavorites();
@@ -7758,12 +7801,18 @@
                 }
             });
 
-            // Then mark favorited cards
-            favorites.forEach(fav => {
-                const card = document.querySelector(`[data-vendor="${fav.id}"]`);
-                if (card) {
-                    const btn = card.querySelector('.favorite-btn');
-                    if (btn) btn.classList.add('favorited');
+            // Then mark favorited cards and add aria-labels
+            document.querySelectorAll('.vendor-card').forEach(card => {
+                const btn = card.querySelector('.favorite-btn');
+                const name = card.querySelector('.vendor-name')?.textContent || 'vendor';
+                if (btn) {
+                    const isFavorited = favorites.some(fav => fav.id === card.dataset.vendor);
+                    if (isFavorited) {
+                        btn.classList.add('favorited');
+                        btn.setAttribute('aria-label', `Remove ${name} from favorites`);
+                    } else {
+                        btn.setAttribute('aria-label', `Add ${name} to favorites`);
+                    }
                 }
             });
 
@@ -7826,14 +7875,24 @@
 
         document.querySelectorAll('.category-btn').forEach(btn => {
             btn.addEventListener('click', function() {
-                // Update active button
-                document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                // Update active button and aria-selected
+                document.querySelectorAll('.category-btn').forEach(b => {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-selected', 'false');
+                });
                 this.classList.add('active');
+                this.setAttribute('aria-selected', 'true');
 
                 // Show corresponding section
                 const category = this.dataset.category;
                 document.querySelectorAll('.category-section').forEach(s => s.classList.remove('active'));
-                document.getElementById(category).classList.add('active');
+                const targetSection = document.getElementById(category);
+                targetSection.classList.add('active');
+
+                // Smooth scroll to the section
+                setTimeout(() => {
+                    targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 50);
             });
         });
 
@@ -7867,8 +7926,38 @@
             fill.style.width = percent + '%';
         }
 
-        // All 172 vendors complete!
-        updateProgress(172, 172);
+        // Calculate progress based on booked vendors per category
+        function calculateProgress() {
+            const statuses = JSON.parse(localStorage.getItem('vendorStatuses') || '{}');
+            const categories = ['photographers', 'videographers', 'officiants', 'djs', 'florists', 'cakes', 'hairmakeup', 'dresses', 'photobooths', 'creators'];
+            const totalCategories = categories.length;
+
+            // Check which categories have at least one booked vendor
+            const bookedCategories = new Set();
+            document.querySelectorAll('.vendor-card').forEach(card => {
+                const vendorId = card.dataset.vendor;
+                if (vendorId && statuses[vendorId] === 'booked') {
+                    const section = card.closest('.category-section');
+                    if (section) {
+                        bookedCategories.add(section.id);
+                    }
+                }
+            });
+
+            const booked = bookedCategories.size;
+            const progressBar = document.getElementById('progressFill');
+
+            if (progressBar) {
+                const percentage = Math.round((booked / totalCategories) * 100);
+                progressBar.style.width = percentage + '%';
+                progressBar.setAttribute('aria-valuenow', booked);
+                progressBar.setAttribute('aria-valuemax', totalCategories);
+                progressBar.setAttribute('aria-label', booked + ' of ' + totalCategories + ' categories booked');
+            }
+        }
+
+        // Initial progress - call calculateProgress on load
+        calculateProgress();
 
         // ========================================
         // LAZY LOADING WITH SHIMMER
@@ -8008,8 +8097,12 @@
 
         document.querySelectorAll('.filter-chip').forEach(chip => {
             chip.addEventListener('click', function() {
-                document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+                document.querySelectorAll('.filter-chip').forEach(c => {
+                    c.classList.remove('active');
+                    c.setAttribute('aria-pressed', 'false');
+                });
                 this.classList.add('active');
+                this.setAttribute('aria-pressed', 'true');
                 activeFilter = this.dataset.filter;
                 applyFilters();
             });
@@ -8066,6 +8159,7 @@
 
             localStorage.setItem('vendorStatuses', JSON.stringify(statuses));
             updateVendorStatusBadges();
+            calculateProgress(); // Update progress bar when status changes
             showToast(status ? `Marked as ${status}` : 'Status cleared');
         }
 

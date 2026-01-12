@@ -797,6 +797,58 @@
             border-radius: 4px;
         }
 
+        /* Expand Reviews Button */
+        .expand-reviews-btn {
+            background: transparent;
+            border: 1px solid rgba(201, 169, 97, 0.4);
+            border-radius: 8px;
+            padding: 8px 16px;
+            color: var(--gold);
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.2s ease;
+            margin-top: 8px;
+        }
+        .expand-reviews-btn:hover {
+            background: rgba(201, 169, 97, 0.1);
+        }
+
+        /* Vendor Card Hover */
+        .vendor-card:hover {
+            border-color: rgba(201, 169, 97, 0.4);
+            box-shadow: 0 4px 12px rgba(201, 169, 97, 0.15);
+            transform: translateY(-2px);
+        }
+
+        /* Image Loading Shimmer */
+        @keyframes shimmer {
+            0% {
+                background-position: -200px 0;
+            }
+            100% {
+                background-position: calc(200px + 100%) 0;
+            }
+        }
+        .vendor-image.loading {
+            background: linear-gradient(
+                90deg,
+                rgba(30, 30, 30, 1) 0%,
+                rgba(50, 50, 50, 1) 50%,
+                rgba(30, 30, 30, 1) 100%
+            );
+            background-size: 200px 100%;
+            animation: shimmer 1.5s infinite;
+        }
+        .vendor-image img {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .vendor-image img.loaded {
+            opacity: 1;
+        }
+
         /* Bottom Navigation - Premium App Style */
         .bottom-nav {
             position: fixed;
@@ -1653,36 +1705,36 @@
                         <div class="reviews-section">
                             <div class="reviews-summary">
                                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                                    <span style="font-weight: 600; color: #C9A961;">?? Review Summary</span>
-                                    <span style="font-size: 11px; color: #81C784;">35 The Knot � 2x Award Winner</span>
+                                    <span style="font-weight: 600; color: #C9A961;">📊 Review Summary</span>
+                                    <span style="font-size: 11px; color: #81C784;">35 The Knot • 2x Award Winner</span>
                                 </div>
                                 <p style="font-size: 13px; color: rgba(255,255,255,0.9); margin: 0 0 8px 0;"><strong>Verdict:</strong> Excellent value. Brooks Institute trained. 250+ weddings. Classic, timeless style.</p>
-                                <button class="expand-reviews-btn" onclick="toggleReviews(this)">? See All Reviews</button>
+                                <button class="expand-reviews-btn" onclick="toggleReviews(this)">▼ See All Reviews</button>
                             </div>
                             <div class="reviews-expanded">
-                                <div class="review-category-header positive">? TOP THE KNOT REVIEWS</div>
+                                <div class="review-category-header positive">⭐ TOP THE KNOT REVIEWS</div>
                                 <div class="review-card">
-                                    <div class="review-meta">????? � The Knot</div>
+                                    <div class="review-meta">★★★★★ • The Knot</div>
                                     <p>"Kiernan is an insanely talented photographer, a true professional and just an overall sweet, lovely person. She made us feel like we were working with a friend."</p>
                                 </div>
                                 <div class="review-card">
-                                    <div class="review-meta">????? � The Knot</div>
+                                    <div class="review-meta">★★★★★ • The Knot</div>
                                     <p>"Kiernan was communicative, informative and helpful during our meetings leading up to wedding. She maintained a professional positive attitude throughout the day."</p>
                                 </div>
                                 <div class="review-card">
-                                    <div class="review-meta">????? � Zola</div>
+                                    <div class="review-meta">★★★★★ • Zola</div>
                                     <p>"She sent sneak peek photos so quickly that we got them while we were still in our post-wedding hotel suite. Our pictures turned out STUNNING!"</p>
                                 </div>
-                                <div class="review-category-header positive" style="margin-top: 12px;">? ADDITIONAL REVIEWS</div>
+                                <div class="review-category-header positive" style="margin-top: 12px;">⭐ ADDITIONAL REVIEWS</div>
                                 <div class="review-card">
-                                    <div class="review-meta">????? � Client</div>
+                                    <div class="review-meta">★★★★★ • Client</div>
                                     <p>"Kiernan's style is classic and trend-proof, which was very important to us! She is easy to work with and very responsive."</p>
                                 </div>
                                 <div class="review-card">
-                                    <div class="review-meta">????? � Client</div>
+                                    <div class="review-meta">★★★★★ • Client</div>
                                     <p>"She captured our personalities so well. She's both very sweet and professional and I would HIGHLY recommend her to anyone."</p>
                                 </div>
-                                <div class="review-category-header negative" style="margin-top: 12px;">?? NEGATIVE REVIEWS</div>
+                                <div class="review-category-header negative" style="margin-top: 12px;">⚠️ NEGATIVE REVIEWS</div>
                                 <div class="review-card" style="border-color: rgba(129, 199, 132, 0.3);">
                                     <p style="color: #81C784; font-style: italic;">No negative reviews found. Perfect 5-star rating across The Knot and Zola.</p>
                                 </div>
@@ -7819,14 +7871,27 @@
         updateProgress(172, 172);
 
         // ========================================
-        // LAZY LOADING
+        // LAZY LOADING WITH SHIMMER
         // ========================================
 
-        document.querySelectorAll('.vendor-image img').forEach(img => {
-            img.loading = 'lazy';
-            img.onload = function() {
-                this.classList.add('loaded');
-            };
+        document.querySelectorAll('.vendor-image').forEach(container => {
+            const img = container.querySelector('img');
+            if (img) {
+                // Add loading class for shimmer effect
+                container.classList.add('loading');
+                img.loading = 'lazy';
+
+                img.onload = function() {
+                    this.classList.add('loaded');
+                    container.classList.remove('loading');
+                };
+
+                // Handle already loaded images (from cache)
+                if (img.complete && img.naturalHeight !== 0) {
+                    img.classList.add('loaded');
+                    container.classList.remove('loading');
+                }
+            }
         });
 
         // ========================================
@@ -7865,6 +7930,32 @@
                 }
             });
         });
+
+        // Add keyboard support for all onclick elements
+        function addKeyboardSupport(selector) {
+            document.querySelectorAll(selector).forEach(el => {
+                if (!el.getAttribute('tabindex')) {
+                    el.setAttribute('tabindex', '0');
+                }
+                if (!el.getAttribute('role') && el.tagName !== 'BUTTON' && el.tagName !== 'A') {
+                    el.setAttribute('role', 'button');
+                }
+                el.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        this.click();
+                    }
+                });
+            });
+        }
+
+        // Apply keyboard support to interactive elements
+        addKeyboardSupport('.filter-chip');
+        addKeyboardSupport('.category-btn');
+        addKeyboardSupport('.expand-reviews-btn');
+        addKeyboardSupport('.nav-item');
+        addKeyboardSupport('.favorite-btn');
+        addKeyboardSupport('.expand-icon');
 
         // ========================================
         // SEARCH FUNCTIONALITY

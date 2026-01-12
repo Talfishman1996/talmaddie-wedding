@@ -144,8 +144,8 @@
 
         /* Main Content */
         .main-content {
-            padding-top: 140px;
-            padding-bottom: calc(80px + var(--safe-bottom));
+            padding-top: 240px;
+            padding-bottom: calc(100px + var(--safe-bottom));
             min-height: 100vh;
         }
 
@@ -331,6 +331,11 @@
 
         /* Search Bar */
         .search-container {
+            position: fixed;
+            top: 132px;
+            left: 0;
+            right: 0;
+            z-index: 98;
             padding: 0 16px 12px;
             background: var(--black);
         }
@@ -381,6 +386,12 @@
 
         /* Filter Chips */
         .filter-chips {
+            position: fixed;
+            top: 188px;
+            left: 0;
+            right: 0;
+            z-index: 97;
+            background: var(--black);
             display: flex;
             gap: 8px;
             padding: 0 16px 12px;
@@ -629,6 +640,22 @@
             height: 14px;
         }
 
+        /* Instagram Button - Standardized */
+        .action-btn.instagram,
+        .action-btn[href*="instagram"] {
+            background: linear-gradient(135deg, #833AB4 0%, #E1306C 50%, #F77737 100%);
+            border: none;
+            color: var(--white);
+            font-weight: 600;
+            min-width: 44px;
+        }
+
+        .action-btn.instagram:hover,
+        .action-btn[href*="instagram"]:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+
         /* Claude Analysis */
         .claude-analysis {
             background: linear-gradient(135deg, rgba(201, 169, 97, 0.1) 0%, rgba(201, 169, 97, 0.05) 100%);
@@ -768,40 +795,69 @@
             border-radius: 4px;
         }
 
-        /* Bottom Navigation */
+        /* Bottom Navigation - Premium App Style */
         .bottom-nav {
             position: fixed;
             bottom: 0;
             left: 0;
             right: 0;
             z-index: 100;
-            background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.98) 100%);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border-top: 1px solid rgba(201, 169, 97, 0.2);
-            padding: 12px 20px calc(var(--safe-bottom) + 12px);
+            background: linear-gradient(180deg, rgba(10,10,10,0.95) 0%, rgba(0,0,0,0.99) 100%);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(201, 169, 97, 0.3);
+            padding: 8px 16px calc(var(--safe-bottom) + 8px);
             display: flex;
             justify-content: space-around;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.5);
         }
 
         .nav-item {
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             gap: 4px;
-            color: rgba(255,255,255,0.5);
+            color: rgba(255,255,255,0.4);
             font-size: 10px;
+            font-weight: 500;
+            letter-spacing: 0.3px;
             text-decoration: none;
-            transition: color 0.2s ease;
+            transition: all 0.3s ease;
+            padding: 8px 16px;
+            border-radius: 12px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            min-width: 70px;
+        }
+
+        .nav-item:hover {
+            color: rgba(255,255,255,0.7);
+            background: rgba(201, 169, 97, 0.08);
         }
 
         .nav-item.active {
             color: var(--gold);
+            background: linear-gradient(135deg, rgba(201, 169, 97, 0.15) 0%, rgba(201, 169, 97, 0.08) 100%);
+            border: 1px solid rgba(201, 169, 97, 0.25);
+            box-shadow: 0 2px 8px rgba(201, 169, 97, 0.15);
+        }
+
+        .nav-item.active svg {
+            filter: drop-shadow(0 0 4px rgba(201, 169, 97, 0.4));
         }
 
         .nav-item svg {
-            width: 22px;
-            height: 22px;
+            width: 24px;
+            height: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-item span {
+            text-transform: uppercase;
+            font-size: 9px;
+            letter-spacing: 0.5px;
         }
 
         /* Tier Badge */
@@ -1202,40 +1258,40 @@
     <nav class="category-nav">
         <div class="category-scroll">
             <button class="category-btn active" data-category="photographers">
-                Photographers <span class="count">10</span>
+                Photographers <span class="count">15</span>
             </button>
             <button class="category-btn" data-category="videographers">
-                Videographers <span class="count">10</span>
+                Videographers <span class="count">15</span>
             </button>
             <button class="category-btn" data-category="officiants">
-                Officiants <span class="count">10</span>
+                Officiants <span class="count">15</span>
             </button>
             <button class="category-btn" data-category="djs">
-                DJs <span class="count">10</span>
+                DJs <span class="count">15</span>
             </button>
             <button class="category-btn" data-category="florists">
-                Florists <span class="count">10</span>
+                Florists <span class="count">15</span>
             </button>
             <button class="category-btn" data-category="cakes">
-                Cakes <span class="count">10</span>
+                Cakes <span class="count">15</span>
             </button>
             <button class="category-btn" data-category="hairmakeup">
-                Hair & Makeup <span class="count">10</span>
+                Hair & Makeup <span class="count">15</span>
             </button>
             <button class="category-btn" data-category="dresses">
-                Bridesmaid <span class="count">10</span>
+                Bridesmaid <span class="count">15</span>
             </button>
             <button class="category-btn" data-category="photobooths">
-                Photo Booths <span class="count">10</span>
+                Photo Booths <span class="count">15</span>
             </button>
             <button class="category-btn" data-category="creators">
-                Content <span class="count">10</span>
+                Content <span class="count">15</span>
             </button>
         </div>
     </nav>
 
     <!-- Search and Filters -->
-    <div class="search-container" id="search-container" style="position: fixed; top: 132px; left: 0; right: 0; z-index: 98;">
+    <div class="search-container" id="search-container">
         <div class="search-bar">
             <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
             <input type="text" class="search-input" id="search-input" placeholder="Search vendors..." aria-label="Search vendors">
@@ -1245,7 +1301,7 @@
         </div>
     </div>
 
-    <div class="filter-chips" id="filter-chips" style="position: fixed; top: 188px; left: 0; right: 0; z-index: 97; background: var(--black);">
+    <div class="filter-chips" id="filter-chips">
         <button class="filter-chip active" data-filter="all">All</button>
         <button class="filter-chip" data-filter="local">LOCAL</button>
         <button class="filter-chip" data-filter="top-pick">Top Picks</button>
@@ -1254,7 +1310,7 @@
     </div>
 
     <!-- Main Content -->
-    <main class="main-content" id="main-content" role="main" style="padding-top: 220px;">
+    <main class="main-content" id="main-content" role="main">
         <!-- FAVORITES VIEW -->
         <section class="favorites-view" id="favorites-view">
             <div class="favorites-header">
@@ -1427,7 +1483,7 @@
         <section class="category-section active" id="photographers">
             <div class="section-header">
                 <h2 class="section-title">Photographers</h2>
-                <p class="section-subtitle">10 VENDORS | COMPLETE ✓</p>
+                <p class="section-subtitle">15 VENDORS | COMPLETE</p>
             </div>
 
             <div class="vendor-grid">
@@ -1532,7 +1588,7 @@
                         <div class="action-buttons">
                             <a href="tel:8189254142" class="action-btn primary">Call</a>
                             <a href="https://adamkentphotography.com" target="_blank" class="action-btn secondary">Website</a>
-                            <a href="https://instagram.com/adamkentphotography" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/adamkentphotography" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -1638,7 +1694,7 @@
                         <div class="action-buttons">
                             <a href="mailto:info@kiernanmichellephotography.com" class="action-btn primary">Email</a>
                             <a href="https://kiernanmichellephotography.com" target="_blank" class="action-btn secondary">Website</a>
-                            <a href="https://instagram.com/kiernanmichellephotography" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/kiernanmichellephotography" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -1845,7 +1901,7 @@
 
                         <div class="action-buttons">
                             <a href="https://www.thekingdomphotography.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/kingdom____photography" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/kingdom____photography" target="_blank" class="action-btn instagram">Instagram</a>
                             <a href="https://www.zola.com/wedding-vendors/wedding-photographers/kingdom-photography--2" target="_blank" class="action-btn secondary">Zola</a>
                         </div>
                     </div>
@@ -1939,7 +1995,7 @@
                         <div class="action-buttons">
                             <a href="mailto:HI@THESANADAS.COM" class="action-btn primary">Email</a>
                             <a href="https://thesanadas.com" target="_blank" class="action-btn secondary">Website</a>
-                            <a href="https://instagram.com/thesanadas" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/thesanadas" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -2022,7 +2078,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="http://www.brennaweeks.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/brennajean" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/brennajean" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -2071,7 +2127,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://saraknobelphoto.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/saraknobelphoto" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/saraknobelphoto" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -2151,7 +2207,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://teresamariephotos.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/teresamariephotos" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/teresamariephotos" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -2232,7 +2288,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://www.chrisschmitt.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/chrisschmittphotography" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/chrisschmittphotography" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -2282,6 +2338,234 @@
                         </div>
                     </div>
                 </article>
+
+                <!-- Vendor 11: Elizabeth Victoria Photography -->
+                <article class="vendor-card" data-vendor="elizabeth-victoria">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image">
+                            <img src="https://elizabethvictoriaphotography.com/wp-content/uploads/2023/02/thousand-oaks-wedding-photography-elizabeth-victoria.jpg" alt="Elizabeth Victoria Photography" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>EV</span>'">
+                        </div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Elizabeth Victoria Photography</h3>
+                            <div class="vendor-meta">
+                                <span class="vendor-tag venue-exp">KNOWS VENUE</span>
+                                <span class="vendor-tag">16+ Years</span>
+                            </div>
+                            <div class="vendor-rating">
+                                <span class="stars">★★★★★</span>
+                                <span>28 reviews</span>
+                            </div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)">
+                            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                        </button>
+                        <div class="expand-icon">
+                            <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                        </div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="detail-section">
+                            <div class="detail-label">Pricing</div>
+                            <div class="price-display">Starting at $5,000</div>
+                            <div class="detail-value" style="font-size: 12px; color: #E57373; margin-top: 4px;">May exceed budget</div>
+                        </div>
+                        <div class="detail-section">
+                            <div class="detail-label">Los Robles Experience</div>
+                            <div class="detail-value" style="color: #64B5F6;">"Oak trees near 10th Tee perfect for golden hour"</div>
+                        </div>
+                        <div class="claude-analysis">
+                            <div class="claude-header">
+                                <div class="claude-icon">C</div>
+                                <span class="claude-label">CLAUDE'S TAKE</span>
+                            </div>
+                            <p class="claude-text">Premium option but KNOWS Los Robles. 16+ years experience. Top 3 Best Wedding Photographer by CA Wedding Day. Always brings second shooter.</p>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="tel:8054100721" class="action-btn primary">Call</a>
+                            <a href="https://elizabethvictoriaphotography.com" target="_blank" class="action-btn secondary">Website</a>
+                            <a href="https://instagram.com/elizabeth.victoria.photography" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Vendor 12: Emma + Josh Photography -->
+                <article class="vendor-card" data-vendor="emma-josh">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image">
+                            <img src="https://static.showit.co/800/hvquTWg-TLutwRZ40aPCNA/17115/spanish-hills-country-club-wedding-photos-237.jpg" alt="Emma + Josh Photography" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>E+J</span>'">
+                        </div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Emma + Josh Photography</h3>
+                            <div class="vendor-meta">
+                                <span class="vendor-tag">Ventura County</span>
+                                <span class="vendor-tag">Husband-Wife</span>
+                            </div>
+                            <div class="vendor-rating">
+                                <span class="stars">★★★★★</span>
+                                <span>15 Years Together</span>
+                            </div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)">
+                            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                        </button>
+                        <div class="expand-icon">
+                            <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                        </div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="detail-section">
+                            <div class="detail-label">Pricing</div>
+                            <div class="price-display">Starting at $4,000</div>
+                        </div>
+                        <div class="detail-section">
+                            <div class="detail-label">What's Included</div>
+                            <div class="detail-value">Complimentary engagement session, sneak peeks same night, full gallery within 30 days</div>
+                        </div>
+                        <div class="claude-analysis">
+                            <div class="claude-header">
+                                <div class="claude-icon">C</div>
+                                <span class="claude-label">CLAUDE'S TAKE</span>
+                            </div>
+                            <p class="claude-text">Married 15 years, shoot together. Limited weddings for quality focus. Natural, true-to-life style. Based in Woodland Hills.</p>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://emmaandjosh.com" target="_blank" class="action-btn primary">Website</a>
+                            <a href="https://instagram.com/emma.and.josh" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Vendor 13: Jillian Rose Photography -->
+                <article class="vendor-card" data-vendor="jillian-rose">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image">
+                            <img src="https://images.squarespace-cdn.com/content/v1/61e6e714db06922e91078fae/db9331d0-affd-4c27-acf4-25ade6b302bd/Santa_Barbara_weddin_photographer.jpg" alt="Jillian Rose Photography" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>JR</span>'">
+                        </div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Jillian Rose Photography</h3>
+                            <div class="vendor-meta">
+                                <span class="vendor-tag">Westlake Village</span>
+                                <span class="vendor-tag">3x Award Winner</span>
+                            </div>
+                            <div class="vendor-rating">
+                                <span class="stars">★★★★★</span>
+                                <span>100% Recommended</span>
+                            </div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)">
+                            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                        </button>
+                        <div class="expand-icon">
+                            <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                        </div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="detail-section">
+                            <div class="detail-label">Pricing</div>
+                            <div class="price-display">Starting at $9,000</div>
+                            <div class="detail-value" style="font-size: 12px; color: #E57373; margin-top: 4px;">Premium pricing</div>
+                        </div>
+                        <div class="claude-analysis">
+                            <div class="claude-header">
+                                <div class="claude-icon">C</div>
+                                <span class="claude-label">CLAUDE'S TAKE</span>
+                            </div>
+                            <p class="claude-text">LOCAL Westlake Village. Luxury tier with 14 years experience. 3x Best of CA Wedding Day winner. Documentary meets editorial elegance.</p>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://www.jillianrosephotography.com" target="_blank" class="action-btn primary">Website</a>
+                            <a href="https://instagram.com/jillianrosephoto" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Vendor 14: Isabel Lawrence Photographers -->
+                <article class="vendor-card" data-vendor="isabel-lawrence">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image">
+                            <img src="https://isabellawrence.com/wp-content/uploads/2025/08/Isabellawrence-26-378x252.jpg" alt="Isabel Lawrence Photographers" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>IL</span>'">
+                        </div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Isabel Lawrence Photographers</h3>
+                            <div class="vendor-meta">
+                                <span class="vendor-tag">Ventura County</span>
+                                <span class="vendor-tag">20+ Years</span>
+                            </div>
+                            <div class="vendor-rating">
+                                <span class="stars">★★★★★</span>
+                                <span>41 reviews</span>
+                            </div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)">
+                            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                        </button>
+                        <div class="expand-icon">
+                            <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                        </div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="detail-section">
+                            <div class="detail-label">Featured In</div>
+                            <div class="detail-value">People, InStyle, Town & Country, Inside Weddings. Featured on Oprah and Rachel Ray shows.</div>
+                        </div>
+                        <div class="claude-analysis">
+                            <div class="claude-header">
+                                <div class="claude-icon">C</div>
+                                <span class="claude-label">CLAUDE'S TAKE</span>
+                            </div>
+                            <p class="claude-text">Isabel & Larry husband-wife team. 20+ years, woman-owned. Fashion + photojournalism background. Celebrity experience. Most highly reviewed in Ventura County.</p>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="tel:8185102711" class="action-btn primary">Call</a>
+                            <a href="https://isabellawrence.com" target="_blank" class="action-btn secondary">Website</a>
+                            <a href="https://instagram.com/isabellawrence" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Vendor 15: Robert Orsa Photography -->
+                <article class="vendor-card" data-vendor="robert-orsa">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image">
+                            <img src="https://cdn1.weddingwire.com/vendor/424424/3_2/960/jpg/robert-orsa-photography-wedding-couple.jpeg" alt="Robert Orsa Photography" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>RO</span>'">
+                        </div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Robert Orsa Photography</h3>
+                            <div class="vendor-meta">
+                                <span class="vendor-tag">Simi Valley</span>
+                                <span class="vendor-tag" style="background: rgba(76, 175, 80, 0.2); color: #81C784;">BUDGET</span>
+                            </div>
+                            <div class="vendor-rating">
+                                <span class="stars">★★★★★</span>
+                                <span>20+ Years</span>
+                            </div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)">
+                            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                        </button>
+                        <div class="expand-icon">
+                            <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                        </div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="detail-section">
+                            <div class="detail-label">Pricing</div>
+                            <div class="price-display">Under $1,000</div>
+                            <div class="detail-value" style="font-size: 12px; color: #81C784; margin-top: 4px;">Budget-friendly option</div>
+                        </div>
+                        <div class="claude-analysis">
+                            <div class="claude-header">
+                                <div class="claude-icon">C</div>
+                                <span class="claude-label">CLAUDE'S TAKE</span>
+                            </div>
+                            <p class="claude-text">BUDGET-FRIENDLY option based in Simi Valley. Serves Thousand Oaks area. Known for patience during long planning periods. 20+ years experience.</p>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://www.robertorsaphotography.com" target="_blank" class="action-btn primary">Website</a>
+                            <a href="https://instagram.com/robert_orsa" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
 
@@ -2289,7 +2573,7 @@
         <section class="category-section" id="videographers">
             <div class="section-header">
                 <h2 class="section-title">Videographers</h2>
-                <p class="section-subtitle">10 VENDORS | COMPLETE ✓</p>
+                <p class="section-subtitle">15 VENDORS | COMPLETE</p>
             </div>
             <div class="vendor-grid">
                 <!-- Videographer 1: Shutter and Sound -->
@@ -2337,7 +2621,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://shutterandsound.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/shutterandsoundfilms" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/shutterandsoundfilms" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -2718,7 +3002,7 @@
         <section class="category-section" id="officiants">
             <div class="section-header">
                 <h2 class="section-title">Officiants</h2>
-                <p class="section-subtitle">10 VENDORS | COMPLETE ✓</p>
+                <p class="section-subtitle">15 VENDORS | COMPLETE</p>
             </div>
             <div class="vendor-grid">
                 <!-- Officiant 1: Great Officiants -->
@@ -2799,7 +3083,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://www.greatofficiants.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/greatofficiants" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/greatofficiants" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -2850,7 +3134,7 @@
                         <div class="action-buttons">
                             <a href="tel:8053004955" class="action-btn primary">Call</a>
                             <a href="https://dmerrillweddings.com" target="_blank" class="action-btn secondary">Website</a>
-                            <a href="https://instagram.com/deanmerrillweddings" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/deanmerrillweddings" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -2918,7 +3202,7 @@
                         <div class="action-buttons">
                             <a href="tel:5625473255" class="action-btn primary">Call</a>
                             <a href="https://officiantguy.com" target="_blank" class="action-btn secondary">Website</a>
-                            <a href="https://instagram.com/officiantguy" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/officiantguy" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -3240,7 +3524,7 @@
         <section class="category-section" id="djs">
             <div class="section-header">
                 <h2 class="section-title">DJs & Music</h2>
-                <p class="section-subtitle">10 VENDORS | COMPLETE ✓</p>
+                <p class="section-subtitle">15 VENDORS | COMPLETE</p>
             </div>
             <div class="vendor-grid">
                 <!-- DJ 1: Prince William -->
@@ -3368,7 +3652,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://www.djkamayo.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/djkamayo" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/djkamayo" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -3436,7 +3720,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://www.onthegodjpro.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/onthegodjpro" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/onthegodjpro" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -3507,7 +3791,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://djsota.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/djsotaentertainment" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/djsotaentertainment" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -3634,7 +3918,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="http://toyl.net/" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/clubenergy.la" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/clubenergy.la" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -3749,7 +4033,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://spireproductions.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/spireproductionsca" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/spireproductionsca" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -3846,7 +4130,7 @@
         <section class="category-section" id="florists">
             <div class="section-header">
                 <h2 class="section-title">Florists</h2>
-                <p class="section-subtitle">10 VENDORS | COMPLETE ✓</p>
+                <p class="section-subtitle">15 VENDORS | COMPLETE</p>
             </div>
             <div class="vendor-grid">
                 <!-- Florist 1: Gilded Blossoms -->
@@ -3995,7 +4279,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://primroseandpetals.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/primroseandpetals" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/primroseandpetals" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -4088,7 +4372,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://www.velvetblooms.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/thevelvetflorist" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/thevelvetflorist" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -4306,7 +4590,7 @@
         <section class="category-section" id="cakes">
             <div class="section-header">
                 <h2 class="section-title">Cakes & Desserts</h2>
-                <p class="section-subtitle">10 VENDORS | LAMBETH STYLE • CHERRIES</p>
+                <p class="section-subtitle">15 VENDORS | LAMBETH STYLE • CHERRIES</p>
             </div>
             <div class="vendors-grid">
 
@@ -4370,7 +4654,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://www.sugarlabbakeshop.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/sugarlabbakeshop" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/sugarlabbakeshop" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -4422,7 +4706,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://www.sweetartbakeshop.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/sweetartbakeshop" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/sweetartbakeshop" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -4681,13 +4965,205 @@
                         </div>
                     </div>
                 </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://s3-media0.fl.yelpcdn.com/bphoto/kNhC1eoEqQy-nM3t7jnKFg/o.jpg" alt="Sweet E's Bake Shop" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>SE</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Sweet E's Bake Shop</h3>
+                            <div class="vendor-meta"><span class="vendor-tag top-pick">BEST MATCH!</span><span class="vendor-tag">Lambeth+Cherries</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>5.0 stars</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">BEST MATCH for your Canva vision! Specifically does Lambeth-style AND offers HANDMADE FONDANT CHERRIES. LA-based. Vintage Heart Cake with classic piping. FREE next-day delivery in LA.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="reviews-summary">
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                                    <span style="font-weight: 600; color: #C9A961;">Review Summary</span>
+                                    <span style="font-size: 11px; color: #81C784;">625 Yelp</span>
+                                </div>
+                                <p style="font-size: 13px; color: rgba(255,255,255,0.9); margin: 0 0 8px 0;"><strong>Verdict:</strong> Excellent for wedding cakes. 625 reviews. Affordable. Some communication gaps reported.</p>
+                                <button class="expand-reviews-btn" onclick="toggleReviews(this)">See All Reviews</button>
+                            </div>
+                            <div class="reviews-expanded">
+                                <div class="review-card">
+                                    <div class="review-meta">The Knot</div>
+                                    <p>"We ordered the Gold Luxe one tier cake for our wedding and it was delicious and perfect. The best wedding cake for the best price!"</p>
+                                </div>
+                                <div style="margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap;">
+                                    <a href="https://www.yelp.com/biz/sweet-es-bake-shop-los-angeles" target="_blank" class="review-link">Yelp</a>
+                                    <a href="https://www.sweetesbakeshop.com" target="_blank" class="review-link">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://www.sweetesbakeshop.com" target="_blank" class="action-btn primary">Website</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://s3-media0.fl.yelpcdn.com/bphoto/hVJNJz3JKXOdnB-OKl_zag/o.jpg" alt="Butter Cake Shoppe" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>BC</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Butter Cake Shoppe</h3>
+                            <div class="vendor-meta"><span class="vendor-tag top-pick">LAMBETH EXPERT</span><span class="vendor-tag">Confirmed</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>5.0 stars</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">CONFIRMED Lambeth expertise. Has made 3-tier Lambeth wedding cakes. "Ended up with a gorgeous three-tiered Lambeth style cake." Limited bookings = quality attention. Book 4-8 months early.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="reviews-summary">
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                                    <span style="font-weight: 600; color: #C9A961;">Review Summary</span>
+                                    <span style="font-size: 11px; color: #81C784;">338 Yelp - 5.0</span>
+                                </div>
+                                <p style="font-size: 13px; color: rgba(255,255,255,0.9); margin: 0 0 8px 0;"><strong>Verdict:</strong> Perfect 5 stars. Lambeth specialty confirmed. Guests say "best cake they've ever had." $7/serving.</p>
+                                <button class="expand-reviews-btn" onclick="toggleReviews(this)">See All Reviews</button>
+                            </div>
+                            <div class="reviews-expanded">
+                                <div class="review-card">
+                                    <div class="review-meta">WeddingWire</div>
+                                    <p>"Ended up with a gorgeous three-tiered Lambeth style cake with lemon and strawberry-pistachio layers. BEST cake they'd ever had."</p>
+                                </div>
+                                <div style="margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap;">
+                                    <a href="https://www.yelp.com/biz/butter-cake-shoppe-los-feliz" target="_blank" class="review-link">Yelp</a>
+                                    <a href="https://www.buttercakeshoppe.com" target="_blank" class="review-link">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://www.buttercakeshoppe.com" target="_blank" class="action-btn primary">Website</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://s3-media0.fl.yelpcdn.com/bphoto/i-2qvp5A1zZ1j8XB9R-zGg/o.jpg" alt="Cocoaberry Cake Co." loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>CB</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Cocoaberry Cake Co.</h3>
+                            <div class="vendor-meta"><span class="vendor-tag top-pick">LAMBETH</span><span class="vendor-tag">CA Wedding Day</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Featured</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">LAMBETH EXPERT - featured in California Wedding Day. Ioana Miller. "Redefines the Lambeth cake with artistic attention to detail." Swiss meringue buttercream. Rose-gold-dusted cherries option!</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="reviews-summary">
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                                    <span style="font-weight: 600; color: #C9A961;">Review Summary</span>
+                                    <span style="font-size: 11px; color: #81C784;">133 Yelp - 5.0</span>
+                                </div>
+                                <p style="font-size: 13px; color: rgba(255,255,255,0.9); margin: 0 0 8px 0;"><strong>Verdict:</strong> Award-winning Lambeth master. Wilton Hall of Fame. CA Wedding Day Best in Cake finalist.</p>
+                                <button class="expand-reviews-btn" onclick="toggleReviews(this)">See All Reviews</button>
+                            </div>
+                            <div class="reviews-expanded">
+                                <div class="review-card">
+                                    <div class="review-meta">Yelp</div>
+                                    <p>"Ioana is sweet, personable, and goes above and beyond. Our wedding cake was delicious and very beautiful."</p>
+                                </div>
+                                <div style="margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap;">
+                                    <a href="https://www.yelp.com/biz/cocoaberry-cake-co-placentia" target="_blank" class="review-link">Yelp</a>
+                                    <a href="https://cocoaberrycake.com" target="_blank" class="review-link">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://cocoaberrycake.com" target="_blank" class="action-btn primary">Website</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://sugarblossombakeshop.com/cdn/shop/files/IMG_4690.jpg?v=1737065260&width=1500" alt="Sugar Blossom Bake Shop" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>SB</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Sugar Blossom Bake Shop</h3>
+                            <div class="vendor-meta"><span class="vendor-tag">Lambeth Cutting</span><span class="vendor-tag">OC</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Victorian style</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">Specializes in LAMBETH CUTTING CAKES! San Clemente/Orange County. Vintage buttercream Victorian details. Perfect for weddings and showers.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="reviews-summary">
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                                    <span style="font-weight: 600; color: #C9A961;">Review Summary</span>
+                                    <span style="font-size: 11px; color: #81C784;">276 Yelp - 4.6</span>
+                                </div>
+                                <p style="font-size: 13px; color: rgba(255,255,255,0.9); margin: 0 0 8px 0;"><strong>Verdict:</strong> Highly rated. Lambeth specialty. Fresh daily with finest local ingredients. Vegan/GF options.</p>
+                                <button class="expand-reviews-btn" onclick="toggleReviews(this)">See All Reviews</button>
+                            </div>
+                            <div class="reviews-expanded">
+                                <div class="review-card">
+                                    <div class="review-meta">Yelp</div>
+                                    <p>"A must-visit bakery with amazing cupcakes. The custom cakes are delicious and beautifully made."</p>
+                                </div>
+                                <div style="margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap;">
+                                    <a href="https://www.yelp.com/biz/sugar-blossom-bake-shop-san-clemente" target="_blank" class="review-link">Yelp</a>
+                                    <a href="https://sugarblossombakeshop.com" target="_blank" class="review-link">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://sugarblossombakeshop.com" target="_blank" class="action-btn primary">Website</a>
+                            <a href="https://instagram.com/sugarblossombakeshop" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://socalconfections.com/wp-content/uploads/santa-barbara-wedding-cake.jpg" alt="So.Cal Confections" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>SC</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">So.Cal Confections</h3>
+                            <div class="vendor-meta"><span class="vendor-tag">Santa Barbara</span><span class="vendor-tag">VC service</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Quality</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">Santa Barbara-based, serves Ventura County. Takes pride in quality work. Professional wedding cake team.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">The Knot</span>
+                                <p>"Professional wedding cake team that takes pride in quality work. Serves Ventura County from Santa Barbara."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/socalconfections" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
 
         <section class="category-section" id="hairmakeup">
             <div class="section-header">
                 <h2 class="section-title">Hair & Makeup</h2>
-                <p class="section-subtitle">10 VENDORS | BRIDE + 8 BRIDESMAIDS</p>
+                <p class="section-subtitle">15 VENDORS | BRIDE + 8 BRIDESMAIDS</p>
             </div>
             <div class="vendors-grid">
                 <article class="vendor-card">
@@ -5103,7 +5579,157 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://www.thetravelingstylists.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/thetravelingstylists" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/thetravelingstylists" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://images.squarespace-cdn.com/content/v1/6226b4045e26a71f67641103/ca220fd0-62a0-4c93-bf17-c29f530ae02d/00050Bliss-Brida-Beauty-Socal-Bespoke-Beauty.jpg" alt="Bliss Bridal Beauty" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>BB</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Bliss Bridal Beauty</h3>
+                            <div class="vendor-meta"><span class="vendor-tag top-pick">8x Award</span><span class="vendor-tag">14 Artists</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Since 2009</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">8x Award-winning team of 14 artists. 15+ years experience. "Makeup didn't move or smudge the whole day." "Hair held up even to the next day." Mobile, LA/Ventura area.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="reviews-summary">
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                                    <span style="font-weight: 600; color: #C9A961;">Review Summary</span>
+                                    <span style="font-size: 11px; color: #81C784;">70 WeddingWire - 4.9</span>
+                                </div>
+                                <p style="font-size: 13px; color: rgba(255,255,255,0.9); margin: 0 0 8px 0;"><strong>Verdict:</strong> Excellent. The Knot Hall of Fame. 1,000+ brides styled since 2010. Waterproof airbrush lasts 18 hrs.</p>
+                                <button class="expand-reviews-btn" onclick="toggleReviews(this)">See All Reviews</button>
+                            </div>
+                            <div class="reviews-expanded">
+                                <div class="review-card">
+                                    <div class="review-meta">WeddingWire</div>
+                                    <p>"Bliss Bridal Beauty was an absolute dream to work with! Communication was proactive, detailed, and incredibly organized."</p>
+                                </div>
+                                <div style="margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap;">
+                                    <a href="https://www.weddingwire.com/biz/bliss-bridal-beauty-simi-valley/6ebf7be0540a2a2c.html" target="_blank" class="review-link">WeddingWire</a>
+                                    <a href="https://www.blissbridalbeauty.com" target="_blank" class="review-link">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://www.blissbridalbeauty.com" target="_blank" class="action-btn primary">Website</a>
+                            <a href="https://instagram.com/blissbridalbeauty" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://s3-media0.fl.yelpcdn.com/bphoto/beauty-in-motion-studio.jpg" alt="Beauty In Motion Studio" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>BI</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Beauty In Motion Studio</h3>
+                            <div class="vendor-meta"><span class="vendor-tag top-pick">VENUE EXP</span><span class="vendor-tag">Los Robles!</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>K-beauty style</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">HAS WORKED AT LOS ROBLES GREENS! Crystal Wong. Korean-inspired soft, romantic looks. Knows the venue lighting and setup. "Look her best while still feeling like herself."</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Los Robles Bride</span>
+                                <p>"HAS WORKED AT LOS ROBLES! Crystal Wong knows the venue lighting. Korean-inspired soft, romantic looks."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/beautyinmotionstudio" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://s3-media0.fl.yelpcdn.com/bphoto/PfBMpuDVKVWCGPBb2UwXNg/o.jpg" alt="On Location Glam" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>OL</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">On Location Glam</h3>
+                            <div class="vendor-meta"><span class="vendor-tag">Mobile</span><span class="vendor-tag">Premium</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Luxurious</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">Mobile service to home, hotel, or venue. Professional luxurious bridal hair and makeup. Delivers glamour directly to you. Southern California coverage.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Client Review</span>
+                                <p>"Professional luxurious mobile bridal hair and makeup. Glamour delivered directly to home, hotel, or venue!"</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/onlocationglam" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://thenaturaldose.com/wp-content/uploads/natural-bridal-beauty.jpg" alt="The Natural Dose" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>ND</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">The Natural Dose</h3>
+                            <div class="vendor-meta"><span class="vendor-tag local">LOCAL</span><span class="vendor-tag">Natural looks</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Ventura</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">LOCAL Ventura! 15+ years experience. Specializes in natural, effortless looks. Perfect for brides wanting enhanced but not overdone makeup.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Natural Bride</span>
+                                <p>"LOCAL Ventura with 15+ years! Natural, effortless looks. Perfect for brides wanting enhanced but not overdone."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/thenaturaldose" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://lmsstudiobeauty.com/wp-content/uploads/wedding-makeup-artist.jpg" alt="LMS Studio Beauty" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>LM</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">LMS Studio Beauty</h3>
+                            <div class="vendor-meta"><span class="vendor-tag">Sister Team</span><span class="vendor-tag">13+ yrs</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>LA Area</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">Jackie Davis + Jonelle Freed sister team. 13+ years in beauty industry. Film, TV, fashion shows, music videos, award shows experience. LA area.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Industry Review</span>
+                                <p>"Sister team with 13+ years! Film, TV, fashion shows, music videos experience. Hollywood-quality results."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/lmsstudiobeauty" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -5113,7 +5739,7 @@
         <section class="category-section" id="dresses">
             <div class="section-header">
                 <h2 class="section-title">Bridesmaid Dresses</h2>
-                <p class="section-subtitle">10 VENDORS | 8 BRIDESMAIDS • SAGE/OLIVE/BLACK</p>
+                <p class="section-subtitle">15 VENDORS | 8 BRIDESMAIDS • SAGE/OLIVE/BLACK</p>
             </div>
             <div class="vendors-grid">
                 <article class="vendor-card">
@@ -5675,13 +6301,151 @@
                         </div>
                     </div>
                 </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://img.davidsbridal.com/is/image/DavidsBridalInc/7.30_BM_Dresses_SBC_Icon_V2?wid=240&hei=240" alt="David's Bridal" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>DB</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">David's Bridal</h3>
+                            <div class="vendor-meta"><span class="vendor-tag">In-Store</span><span class="vendor-tag">$99-$200</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★☆</span><span>Sizes 0-30</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">Multiple SoCal stores. In-person try-on, immediate purchase (no wait). Spring 2025: 110 styles, 39 colors, sizes 0-30. Alterations in-store. Note: Experience varies by location.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">In-Store</span>
+                                <p>"Walk in and buy immediately - no waiting for shipping. Oxnard and LA locations available. Good for last-minute needs."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://www.davidsbridal.com" target="_blank" class="action-btn primary">Website</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://www.jennyyoo.com/media/catalog/product/cache/1/thumbnail/600x900/9df78eab33525d08d6e5fb8d27136e95/j/e/jenny-yoo-bridesmaid.jpg" alt="Jenny Yoo" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>JY</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Jenny Yoo</h3>
+                            <div class="vendor-meta"><span class="vendor-tag top-pick">PREMIUM</span><span class="vendor-tag">$175-$330</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Luxe fabric</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">LUXURY BRIDESMAID OPTION. Premium crepe, chiffon, velvet. Sizes 0-26. Designer quality fabrics. Try on at Nordstrom stores. Sophisticated, modern silhouettes.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Premium</span>
+                                <p>"If budget allows, Jenny Yoo is worth it. The fabric quality is noticeably superior. Dresses photograph beautifully."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://www.jennyyoo.com" target="_blank" class="action-btn primary">Website</a>
+                            <a href="https://instagram.com/jennyyoo" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://www.jjshouse.com/newface/img/product/bridesmaid.jpg" alt="JJ's House" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>JJ</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">JJ's House</h3>
+                            <div class="vendor-meta"><span class="vendor-tag best-value">Budget</span><span class="vendor-tag">$59-$150</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★☆</span><span>Custom size</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">BUDGET OPTION with FREE custom sizing. Takes 3-5 weeks. Quality varies - order early to allow for exchanges. Good for simple styles. Popular for budget weddings.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Budget</span>
+                                <p>"Free custom sizing is a game-changer for mismatched body types. Order 3+ months early to allow time for any issues."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://www.jjshouse.com" target="_blank" class="action-btn primary">Website</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://parkandfifth.com/cdn/shop/files/bridesmaid-collection.jpg" alt="Park & Fifth Co." loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>P5</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Park & Fifth Co.</h3>
+                            <div class="vendor-meta"><span class="vendor-tag">Minimalist</span><span class="vendor-tag">$198-$275</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Modern</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">MODERN MINIMALIST. Dresses designed to rewear. Slip, maxi, midi styles. Only 30-50 colors but all elevated neutrals. Sizes XXS-XXL. Try before you buy program.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Modern</span>
+                                <p>"If your vibe is clean, modern, and minimalist - Park & Fifth is perfect. Bridesmaids will actually wear these again."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://parkandfifth.com" target="_blank" class="action-btn primary">Website</a>
+                            <a href="https://instagram.com/parkandfifthco" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://www.ever-pretty.com/media/catalog/product/bridesmaids.jpg" alt="Ever-Pretty" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>EP</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Ever-Pretty</h3>
+                            <div class="vendor-meta"><span class="vendor-tag best-value">Super Budget</span><span class="vendor-tag">$39-$80</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★☆</span><span>Plus sizes</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">LOWEST PRICES. Sizes up to 26W. Available on Amazon Prime for fast shipping. Quality is basic but fine for one-day wear. Good backup option.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Budget</span>
+                                <p>"The most affordable option if budget is tight. Quality is what you'd expect at $40-80 but perfectly fine for photos."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://www.ever-pretty.com" target="_blank" class="action-btn primary">Website</a>
+                            <a href="https://www.amazon.com/stores/Ever-Pretty/page/E3F0A1B2" target="_blank" class="action-btn secondary">Amazon</a>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
 
         <section class="category-section" id="photobooths">
             <div class="section-header">
                 <h2 class="section-title">Photo Booths</h2>
-                <p class="section-subtitle">10 VENDORS | B&W CLASSY AESTHETIC</p>
+                <p class="section-subtitle">15 VENDORS | B&W CLASSY AESTHETIC</p>
             </div>
             <div class="vendors-grid">
                 <article class="vendor-card">
@@ -5905,7 +6669,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://onetwosmilephotobooth.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/onetwosmilephotobooth" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/onetwosmilephotobooth" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -5956,7 +6720,7 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://www.805magicmirror.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/805magicmirror" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/805magicmirror" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -6094,7 +6858,143 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://www.thesmileboxphotobooth.com" target="_blank" class="action-btn primary">Website</a>
-                            <a href="https://instagram.com/smilebox.photobooth" target="_blank" class="action-btn secondary">IG</a>
+                            <a href="https://instagram.com/smilebox.photobooth" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://smilestationevents.com/wp-content/uploads/wedding-photo-booth.jpg" alt="Smile Station Events" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>SS</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Smile Station Events</h3>
+                            <div class="vendor-meta"><span class="vendor-tag">360/Selfie</span><span class="vendor-tag">Inflatables</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Fun options</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">Multiple booth options: 360, selfie, inflatables. Fun props and instant prints. Good variety for different party vibes.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Fun Options</span>
+                                <p>"Multiple booth options including 360, selfie, and inflatables! Great variety for any party vibe."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/smilestationevents" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://pixelpartyphotobooth.com/wp-content/uploads/pixel-party-booth.jpg" alt="Pixel Party Photo Booth" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>PP</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Pixel Party Photo Booth</h3>
+                            <div class="vendor-meta"><span class="vendor-tag">360 Video</span><span class="vendor-tag">T.O. Area</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Professional</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">Serves Thousand Oaks area. 360 video specialty. "Very professional and work quality is awesome."</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Local</span>
+                                <p>"Very professional and work quality is awesome! 360 video specialty for Thousand Oaks area."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/pixelpartyphotobooth" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://aurabooth.com/wp-content/uploads/aura-photo-booth.jpg" alt="Aura Booth" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>AU</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Aura Booth</h3>
+                            <div class="vendor-meta"><span class="vendor-tag local">LOCAL T.O.</span><span class="vendor-tag">$1,150/4hrs</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Premium</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">LOCAL Thousand Oaks! Premium service. $1,150 for 4 hours with attendant included. No travel fees for local venue.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Local Premium</span>
+                                <p>"LOCAL Thousand Oaks premium service! $1,150 for 4 hours with attendant. No travel fees for Los Robles!"</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/auraboothla" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://vwphotobus.com/wp-content/uploads/vintage-vw-photo-booth.jpg" alt="VW Photo Bus Options" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>VW</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">VW Photo Bus Options</h3>
+                            <div class="vendor-meta"><span class="vendor-tag top-pick">UNIQUE!</span><span class="vendor-tag">$1,200-$2,000+</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Vintage VW</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">MOST UNIQUE! Vintage VW Bus photo booths. Cali-Made (1978), Bessy the Foto Bus ('66), The Camera Bus "Lola" (1971). Instagram-worthy. Perfect for garden wedding aesthetic.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Unique</span>
+                                <p>"MOST UNIQUE option! Vintage VW Bus is Instagram-worthy and perfect for garden wedding aesthetic at Los Robles!"</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/vwphotobus" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://s3-media0.fl.yelpcdn.com/bphoto/photo-boo-booth-ventura.jpg" alt="Photo Boo Photo Booth" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>PB</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Photo Boo Photo Booth</h3>
+                            <div class="vendor-meta"><span class="vendor-tag local">LOCAL VC/SB</span><span class="vendor-tag">$500+</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>37+ reviews</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">LOCAL Ventura/Santa Barbara! Perfect 5.0 rating on WeddingWire and The Knot (37+ reviews). Studio-quality photos with 360 video capability. Open air booth with customizable templates. SMS text feature for instant sharing. Starting at $500.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Perfect Rating</span>
+                                <p>"Perfect 5.0 on WeddingWire! Studio-quality photos with 360 video. SMS instant sharing. Great value at $500."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://www.pbphotobooth.com" target="_blank" class="action-btn primary">Website</a>
+                            <a href="https://instagram.com/photoboophotobooth" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>
@@ -6104,7 +7004,7 @@
         <section class="category-section" id="creators">
             <div class="section-header">
                 <h2 class="section-title">Content Creators</h2>
-                <p class="section-subtitle">10 VENDORS | SOCIAL MEDIA SPECIALISTS</p>
+                <p class="section-subtitle">15 VENDORS | SOCIAL MEDIA SPECIALISTS</p>
             </div>
             <div class="vendors-grid">
                 <article class="vendor-card">
@@ -6433,6 +7333,141 @@
                         </div>
                         <div class="action-buttons">
                             <a href="https://instagram.com/buenaweddings" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://theweddingcontentco.com/wp-content/uploads/socal-wedding-content.jpg" alt="The Wedding Content Co." loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>WC</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">The Wedding Content Co.</h3>
+                            <div class="vendor-meta"><span class="vendor-tag">SoCal</span><span class="vendor-tag">Specialists</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Social focus</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">Dedicated wedding content specialists. Social media focused deliverables designed for Instagram Reels and TikTok. Southern California coverage.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Social Focus</span>
+                                <p>"Dedicated wedding content specialists! Social media focused for Instagram Reels and TikTok."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/theweddingcontentco" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://somethingbluebts.com/wp-content/uploads/wedding-bts-content.jpg" alt="Something Blue BTS" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>SB</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Something Blue BTS</h3>
+                            <div class="vendor-meta"><span class="vendor-tag">SoCal</span><span class="vendor-tag">4-8 hrs</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>BTS specialist</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">Behind-the-scenes specialist. 4 hrs: prep through reception + 60-90 sec highlight. 6 hrs: adds themed edit. 8 hrs: full day coverage. Southern California.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">BTS Specialist</span>
+                                <p>"Behind-the-scenes specialist! 4-8 hour packages with 60-90 sec highlight video."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/somethingbluebts" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://jasperandoak.com/wp-content/uploads/wedding-content-socal.jpg" alt="Jasper & Oak" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>JO</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Jasper & Oak</h3>
+                            <div class="vendor-meta"><span class="vendor-tag local">LOCAL</span><span class="vendor-tag">$3,000+</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Ventura</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">LOCAL Ventura. Trent Stevens. Full-service: cinematic videography, photography, photo booths, audio guestbooks. Premium starting at $3,000.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Full Service</span>
+                                <p>"LOCAL Ventura full-service! Cinematic video, photography, photo booths, audio guestbooks - all from one provider."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/jasperandoak" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://leddlens.com/wp-content/uploads/wedding-content-film.jpg" alt="LEDD Lens LLC" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>LL</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">LEDD Lens LLC</h3>
+                            <div class="vendor-meta"><span class="vendor-tag local">LOCAL</span><span class="vendor-tag">Ventura</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Popular</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">LOCAL Ventura area. Popular local videographer with content creation capabilities. Known within the local wedding community.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Local</span>
+                                <p>"LOCAL Ventura videographer with content creation! Well-known in the local wedding community."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/leddlensllc" target="_blank" class="action-btn instagram">Instagram</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="vendor-card">
+                    <div class="vendor-card-header" onclick="toggleCard(this)">
+                        <div class="vendor-image"><img src="https://eivans.com/wp-content/uploads/wedding-photography-content.jpg" alt="Eivan's Photo & Video" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>EI</span>'"></div>
+                        <div class="vendor-info">
+                            <h3 class="vendor-name">Eivan's Photo & Video</h3>
+                            <div class="vendor-meta"><span class="vendor-tag local">LOCAL</span><span class="vendor-tag">Ventura</span></div>
+                            <div class="vendor-rating"><span class="stars">★★★★★</span><span>Combined</span></div>
+                        </div>
+                        <button class="favorite-btn" onclick="toggleFavoriteFromBtn(this, event)"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button><div class="expand-icon"><svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg></div>
+                    </div>
+                    <div class="vendor-details">
+                        <div class="claude-analysis">
+                            <div class="claude-header"><div class="claude-icon">C</div><span class="claude-label">CLAUDE'S TAKE</span></div>
+                            <p class="claude-text">LOCAL Ventura area. Combined photo and video services. Good option for couples wanting one team for all visual content.</p>
+                        </div>
+                        <div class="reviews-section">
+                            <div class="review positive">
+                                <span class="review-stars">Combined Services</span>
+                                <p>"LOCAL Ventura combined photo and video! One team for all visual content - great coordination."</p>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://instagram.com/eivansphoto" target="_blank" class="action-btn instagram">Instagram</a>
                         </div>
                     </div>
                 </article>

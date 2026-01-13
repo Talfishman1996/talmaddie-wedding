@@ -9,6 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Image CDN preconnects for faster loading -->
+    <link rel="preconnect" href="https://cdn0.weddingwire.com" crossorigin>
+    <link rel="preconnect" href="https://s3-media0.fl.yelpcdn.com" crossorigin>
+    <link rel="preconnect" href="https://images.squarespace-cdn.com" crossorigin>
+    <link rel="preconnect" href="https://static.showit.co" crossorigin>
+    <link rel="preconnect" href="https://scontent-lax.cdninstagram.com" crossorigin>
+    <link rel="preconnect" href="https://static.wixstatic.com" crossorigin>
     <style>
         * {
             margin: 0;
@@ -783,20 +790,26 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 4px;
-            color: rgba(255,255,255,0.5);
+            gap: 6px;
+            color: rgba(255,255,255,0.65);
             font-size: 10px;
             text-decoration: none;
-            transition: color 0.2s ease;
+            transition: color 0.2s ease, transform 0.2s ease;
+            /* Button reset */
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
         }
 
         .nav-item.active {
             color: var(--gold);
+            transform: translateY(-1px);
         }
 
         .nav-item svg {
-            width: 22px;
-            height: 22px;
+            width: 24px;
+            height: 24px;
         }
 
         /* Tier Badge */
@@ -3003,7 +3016,7 @@
                 <!-- Videographer 5: Stone & Sage Films -->
                 <article class="vendor-card">
                     <div class="vendor-card-header" onclick="toggleCard(this)">
-                        <div class="vendor-image"><img src="https://smilestationevents.com/wp-content/uploads/photo-booth-events.jpg" alt="Smile Station Events" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>SS</span>'"></div>
+                        <div class="vendor-image"><img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=400&h=400&fit=crop" alt="Stone & Sage Films" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>SS</span>'"></div>
                         <div class="vendor-info">
                             <h3 class="vendor-name">Stone & Sage Films</h3>
                             <div class="vendor-meta">
@@ -3202,7 +3215,7 @@
                 <!-- Videographer 10: EverTwo Films -->
                 <article class="vendor-card">
                     <div class="vendor-card-header" onclick="toggleCard(this)">
-                        <div class="vendor-image"><img src="https://cdn.prod.website-files.com/67a2219598de98832828caab/6823763e0b706bbd668aaca4_edited-min.jpg" alt="EverTwo Films" loading="lazy"></div>
+                        <div class="vendor-image"><img src="https://cdn0.weddingwire.com/vendor/724760/3_2/960/jpg/los-angeles-wedding-photographer22_51_1067427-174398280119151.jpeg" alt="EverTwo Films" loading="lazy"></div>
                         <div class="vendor-info">
                             <h3 class="vendor-name">EverTwo Films</h3>
                             <div class="vendor-meta">
@@ -3410,7 +3423,7 @@
                 <!-- Videographer 15: Santa Barbara Wedding Films -->
                 <article class="vendor-card">
                     <div class="vendor-card-header" onclick="toggleCard(this)">
-                        <div class="vendor-image"><img src="https://somethingbluebts.com/wp-content/uploads/wedding-behind-scenes.jpg" alt="Something Blue BTS" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>SB</span>'"></div>
+                        <div class="vendor-image"><img src="https://cdn0.weddingwire.com/vendor/259547/3_2/960/jpg/santa-barbara-wedding-films2_51_745952-1564717704.jpeg" alt="Santa Barbara Wedding Films" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>SB</span>'"></div>
                         <div class="vendor-info">
                             <h3 class="vendor-name">Santa Barbara Wedding Films</h3>
                             <div class="vendor-meta">
@@ -3795,7 +3808,7 @@
                 <!-- Officiant 2: Dean Merrill Weddings -->
                 <article class="vendor-card">
                     <div class="vendor-card-header" onclick="toggleCard(this)">
-                        <div class="vendor-image"><img src="https://dmgphotoboothrental.com/wp-content/uploads/2023/dmg-wedding-booth.jpg" alt="DMG Photo Booth Rental" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>DM</span>'"></div>
+                        <div class="vendor-image"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=400&fit=crop" alt="Dean Merrill Weddings" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>DM</span>'"></div>
                         <div class="vendor-info">
                             <h3 class="vendor-name">Dean Merrill Weddings</h3>
                             <div class="vendor-meta">
@@ -5095,7 +5108,7 @@
                 <!-- DJ 10: DJ SG -->
                 <article class="vendor-card">
                     <div class="vendor-card-header" onclick="toggleCard(this)">
-                        <div class="vendor-image"><img src="https://staygoldenphotobooth.com/wp-content/uploads/2025/04/homepage-banner-1024x950-1.webp" alt="Stay Golden Photo Booth" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>SG</span>'"></div>
+                        <div class="vendor-image"><img src="https://images.unsplash.com/photo-1571266028243-e4733b0f0bb0?w=400&h=400&fit=crop" alt="DJ SG" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>SG</span>'"></div>
                         <div class="vendor-info">
                             <h3 class="vendor-name">DJ SG</h3>
                             <div class="vendor-meta">
@@ -6317,7 +6330,7 @@
 
                 <article class="vendor-card" data-vendor="besame-floral">
                     <div class="vendor-card-header" onclick="toggleCard(this)">
-                        <div class="vendor-image"><img src="https://static1.squarespace.com/static/5c3e84fb1137a6da598866c0/t/6021c2613f12345e101dfa48/1612825193677/banner_besame_florals_2.jpg" alt="Besame Floral and Events" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=vendor-image-placeholder>BF</span>';"></div>
+                        <div class="vendor-image"><img src="https://cdn0.weddingwire.com/vendor/626889/3_2/960/jpg/lion-king-santa-barbara-styled-shoot-72_51_988626-160797382216378.jpeg" alt="Besame Floral & Events" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=vendor-image-placeholder>BF</span>';"></div>
                         <div class="vendor-info">
                             <h3 class="vendor-name">Besame Floral & Events</h3>
                             <div class="vendor-meta"><span class="vendor-tag local">LOCAL</span><span class="vendor-tag">Full Service</span></div>
@@ -7943,7 +7956,7 @@
 
                 <article class="vendor-card">
                     <div class="vendor-card-header" onclick="toggleCard(this)">
-                        <div class="vendor-image"><img src="https://topshotphotobooth.com/wp-content/uploads/wedding-photo-booth-la.jpg" alt="Top Shot Photo Booth" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>TS</span>'"></div>
+                        <div class="vendor-image"><img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400&h=400&fit=crop" alt="The Traveling Stylists" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>TS</span>'"></div>
                         <div class="vendor-info">
                             <h3 class="vendor-name">The Traveling Stylists</h3>
                             <div class="vendor-meta"><span class="vendor-tag top-pick">TOP PICK</span><span class="vendor-tag">Mobile Team</span></div>
@@ -8054,7 +8067,7 @@
 
                 <article class="vendor-card">
                     <div class="vendor-card-header" onclick="toggleCard(this)">
-                        <div class="vendor-image"><img src="https://pixsterphotobooths.com/wp-content/uploads/2023/10/pixster-wedding-photo-booth.jpg" alt="Pixster Photo Booths" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>PP</span>'"></div>
+                        <div class="vendor-image"><img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400&h=400&fit=crop" alt="The Pretty Parlour" loading="lazy" onerror="this.parentElement.innerHTML='<span class=vendor-image-placeholder>PP</span>'"></div>
                         <div class="vendor-info">
                             <h3 class="vendor-name">The Pretty Parlour</h3>
                             <div class="vendor-meta"><span class="vendor-tag top-pick">2023 WINNER</span><span class="vendor-tag">San Diego</span></div>

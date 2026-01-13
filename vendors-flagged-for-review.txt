@@ -1,37 +1,18 @@
-VENDORS FLAGGED FOR MANUAL IMAGE REVIEW
+VENDORS IMAGE UPDATE LOG - 2026-01-12
 ==================================================
 
-Total flagged: 8
+All 8 flagged vendors have been updated.
 
-- Stone & Sage Films (videographers)
-  Image from: smilestationevents.com
-  Reason: Image domain does not match vendor
+UPDATED WITH WEDDINGWIRE IMAGES (3):
+- EverTwo Films (videographers) - WeddingWire profile image
+- Santa Barbara Wedding Films (videographers) - WeddingWire profile image
+- Besame Floral & Events (florists) - WeddingWire profile image
 
-- EverTwo Films (videographers)
-  Image from: cdn.prod.website-files.com
-  Reason: Image domain does not match vendor
+UPDATED WITH CATEGORY FALLBACKS (5):
+- Stone & Sage Films (videographers) - Using videographers fallback (not found on WeddingWire)
+- Dean Merrill Weddings (officiants) - Using officiants fallback (WeddingWire has no photos)
+- DJ SG (djs) - Using djs fallback (not found on WeddingWire)
+- The Traveling Stylists (hairmakeup) - Using hairmakeup fallback (WeddingWire listing is different location)
+- The Pretty Parlour (hairmakeup) - Using hairmakeup fallback (WeddingWire listing is different location)
 
-- Santa Barbara Wedding Films (videographers)
-  Image from: somethingbluebts.com
-  Reason: Image domain does not match vendor
-
-- Dean Merrill Weddings (officiants)
-  Image from: dmgphotoboothrental.com
-  Reason: Image domain does not match vendor
-
-- DJ SG (djs)
-  Image from: staygoldenphotobooth.com
-  Reason: Image domain does not match vendor
-
-- Besame Floral & Events (florists)
-  Image from: static1.squarespace.com
-  Reason: Image domain does not match vendor
-
-- The Traveling Stylists (hairmakeup)
-  Image from: topshotphotobooth.com
-  Reason: Image domain does not match vendor
-
-- The Pretty Parlour (hairmakeup)
-  Image from: pixsterphotobooths.com
-  Reason: Image domain does not match vendor
-
+Note: Category fallback images are high-quality Unsplash photos representing each vendor type.

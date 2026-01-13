@@ -1,0 +1,2275 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    
+        <meta charset="UTF-8"/>
+        <link rel="profile" href="http://gmpg.org/xfn/11"/>
+        
+                <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+        <meta name='robots' content='noindex, follow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<script>window._wca = window._wca || [];</script>
+
+	<!-- This site is optimized with the Yoast SEO plugin v26.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - CocoaBerry Cake Co.</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - CocoaBerry Cake Co." />
+	<meta property="og:site_name" content="CocoaBerry Cake Co." />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://cocoaberrycake.com/#website","url":"https://cocoaberrycake.com/","name":"CocoaBerry Cake Co.","description":"Wedding Cakes, Custom Cakes, Cupcakes, Macaroons, Cookies, Cookie Cakes, Letter Cookie Cakes, Number Cookie Cakes, Monogram Cakes, Keto Desserts, Keto Breads, Keto Cookies and more","publisher":{"@id":"https://cocoaberrycake.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://cocoaberrycake.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://cocoaberrycake.com/#organization","name":"CocoaBerry Cake Co.","url":"https://cocoaberrycake.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://cocoaberrycake.com/#/schema/logo/image/","url":"https://cocoaberrycake.com/wp-content/uploads/2019/10/Coca_screen_round2.png","contentUrl":"https://cocoaberrycake.com/wp-content/uploads/2019/10/Coca_screen_round2.png","width":1008,"height":1008,"caption":"CocoaBerry Cake Co."},"image":{"@id":"https://cocoaberrycake.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/CocoaBerryCake/yoast","https://www.instagram.com/cocoaberrycakeco/yoast","https://www.pinterest.com/cocoaberrycakeco/yoast","https://www.yelp.com/biz/cocoaberry-cake-co-placentia/yoast"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//capi-automation.s3.us-east-2.amazonaws.com' />
+<link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="CocoaBerry Cake Co. &raquo; Feed" href="https://cocoaberrycake.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CocoaBerry Cake Co. &raquo; Comments Feed" href="https://cocoaberrycake.com/comments/feed/" />
+		<!-- This site uses the Google Analytics by ExactMetrics plugin v8.11.1 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-248E0ZD464"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var em_version = '8.11.1';
+				var em_track_user = true;
+				var em_no_track_reason = '';
+								var ExactMetricsDefaultLocations = {"page_location":"https:\/\/cocoaberrycake.com\/wp-content\/uploads\/2022\/07\/sugar-flowers-finespun-cakes-3-300x400.jpeg\/"};
+								if ( typeof ExactMetricsPrivacyGuardFilter === 'function' ) {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsPrivacyGuardFilter( ExactMetricsExcludeQuery ) : ExactMetricsPrivacyGuardFilter( ExactMetricsDefaultLocations );
+				} else {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsExcludeQuery : ExactMetricsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-248E0ZD464',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.ExactMetricsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (em_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = exactmetrics_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof ExactMetricsDualTracker.trackers[hookName] !== 'undefined') {
+								ExactMetricsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dNDMyYj': true,
+											});
+					if ( ExactMetricsLocations.page_location ) {
+						__gtagTracker('set', ExactMetricsLocations);
+					}
+										__gtagTracker('config', 'G-248E0ZD464', {"forceSSL":"true","page_path":'\/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+							<!-- / Google Analytics by ExactMetrics -->
+		<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cocoaberrycake.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='stripe-main-styles-css' href='https://cocoaberrycake.com/wp-content/mu-plugins/vendor/godaddy/mwc-core/assets/css/stripe-settings.css' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://cocoaberrycake.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-components-css' href='https://cocoaberrycake.com/wp-includes/css/dist/components/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-preferences-css' href='https://cocoaberrycake.com/wp-includes/css/dist/preferences/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://cocoaberrycake.com/wp-includes/css/dist/block-editor/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-block-library-style-css' href='https://cocoaberrycake.com/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=dbea705cfafe089d65f1' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://cocoaberrycake.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://cocoaberrycake.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css' type='text/css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='coblocks-frontend-css' href='https://cocoaberrycake.com/wp-content/plugins/coblocks/dist/style-coblocks-1.css?ver=3.1.16' type='text/css' media='all' />
+<link rel='stylesheet' id='coblocks-extensions-css' href='https://cocoaberrycake.com/wp-content/plugins/coblocks/dist/style-coblocks-extensions.css?ver=3.1.16' type='text/css' media='all' />
+<link rel='stylesheet' id='coblocks-animation-css' href='https://cocoaberrycake.com/wp-content/plugins/coblocks/dist/style-coblocks-animation.css?ver=2677611078ee87eb3b1c' type='text/css' media='all' />
+<link rel='stylesheet' id='pwgc-wc-blocks-style-css' href='https://cocoaberrycake.com/wp-content/plugins/pw-woocommerce-gift-cards/assets/css/blocks.css?ver=2.29' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--proxima-nova-font: proxima-nova-font;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left: auto !important;margin-right: auto !important;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-proxima-nova-font-font-family{font-family: var(--wp--preset--font-family--proxima-nova-font) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='acoplw-style-css' href='https://cocoaberrycake.com/wp-content/plugins/aco-product-labels-for-woocommerce/includes/../assets/css/frontend.css?ver=1.5.13' type='text/css' media='all' />
+<link rel='stylesheet' id='buttonizer_frontend_style-css' href='https://cocoaberrycake.com/wp-content/plugins/buttonizer-multifunctional-button/assets/legacy/frontend.css?v=a39bd9eefa47cf9346743d6e29db2d87&#038;ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='buttonizer-icon-library-css' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='uaf_client_css-css' href='https://cocoaberrycake.com/wp-content/uploads/useanyfont/uaf.css?ver=1764308038' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='cmplz-general-css' href='https://cocoaberrycake.com/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1765992860' type='text/css' media='all' />
+<link rel='stylesheet' id='godaddy-styles-css' href='https://cocoaberrycake.com/wp-content/plugins/coblocks/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_default_style-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/style.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_modules-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/modules.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='sweettooth_elated_style_modules-inline-css' type='text/css'>
+/* generated in /dom710215/wp-content/themes/sweettooth/framework/admin/options/general/map.php sweettooth_elated_page_general_style function */
+.error404.eltdf-boxed .eltdf-wrapper { background-attachment: fixed;}
+
+/* generated in /dom710215/wp-content/themes/sweettooth/framework/modules/search/search-functions.php sweettooth_elated_search_styles function */
+.eltdf-fullscreen-search-holder { background-color: #2d2d2d;}
+
+
+</style>
+<link rel='stylesheet' id='eltdf_font_awesome-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/font-awesome/css/font-awesome.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='eltdf_font_elegant-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/elegant-icons/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='eltdf_ion_icons-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/ion-icons/css/ionicons.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='eltdf_linea_icons-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/linea-icons/style.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='eltdf_simple_icons-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/simple-line-icons/simple-line-icons.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='eltdf_linear_icons-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/linear-icons/style.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_woo-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/woocommerce.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_woo_responsive-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/woocommerce-responsive.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_style_dynamic-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/style_dynamic.css?ver=1659635732' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_modules_responsive-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/modules-responsive.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_style_dynamic_responsive-css' href='https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/css/style_dynamic_responsive.css?ver=1659635732' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css' href='https://cocoaberrycake.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wapf-frontend-css' href='https://cocoaberrycake.com/wp-content/plugins/advanced-product-fields-for-woocommerce-pro/assets/css/frontend.min.css?ver=2.7.4' type='text/css' media='all' />
+<script type="text/javascript" id="jquery-core-js-extra">
+/* <![CDATA[ */
+var SDT_DATA = {"ajaxurl":"https:\/\/cocoaberrycake.com\/wp-admin\/admin-ajax.php","siteUrl":"https:\/\/cocoaberrycake.com\/","pluginsUrl":"https:\/\/cocoaberrycake.com\/wp-content\/plugins","isAdmin":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" async src="https://cocoaberrycake.com/wp-content/plugins/burst-statistics/helpers/timeme/timeme.min.js?ver=1761320631" id="burst-timeme-js"></script>
+<script type="text/javascript" id="burst-js-extra">
+/* <![CDATA[ */
+var burst = {"tracking":{"isInitialHit":true,"lastUpdateTimestamp":0,"beacon_url":"https:\/\/cocoaberrycake.com\/wp-content\/plugins\/burst-statistics\/endpoint.php","ajaxUrl":"https:\/\/cocoaberrycake.com\/wp-admin\/admin-ajax.php"},"options":{"cookieless":0,"pageUrl":"https:\/\/cocoaberrycake.com\/orchid-pink-birthday-cake\/","beacon_enabled":1,"do_not_track":0,"enable_turbo_mode":0,"track_url_change":0,"cookie_retention_days":30,"debug":0},"goals":{"completed":[],"scriptUrl":"https:\/\/cocoaberrycake.com\/wp-content\/plugins\/burst-statistics\/\/assets\/js\/build\/burst-goals.js?v=1761320631","active":[]},"cache":{"uid":null,"fingerprint":null,"isUserAgent":null,"isDoNotTrack":null,"useCookies":null}};
+/* ]]> */
+</script>
+<script type="text/javascript" async src="https://cocoaberrycake.com/wp-content/plugins/burst-statistics/assets/js/build/burst.min.js?ver=1761320631" id="burst-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js?ver=8.11.1" id="exactmetrics-frontend-script-js" async="async" data-wp-strategy="async"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='exactmetrics-frontend-script-js-extra'>/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/cocoaberrycake.com","hash_tracking":"false","v4_id":"G-248E0ZD464"};/* ]]> */
+</script>
+<script type="text/javascript" id="acoplw-script-js-extra">
+/* <![CDATA[ */
+var acoplw_frontend_object = {"classname":"","enablejquery":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/aco-product-labels-for-woocommerce/includes/../assets/js/frontend.js?ver=1.5.13" id="acoplw-script-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.4.3" id="wc-jquery-blockui-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/cocoaberrycake.com\/shop\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.4.3" id="wc-add-to-cart-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.4.3" id="wc-js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_password_show":"Show password","i18n_password_hide":"Hide password"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.4.3" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=7.3" id="vc_woocommerce-add-to-cart-js-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.10.4.3" id="wc-select2-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://stats.wp.com/s-202603.js" id="woocommerce-analytics-js" defer="defer" data-wp-strategy="defer"></script>
+<script></script><link rel="https://api.w.org/" href="https://cocoaberrycake.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cocoaberrycake.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<meta name="generator" content="WooCommerce 10.4.3" />
+	<style>img#wpstats{display:none}</style>
+			<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+				<script  type="text/javascript">
+				!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+					n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+					n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+					t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+					document,'script','https://connect.facebook.net/en_US/fbevents.js');
+			</script>
+			<!-- WooCommerce Facebook Integration Begin -->
+			<script  type="text/javascript">
+
+				fbq('init', '401709854849967', {}, {
+    "agent": "woocommerce_0-10.4.3-3.5.15"
+});
+
+				document.addEventListener( 'DOMContentLoaded', function() {
+					// Insert placeholder for events injected when a product is added to the cart through AJAX.
+					document.body.insertAdjacentHTML( 'beforeend', '<div class=\"wc-facebook-pixel-event-placeholder\"></div>' );
+				}, false );
+
+			</script>
+			<!-- WooCommerce Facebook Integration End -->
+			<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style><style class='wp-fonts-local' type='text/css'>
+@font-face{font-family:proxima-nova-font;font-style:normal;font-weight:400;font-display:fallback;src:url('https://cocoaberrycake.com/wp-content/uploads/useanyfont/2129Proxima-Nova-Font.woff2') format('woff2');}
+</style>
+<link rel="icon" href="https://cocoaberrycake.com/wp-content/uploads/2017/07/cropped-SMLogo1-2-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://cocoaberrycake.com/wp-content/uploads/2017/07/cropped-SMLogo1-2-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cocoaberrycake.com/wp-content/uploads/2017/07/cropped-SMLogo1-2-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://cocoaberrycake.com/wp-content/uploads/2017/07/cropped-SMLogo1-2-270x270.jpg" />
+		<style type="text/css" id="wp-custom-css">
+			.eltdf-logo-wrapper a img.eltdf-light-logo {
+    opacity: 0;
+    -webkit-transform: translateY(-200%);
+    -moz-transform: translateY(-200%);
+    transform: translateY(-200%);
+    height: 130px;
+    width: 130px;
+}
+
+
+.eltdf-logo-wrapper a img.eltdf-dark-logo {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    transform: translateY(-100%);
+    display: none;
+}
+
+.eltdf-logo-wrapper a img.eltdf-light-logo {
+    opacity: 0;
+    -webkit-transform: translateY(-200%);
+    -moz-transform: translateY(-200%);
+    transform: translateY(-200%);
+    height: 130px;
+    width: 130px;
+    display: none;
+}
+
+
+.eltdf-woocommerce-page.woocommerce-checkout .woocommerce-info {
+    margin: 0 0 53px;
+    display: none;
+}
+
+@media only screen and (max-width: 1920px){
+	.eltdf-side-menu-button-opener {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px 21px;
+}
+}
+
+@media only screen and (max-width: 1920px) {
+  .gform_legacy_markup_wrapper .gform_footer 
+{
+    padding: 16px 0 10px 0;
+    margin: 16px 0 0 0;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+}
+
+p#coupon_code_field {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+	div#mc_embed_signup input#mc-embedded-subscribe{
+		margin-left: 140px !important;
+	}
+}
+
+div#mc_embed_signup input#mc-embedded-subscribe:hover{
+	background:#000000 !important;
+}
+
+.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left.vc_tta-panel-title>a {
+    padding-left: 46px;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .gform_legacy_markup_wrapper *, .gform_legacy_markup_wrapper :after, .gform_legacy_markup_wrapper :before {
+    box-sizing: border-box!important;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 480px) {
+  .gform_legacy_markup_wrapper *, .gform_legacy_markup_wrapper :after, .gform_legacy_markup_wrapper :before {
+    box-sizing: border-box!important;
+    text-align: left;
+}
+	input#gform_submit_button_3 {
+    font-family: 'proxima-nova-font' !important;
+    color: #fff;
+    text-align: center;
+}
+	input#gform_submit_button_2 {
+    color: #fff;
+    font-family: 'proxima-nova-font' !important;
+    text-align: center;
+}
+}
+
+/* Store H1 */
+.woocommerce-shop h1.eltdf-page-title.entry-title span {
+    color: #fff;
+}
+/**************/
+/* Popup Form */
+h2.gform_title {
+    display: none;
+}
+div#pum_popup_title_19287 {
+    display: none;
+}
+
+input#gform_submit_button_4 {
+    padding: 10px 20px;
+    background-color: #c9a74d;
+    color: #fff;
+    border:0;
+}
+input#gform_submit_button_4:hover {
+    background-color: #000;
+    transition: all 700ms ease;
+}
+
+
+
+div#popmake-19287:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #0000006e;
+}
+div#gform_fields_4 {
+    background-color: #ffff;
+    padding: 30px 20px;
+}
+div#popmake-19287 div#gform_confirmation_message_4 {
+    color: #fff;
+}
+div#popmake-19287  div#gform_confirmation_message_4 p {
+    background-color: #000;
+    padding: 10px;
+}
+/*****/
+a.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-square.vc_btn3-style-custom{
+	border-radius: 5px;
+}
+
+.eltdf-title .eltdf-title-image img {
+    object-fit: cover;
+    height: 600px;
+}
+ /* subscribe header*/
+.page-id-13660  .eltdf-title .eltdf-title-image img {
+    height: 600px;
+    object-fit: cover;
+}
+
+ /* In the News header*/
+.page-id-228 .eltdf-title .eltdf-title-image img {
+    height: 600px;
+    object-fit: cover;
+}
+
+ /* Flavors header*/
+.page-id-11529 eltdf-title .eltdf-title-image img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.eltdf-title-holder{
+    background-color: rgba(0, 0, 0, .4);
+}
+h1.eltdf-page-title.entry-title{
+	color: white !important;
+}
+
+
+.woocommerce-shop .eltdf-title .eltdf-title-image img {
+    object-fit: cover;
+    height: 600px;
+}
+.woocommerce-shop .eltdf-title .eltdf-title-holder .eltdf-container {
+    background-color: transparent;
+}
+.woocommerce-shop .eltdf-title .eltdf-title-holder .eltdf-page-title {
+    font-weight: normal;
+}
+
+.page-id-11529 .eltdf-title .eltdf-title-holder .eltdf-container {
+    background-color: transparent;
+}
+.page-id-11529 .eltdf-title .eltdf-title-holder .eltdf-page-title {
+    font-weight: normal;
+}
+
+.page-id-228 .eltdf-title .eltdf-title-holder .eltdf-container {
+    background-color: transparent;
+}
+.page-id-228 .eltdf-title .eltdf-title-holder .eltdf-page-title {
+    font-weight: normal;
+}
+
+.page-id-13660 .eltdf-title .eltdf-title-holder .eltdf-container {
+    background-color: transparent;
+}
+.page-id-13660 .eltdf-title .eltdf-title-holder .eltdf-page-title {
+    font-weight: normal;
+}
+
+
+div#lgx_logo_slider_app_16053 {
+    margin-bottom: 20px;
+}
+
+.foot-logo {
+    margin-top: 50px;
+}
+
+.page-id-11481 .vc_pageable-load-more-btn {
+    margin-bottom: 10px;
+}
+/**FORMS**/
+
+div#coursegform .gform_legacy_markup_wrapper, #cakegform .gform_legacy_markup_wrapper, #gformcontact .gform_legacy_markup_wrapper{
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.gform_legacy_markup_wrapper ul.gform_fields li.gfield {
+    padding-right: 0;
+}
+#iconscontact{
+  width: 51%;
+	margin: 0 auto;
+}
+
+
+#gformcontact input#input_1_14, #gformcontact input#input_1_8, #gformcontact input#input_1_10, #gformcontact li#field_1_10, #coursegform input#input_3_10, #coursegform input#input_3_13, #cakegform input#input_2_12, #cakegform li#field_2_9, .gform_footer.top_label {
+    margin-top: 0;
+}
+
+#gformcontact div#gfield_description_1_8 {
+    padding-top: 7px;
+    margin-bottom: 12px;
+}
+
+#gformcontact li#field_1_4 
+{margin-top: 12px;}
+
+#gformcontact input#input_1_3, #gformcontact input#input_1_2
+{ margin-top: 16px;}
+
+div#mc_embed_signup input {
+    padding: 5px 4px;
+	  width: calc(100% - 12px)!important;
+	  font-size: 17px;
+}
+
+div#mc_embed_signup input.birthday {
+    width: initial!important;
+}
+
+.mce_inline_error {
+    WIDTH: calc(100% - 20px);
+}
+
+div#mc_embed_signup_scroll {
+    width: 100%;
+}
+
+div#mc_embed_signup .mc-field-group {
+    margin-top: 10px;
+}
+
+div#mc_embed_signup input#mc-embedded-subscribe {
+    background-color: #b58d30;
+	font-family: 'proxima-nova-font' !important;
+    border: none;
+    padding: 10px 30px!important;
+    font-size: 1em;
+    width: 100%!important;
+	  margin-top:12px;
+		cursor: pointer;
+}
+
+#thegallery .vc_gitem-zone:hover {
+    opacity: 0.6;
+}
+@media only screen and (max-width:768px) {
+#Caketest{
+	padding: 20px !important;
+}
+	#headingcake{
+		margin-top: 70px !important;
+		margin-bottom: 70px !important;
+	}
+	#gformcontact{
+	width: 100%;
+	margin: 0 auto;
+}
+	#iconscontact{
+  width: 100%;
+	margin: 0 auto;
+}
+	
+	div#mc_embed_signup_scroll {
+    width: 100% !important;
+}
+}
+@media only screen and (max-width:375px) {
+#Caketest{
+	margin-top: 20px !important;
+	padding: 20px !important;
+}
+		#headingcake{
+		margin-top: 50px !important;
+		margin-bottom: 50px !important;
+	}
+}
+
+
+.vc_images_carousel{max-width: 100%;
+}
+
+li#field_3_1 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+li#field_3_2 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+li#field_3_3 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+li#field_3_4 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+li#field_3_5 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+li#field_3_6 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+
+li#field_2_1 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+li#field_2_2 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+li#field_2_3 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+li#field_2_4 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+li#field_2_5 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+li#field_2_6 input {
+border-bottom: 1px solid #C9A74D !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+
+li#field_1_1 {
+    margin-bottom: -15px!important;
+}
+
+li#field_1_1:focus {
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+li#field_1_2 {
+    margin-bottom: -15px!important;
+}
+
+li#field_1_3 {
+    margin-bottom: -1px!important;
+}
+
+
+input#gform_submit_button_1 {
+    background-color: #b58d30;
+	font-family: 'proxima-nova-font' !important;
+    border: none;
+    padding: 10px 30px;
+    width: -webkit-fill-available;
+	  cursor:pointer;
+}
+input#gform_submit_button_2 {
+    background-color: #b58d30;
+    border: none;
+    padding: 10px 30px;
+}
+input#gform_submit_button_3 {
+    background-color:#b58d30;
+    border: none;
+    padding: 10px 30px;
+}
+
+.gform_button button:hover{
+	background-color:black!important;
+	color:white!important;
+}
+.gform_button:hover{
+	background-color:black!important;
+	color:white!important;
+}
+
+.eltdf-pl-text {
+    background-color: rgb(0,0,0,.8)!important;
+}
+
+a.button.product_type_simple.add_to_cart_button {
+    color: rgba(201,167,77,.9)!important;
+}
+
+a.button.product_type_simple{
+    color: rgba(201,167,77,.9)!important;
+}
+
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+/*.eltdf-mobile-header .eltdf-mobile-logo-wrapper {
+	position: relative;
+	bottom: 15px;
+} */
+.eltdf-header-centered .eltdf-page-header .eltdf-logo-area {
+    height: 125px!important;
+    overflow: visible;
+    z-index: 2;
+    box-sizing: border-box;
+}
+.eltdf-mobile-header .eltdf-mobile-logo-wrapper img {
+  height: 45%;
+  width: auto;
+}
+
+  
+font-family: font-family: 'Quicksand';
+    font-family: Quicksand;
+    font-size: 16px;
+    margin-bottom: 60px;
+    padding: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+   text-transform: uppercase;
+	
+}
+
+
+a.vc_btn3.vc_btn3-size-md:hover {
+    background: #B58D30 !important;
+    color: Black !important;
+}
+
+
+.eltdf-page-footer .eltdf-footer-top-holder p {
+    font-size: 13px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+.eltdf-grid-huge-gutter>div {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.eltdf-mobile-header .eltdf-mobile-logo-wrapper img {
+    height: 64.34px;
+    width: 67.25px;
+}
+div#text-12 a:hover {
+    color: #c9a74d !important;
+}
+
+.woocommerce-page .eltdf-content .coupon input[type=text], div.woocommerce .coupon input[type=text] {
+    width: auto;
+}
+
+[value="Apply coupon"] {
+    padding: 10px 21.5px !important;
+}
+
+.woocommerce-page .eltdf-content .wc-forward:not(.added_to_cart):not(.checkout-button), .woocommerce-page .eltdf-content a.added_to_cart, .woocommerce-page .eltdf-content a.button, .woocommerce-page .eltdf-content button[type=submit], .woocommerce-page .eltdf-content input[type=submit], div.woocommerce .wc-forward:not(.added_to_cart):not(.checkout-button), div.woocommerce a.added_to_cart, div.woocommerce a.button, div.woocommerce button[type=submit], div.woocommerce input[type=submit] {
+    padding: 10px 17px;
+		margin-left: 0px;
+}
+
+/*------------------------------------
+            (max-width: 1920px)
+--------------------------------------*/
+
+@media only screen and (max-width:1920px) {
+.eltdf-grid {
+    width: 1400px;
+    margin: 0 auto;
+}
+	.wp-image-15819{
+		margin-top:50px!important;
+	}
+	.eltdf-grid-col-4 {
+    float: left;
+    width: 37.33333%;
+}
+	.eltdf-grid-col-4 {
+    float: left;
+    width: 33.33333%;
+}
+	
+.eltdf-page-header .eltdf-logo-area {
+    height: 170px !important;
+    padding-top: 20px !important;
+}
+
+.eltdf-page-header .eltdf-menu-area {
+    height: 120px !important;
+    padding-top: 50px !important;
+    padding-bottom: 20px !important;
+}
+}
+
+
+/*------------------------------------
+            (max-width: 1366px)
+--------------------------------------*/
+
+@media only screen and (max-width:1366px) {
+
+.eltdf-grid {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.eltdf-page-header .eltdf-logo-area {
+    height: 170px !important;
+    padding-top: 20px !important;
+}
+
+.eltdf-page-header .eltdf-menu-area {
+    height: 120px !important;
+    padding-top: 50px !important;
+    padding-bottom: 20px !important;
+}	
+	
+}
+
+/*------------------------------------
+            (max-width: 768px)
+--------------------------------------*/
+
+@media only screen and (max-width:768px) {
+
+.eltdf-grid {
+    width: 90%;
+    padding:20px!important;
+}
+.wp-image-15819{
+		margin-top:10px!important;
+	max-width: 80%!important;
+    height: auto;
+}
+	.eltdf-grid-col-4 {
+   
+    width: 100%;
+}
+	.eltdf-grid-col-4 {
+    width: 100%;
+}
+.woocommerce-page .eltdf-content .wc-forward:not(.added_to_cart):not(.checkout-button), .woocommerce-page .eltdf-content a.added_to_cart, .woocommerce-page .eltdf-content a.button, .woocommerce-page .eltdf-content button[type=submit], .woocommerce-page .eltdf-content input[type=submit], div.woocommerce .wc-forward:not(.added_to_cart):not(.checkout-button), div.woocommerce a.added_to_cart, div.woocommerce a.button, div.woocommerce button[type=submit], div.woocommerce input[type=submit] {
+height: 44px;
+padding: 3px 17px;
+}
+[value="Apply coupon"] {
+    padding: 0px 21.5px !important;
+}
+.eltdf-mobile-logo-wrapper a {
+    height: 100px !important;
+}	
+}
+
+@media screen and (min-width: 750px) and (max-width: 768px){
+.page-id-16274 .eltdf-container-inner {
+    width: 644px !important;
+}
+		/* Have more separation between the columns  "Price" "Quantity" and "Subtotal"  so all the information is not so crammed together.  */
+.eltdf-woocommerce-page table.cart thead tr th {
+    padding: 10px 11px;
+   
+}
+}
+
+@media screen and (min-width: 800px){
+header.eltdf-page-header .eltdf-light-logo {
+    border-radius: 5px !important;
+    transition: all .5s ease !important;
+    /*box-shadow: 0 0 0 5px #fecf2f !important;*/
+	opacity: 1 !important;
+}}
+/*------------------------------------
+            (max-width: 375px)
+--------------------------------------*/
+
+
+@media only screen and (max-width:375px) {
+
+.wp-image-15819{
+		margin-top:10px!important;
+	}
+/* Have more separation between the columns  "Price" "Quantity" and "Subtotal"  so all the information is not so crammed together. 	 */
+	.eltdf-woocommerce-page table.cart thead tr th {
+    padding: 10px 0;
+    color: #c9a74d;
+    text-align: left;
+    padding-right: 5px;
+}
+}
+/**26-05-2022*/
+.eltdf-column-content.eltdf-grid-col-4.eltdf-footer-column-1 .eltdf-separator-holder {
+    text-align: center;
+}
+.eltdf-menu-area {
+    padding-top: 10px;
+}
+li.store-menu {
+    background-color: #b58d30;
+	border-radius: 5px !important;
+    transition: all .5s ease !important;
+    box-shadow: 0 0 0 1px #fecf2f !important;
+}
+.store-menu a {
+    color: #fff !important;
+}
+li.store-menu:hover {
+    background-color: #000;
+}
+
+.smush-detected-img {
+	box-shadow: none !important;
+}
+div#lgx_logo_slider_app_16053 {
+    padding: 0px 40px 40px 40px;
+}
+.foot-logo {
+    text-align: center;
+}
+.foot-logo h3 {
+    font-weight: 800;
+}
+
+.lgx_logo_slider .lgx_app_item_row .lgx_app_item .lgx_app_item_img {
+    display: inline-block;
+    height: 150px;
+}
+/* WC-259389-220602-AVU START */
+#lgx_logo_slider_app_16053 {
+	max-width: 1200px;
+	margin: auto;
+}
+.eltdf-boxed .eltdf-wrapper .eltdf-wrapper-inner {
+	width: unset;
+}
+.eltdf-boxed .eltdf-page-header .eltdf-fixed-wrapper.fixed, .eltdf-boxed .eltdf-page-header .eltdf-sticky-header {
+	width: 100%;
+}
+.lgx_logo_slider .lgx_app_item_row .lgx_app_item .lgx_app_item_img {
+	height: 100px;
+}
+.checkout-button {
+	margin-top: 1em!important;
+}
+.woocommerce-cart-form {
+	margin-bottom: 26px;
+}
+#pwgc-redeem-form .coupon {
+	display: inline-block;
+	position: relative;
+}
+#pwgc-redeem-form [for='coupon_code'] {
+	position: absolute;
+	top: -27px;
+}
+@media only screen and (max-width: 480px) {
+	#pwgc-redeem-form [name='apply_coupon'],
+	#pwgc-redeem-button {
+		margin-bottom: 1em!important;
+	}
+input#pwgc-redeem-gift-card-number {
+    width: 100%;
+}
+input#pwgc-redeem-button {
+    width: 100%;
+}
+input#coupon_code {
+    width: 100%;
+}
+.woocommerce-page .eltdf-content .wc-forward:not(.added_to_cart):not(.checkout-button), .woocommerce-page .eltdf-content a.added_to_cart, .woocommerce-page .eltdf-content a.button, .woocommerce-page .eltdf-content button[type=submit], .woocommerce-page .eltdf-content input[type=submit], div.woocommerce .wc-forward:not(.added_to_cart):not(.checkout-button), div.woocommerce a.added_to_cart, div.woocommerce a.button, div.woocommerce button[type=submit], div.woocommerce input[type=submit] {
+    width: 100%;
+}
+a.checkout-button.button.alt.wc-forward {
+    text-align: center;
+}
+.eltdf-mobile-logo-wrapper a {
+    height: 100px !important;
+}
+.page-id-16261 .eltdf-title.eltdf-standard-type.eltdf-content-left-alignment {
+    height: 300px !important;
+}
+	
+	
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #C9A74D;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    line-height: inherit;
+}
+
+a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, p a:hover {
+    color: #000000;
+}
+/* WC-259389-220602-AVU END */
+
+/* Contact Us */
+.page-id-8213 input#input_1_6 {
+    width: 100%;
+}
+
+.page-id-8213 input#input_1_14 {
+    border: 1px solid rgb(118, 118, 118) !important;
+}
+
+
+/*-------------------------------
+        TABLET SCREENS ONLY
+---------------------------------*/
+
+@media screen and (max-width: 768px){ 
+h1.eltdf-page-title.entry-title {
+    font-size: 80px;
+}
+	/* subscribe header*/
+.page-id-13660  .eltdf-title .eltdf-title-image img {
+    height: 300px;
+}
+
+ /* In the News header*/
+.page-id-228 .eltdf-title .eltdf-title-image img {
+    height: 300px;
+}
+
+ /* Flavors header*/
+.page-id-11529 eltdf-title .eltdf-title-image img {
+    height: 300px;
+}
+
+.woocommerce-shop .eltdf-title .eltdf-title-image img {
+    height: 300px;
+}
+
+}
+
+/*-------------------------------
+        MOBILE SCREENS ONLY
+---------------------------------*/
+
+@media screen and (max-width: 480px){ 
+h1.eltdf-page-title.entry-title {
+    font-size: 36px;
+}
+.eltdf-title .eltdf-title-image img {
+    object-fit: cover;
+    height: 300px;
+}
+	
+	/* subscribe header*/
+.page-id-13660  .eltdf-title .eltdf-title-image img {
+    height: 300px;
+}
+
+ /* In the News header*/
+.page-id-228 .eltdf-title .eltdf-title-image img {
+    height: 300px;
+}
+
+ /* Flavors header*/
+.page-id-11529 eltdf-title .eltdf-title-image img {
+    height: 300px;
+}
+
+.woocommerce-shop .eltdf-title .eltdf-title-image img {
+    height: 300px;
+}
+}
+h1.eltdf-page-title.entry-title {
+    color:#ffffff !important;
+
+    text-transform: capitalize;
+    color: #000000;
+    text-shadow: 2px 2px 30px 	rgb(0,0,0);
+}
+.eltdf-title.eltdf-has-responsive-background .eltdf-title-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: rgba(0,0,0,0);
+}
+.eltdf-woo-single-page .eltdf-single-product-summary .product_meta {
+    margin: 28px 0 0;
+    margin-bottom: 20px;
+}
+#button {
+	  border-color: rgb(255 255 255);
+    color: rgb(255 255 255);
+    background-color: #C9A74D;
+}
+#pwgc-redeem-gift-card-form
+{
+     margin-top: 40px;
+}
+/* Captilize the M in Load More */
+.vc_btn3-container {
+    text-transform: capitalize;
+	  background-color: #b58d30;
+	  border-radius: 5px !important;
+}
+#btn-gold{
+	background-color: transparent!important;
+}
+
+/* "Load More" button have the same color font, hover over effects as the order now button. */
+.vc_btn3.vc_btn3-size-md.vc_btn3-style-outline, .vc_btn3.vc_btn3-size-md.vc_btn3-style-outline-custom {
+    color: white !important;
+    background-color:#b58d30;
+}
+/* colors change on title and paddings */
+.page-id-16704 .eltdf-page-title.entry-title{
+	color: black !important;
+	padding-left:130px !important
+}
+.page-id-11529 .eltdf-page-title.entry-title{
+	color: black !important;
+padding-right: 130px !important;
+}
+
+.archive .eltdf-page-title.entry-title{
+	color: black !important;
+padding-left: 500px !important;
+}
+
+.page-id-16852 .eltdf-page-title.entry-title{
+	padding-left:130px !important
+}
+.page-id-10371 .eltdf-content .eltdf-content-inner > .eltdf-container > .eltdf-container-inner, .page-id-10371 .eltdf-content .eltdf-content-inner > .eltdf-full-width > .eltdf-full-width-inner{
+	padding-top:50px !important;
+}
+.page-id-16785 .eltdf-content .eltdf-content-inner > .eltdf-container > .eltdf-container-inner {
+    margin-top: -90px;
+}
+.page-id-10371 .eltdf-title .eltdf-title-holder .eltdf-container {
+    background: url(https://cocoaberrycake.com/wp-content/uploads/2022/08/madison-bracaglia-1406974-unsplash.jpg);
+}
+/* colors change on title and paddings on mobile*/
+@media only screen and (max-width: 768px) {
+ .page-id-16704 .eltdf-page-title.entry-title{
+	color: black !important;
+	padding-left:20px !important
+}
+.page-id-11529 .eltdf-page-title.entry-title{
+	color: black !important;
+padding-right: 0px !important;
+}
+
+.archive .eltdf-page-title.entry-title{
+	color: black !important;
+padding-left: 300px !important;
+}
+
+.page-id-16852 .eltdf-page-title.entry-title{
+	padding-left:20px !important
+}
+}
+@media only screen and (max-width: 360px) {
+	.archive .eltdf-page-title.entry-title{
+	color: black !important;
+padding-left: 200px !important;
+}
+
+	
+}
+
+.page-id-11487 .eltdf-page-title.entry-title, .page-id-15551 .eltdf-page-title.entry-title {
+	text-shadow: 0 0 !important;
+}
+
+a.order {
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+
+#popmake-19287 {
+	top: 100px !important;
+
+
+}
+
+.bg-1 .vc_btn3-container.vc_btn3-center a {
+	background-color: #b58d30 !important;
+	width: 280px !important;
+	border-radius: 5px;
+}
+.bg-1 .vc_btn3-container.vc_btn3-center {
+	background-color: inherit;
+}
+.bg-1 .vc_btn3-container.vc_btn3-center a:hover {
+	background-color: #000 !important;
+}
+
+.bg .vc_btn3-container.vc_btn3-center a {
+	background-color: #b58d30 !important;
+
+	border-radius: 5px;
+}
+.bg .vc_btn3-container.vc_btn3-center {
+	background-color: inherit;
+}
+.bg .vc_btn3-container.vc_btn3-center a:hover {
+	background-color: #000 !important;
+}
+.post-type-archive-product .eltdf-page-title.entry-title {
+	margin-left: 120px !important;
+}
+.wc-proceed-to-checkout a {
+	background-color: #b58d30 !important;
+}
+.wc-proceed-to-checkout a:hover {
+	background-color: #000 !important;
+}
+#place_order, #pwgc-redeem-button, #pwgc-redeem-button {
+	background-color:#b58d30;
+	font-family: 'proxima-nova-font' !important;
+}
+#place_order:hover, #pwgc-redeem-button:hover, #pwgc-redeem-button:hover {
+	background-color: #000;
+}
+.post-type-archive-product .eltdf-page-title.entry-title {
+	text-transform: capitalize !important;
+}
+
+.product-template-default .eltdf-page-title.entry-title {
+	text-transform: capitalize !important;
+	margin-left: 120px !important;
+	padding-left: 640px !important;
+}
+#popmake-19287{
+	margin-top: 40px;
+}
+
+#popmake-19287 input {
+	background-color: #ffff;
+	color: #000;
+}
+#gform_submit_button_4{
+
+	background-color: #b58d30 !important;;
+}
+
+.actions .button, .single_add_to_cart_button {
+	background-color: #b58d30!important;
+	font-family: 'proxima-nova-font' !important;
+}
+
+.actions .button:hover, .single_add_to_cart_button:hover {
+	background-color: #000 !important;
+}
+
+#popmake-19287 .gfield_label {
+	color: #000;
+}
+.woocommerce-shop h1.eltdf-page-title.entry-title span {
+    color: #fff;
+    margin-left: 160px !IMPORTANT;
+}
+#gform_submit_button_4
+{
+
+  margin: auto;
+  width: 30%;
+  border: 3px solid green;
+  padding: 10px;
+}
+}
+.pum-theme-lightbox-2{
+  
+    border: 0px !important;
+}
+input#gform_submit_button_1 {
+	color: #fff;
+	font-family: 'proxima-nova-font' !important;
+	margin-right: 300px;
+    margin-left: 300px}
+input#gform_submit_button_3 {
+	font-family: 'proxima-nova-font' !important;
+	color: #fff;
+}
+input#gform_submit_button_2 {
+	color: #fff;
+	font-family: 'proxima-nova-font' !important;
+}
+div#mc_embed_signup input#mc-embedded-subscribe {
+	width:35% !important;
+	/*margin-left:290px !important;*/
+	color:white !important;
+}
+.pwgc-redeem-gift-card-number{
+	width:30% !important;
+}
+
+
+
+element.style {
+}
+/*.woocommerce-page .eltdf-content input[type=email], .woocommerce-page .eltdf-content input[type=tel], .woocommerce-page .eltdf-content input[type=password], .woocommerce-page .eltdf-content input[type=text], .woocommerce-page .eltdf-content textarea, div.woocommerce input[type=email], div.woocommerce input[type=tel], div.woocommerce input[type=password], div.woocommerce input[type=text], div.woocommerce textarea {
+   
+	width: 30% !important;
+}*/
+
+.eltdf-404-page .eltdf-page-not-found .eltdf-btn{
+	background-color:#b58d30;
+}
+.eltdf-404-page .eltdf-page-not-found .eltdf-btn:hover{
+	background-color:black!important;
+}
+
+.return-to-shop a{
+	background-color:#b58d30!important;
+}
+.return-to-shop a:hover{
+	background-color:black!important;
+}
+
+.eltdf-header-centered .eltdf-page-header .eltdf-logo-area .eltdf-logo-wrapper a {
+    max-height: 140px;
+}		</style>
+		<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="error404 wp-theme-sweettooth theme-sweettooth eltd-core-1.0 woocommerce-no-js sweettooth-ver-1.1 eltdf-grid-1300 eltdf-fixed-on-scroll eltdf-dropdown-animate-height eltdf-header-centered eltdf-menu-area-shadow-disable eltdf-menu-area-in-grid-shadow-disable eltdf-menu-area-border-disable eltdf-menu-area-in-grid-border-disable eltdf-logo-area-border-disable eltdf-logo-area-in-grid-border-disable eltdf-side-menu-slide-from-right eltdf-woocommerce-columns-4 eltdf-woo-normal-space eltdf-woo-pl-info-below-image eltdf-default-mobile-header eltdf-sticky-up-mobile-header eltdf-fullscreen-search eltdf-search-fade wpb-js-composer js-comp-ver-7.3 vc_responsive" itemscope itemtype="http://schema.org/WebPage" data-burst_id="0" data-burst_type="404">
+	<section class="eltdf-side-menu">
+	<div class="eltdf-close-side-menu-holder">
+		<a class="eltdf-close-side-menu" href="#" target="_self">
+			<span class="icon-arrows-remove"></span>
+		</a>
+	</div>
+	<div id="text-7" class="widget eltdf-sidearea widget_text">			<div class="textwidget"></div>
+		</div><div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-left eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: #c9a74d;border-style: solid;width: 122px;border-bottom-width: 1px;margin-top: -19px;margin-bottom: 20px"></div>
+</div>
+</div><div id="text-8" class="widget eltdf-sidearea widget_text"><div class="eltdf-widget-title-holder"><h3 class="eltdf-widget-title">Contact Us</h3></div>			<div class="textwidget"></div>
+		</div>
+        <a class="eltdf-text-right eltdf-icon-has-hover eltdf-icon-widget-holder" href="#" data-hover-color="#030303"   target="_self" style="color: #d5d5d5;font-size: 21px">
+			<span class="eltdf-icon-holder eltdf-normal"><i class="eltdf-icon-widget fa fa-phone-square"></i></span><span class="eltdf-icon-text-holder" style="color: #7c7c7c;font-size: 18px"><span class="eltdf-icon-text">(949) 478-0440</span></span>        </a>
+    
+        <a class="eltdf-text-right eltdf-icon-has-hover eltdf-icon-widget-holder" href="mailto:info@cocoaberrycake.com" data-hover-color="#030303"   target="_self" style="color: #d5d5d5;font-size: 21px">
+			<span class="eltdf-icon-holder eltdf-normal"><i class="eltdf-icon-widget fa fa-envelope-square"></i></span><span class="eltdf-icon-text-holder" style="color: #7c7c7c;font-size: 18px"><span class="eltdf-icon-text">info@cocoaberrycake.com</span></span>        </a>
+    
+        <a class="eltdf-text-right eltdf-icon-has-hover eltdf-icon-widget-holder" href="#" data-hover-color="#030303"   target="_self" style="color: #d5d5d5;font-size: 21px;margin: 0px 0px 0px 3px">
+			<span class="eltdf-icon-holder eltdf-normal"><i class="eltdf-icon-widget fa fa-map-marker"></i></span><span class="eltdf-icon-text-holder" style="color: #7c7c7c;font-size: 18px"><span class="eltdf-icon-text">Placentia, CA, USA</span></span>        </a>
+    <div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-center eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: transparent;border-style: solid;border-bottom-width: 1px;margin-top: 1px;margin-bottom: -10px"></div>
+</div>
+</div><div id="custom_html-3" class="widget_text widget eltdf-sidearea widget_custom_html"><div class="textwidget custom-html-widget"><script type="text/javascript">var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});</script>
+                <div class='gf_browser_unknown gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework' data-form-theme='legacy' data-form-index='0' id='gform_wrapper_1' ><div id='gf_1' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/wp-content/uploads/2022/07/sugar-flowers-finespun-cakes-3-300x400.jpeg#gf_1' data-formid='1' novalidate> 
+ <input type='hidden' class='gforms-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' />
+                        <div class='gform-body gform_body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><li id="field_1_1" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_above hidden_label field_validation_below gfield_visibility_visible"  data-js-reload="field_1_1" ><label class='gfield_label gform-field-label' for='input_1_1'>Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='large'    placeholder='Name *' aria-required="true" aria-invalid="false"   /> </div></li><li id="field_1_2" class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  data-js-reload="field_1_2" ><label class='gfield_label gform-field-label' for='input_1_2'>Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_2' id='input_1_2' type='email' value='' class='large'   placeholder='Email *' aria-required="true" aria-invalid="false"  />
+                        </div></li><li id="field_1_3" class="gfield gfield--type-phone gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  data-js-reload="field_1_3" ><label class='gfield_label gform-field-label' for='input_1_3'>Phone<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_phone'><input name='input_3' id='input_1_3' type='tel' value='' class='large'  placeholder='Phone *' aria-required="true" aria-invalid="false"   /></div></li><li id="field_1_6" class="gfield gfield--type-date gfield--input-type-datepicker gfield--datepicker-no-icon gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  data-js-reload="field_1_6" ><label class='gfield_label gform-field-label screen-reader-text' for='input_1_6'>Wedding / Event Date *<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_date'>
+                            <input name='input_6' id='input_1_6' type='text' value='' class='datepicker gform-datepicker mdy datepicker_no_icon gdatepicker-no-icon'   placeholder='Wedding / Event Date *' aria-describedby="input_1_6_date_format" aria-invalid="false" aria-required="true"/>
+                            <span id='input_1_6_date_format' class='screen-reader-text'>MM slash DD slash YYYY</span>
+                        </div>
+                        <input type='hidden' id='gforms_calendar_icon_input_1_6' class='gform_hidden' value='https://cocoaberrycake.com/wp-content/plugins/gravityforms/images/datepicker/datepicker.svg'/></li><li id="field_1_14" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  data-js-reload="field_1_14" ><label class='gfield_label gform-field-label' for='input_1_14'>Reception / Event Time<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_14' id='input_1_14' type='text' value='' class='large'    placeholder='Reception / Event Time' aria-required="true" aria-invalid="false"   /> </div></li><li id="field_1_8" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--has-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  data-js-reload="field_1_8" ><label class='gfield_label gform-field-label' for='input_1_8'>Venue / Location<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_8' id='input_1_8' type='text' value='' class='large'  aria-describedby="gfield_description_1_8"  placeholder='Venue / Location *' aria-required="true" aria-invalid="false"   /> </div><div class='gfield_description' id='gfield_description_1_8'>Name of reception venue and location for the delivery
+</div></li><li id="field_1_10" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  data-js-reload="field_1_10" ><label class='gfield_label gform-field-label' for='input_1_10'>Estimated Serving Count<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_10' id='input_1_10' type='text' value='' class='large'    placeholder='Estimated Serving Count *' aria-required="true" aria-invalid="false"   /> </div></li><li id="field_1_4" class="gfield gfield--type-textarea gfield_contains_required field_sublabel_below gfield--has-description field_description_above hidden_label field_validation_below gfield_visibility_visible"  data-js-reload="field_1_4" ><label class='gfield_label gform-field-label' for='input_1_4'>Message<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='gfield_description' id='gfield_description_1_4'>We want to hear all about it and your vision! Provide any details about your wedding/event such as design, colors/vibe, and what type of cake or desserts you are looking for. The more details, the better!
+
+
+Please send all inspiration photos to info@cocoaberrycake.com after you submit the form. </div><div class='ginput_container ginput_container_textarea'><textarea name='input_4' id='input_1_4' class='textarea large'  aria-describedby="gfield_description_1_4"  placeholder='Message *' aria-required="true" aria-invalid="false"   rows='10' cols='50'></textarea></div></li></ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_1"]){return false;}  if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  jQuery("#gform_1").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=&amp;tabindex=0&amp;theme=legacy' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjIyOTk2MTUxZWFkZTg1MWE2NDBhNTI4NjNkNmM4Y2ViIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        <p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="56"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://cocoaberrycake.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://cocoaberrycake.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [1, current_page] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 1, currentPage: current_page } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+</div></div><div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-center eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: #c9a74d;border-style: solid;width: 335px;border-bottom-width: 1px;margin-top: 44px;margin-bottom: 2px"></div>
+</div>
+</div>
+		<a class=" eltdf-icon-widget-holder" href="https://www.instagram.com/Cocoaberrycakeco/"    target="_blank" >
+			<span class="eltdf-icon-holder eltdf-normal"><i class="eltdf-social-icon-widget fa fa-facebook"></i></span>					</a>
+		
+		<h2 class="eltdf-custom-font-holder" style="font-family: Quicksand;font-size: 23px;color: #c9a74d" data-font-size=23>
+		Follow Us!		</h2>
+
+		<div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-center eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: transparent;border-style: solid;border-bottom-width: 1px;margin-bottom: -8px"></div>
+</div>
+</div><div id="text-11" class="widget eltdf-sidearea widget_text">			<div class="textwidget"><p>Thank you for following us on social media!</p>
+</div>
+		</div>
+		<a class="eltdf-icon-has-hover eltdf-icon-widget-holder" href="https://www.instagram.com/Cocoaberrycakeco/" data-hover-color="#c9a74d"   target="_blank" style="color: #030303;font-size: 16px;margin: 0px 16px 0px 0px">
+			<span class="eltdf-icon-holder eltdf-normal"><span class="eltdf-social-icon-widget social_instagram"></span></span>					</a>
+		
+		<a class="eltdf-icon-has-hover eltdf-icon-widget-holder" href="https://www.facebook.com/CocoaBerryCake/" data-hover-color="#c9a74d"   target="_blank" style="color: #030303;font-size: 16px;margin: 0px 9px 0px 0px">
+			<span class="eltdf-icon-holder eltdf-normal"><span class="eltdf-social-icon-widget social_facebook"></span></span>					</a>
+		
+		<a class="eltdf-icon-has-hover eltdf-icon-widget-holder" href="https://www.pinterest.com/cocoaberrycake/" data-hover-color="#c9a74d"   target="_self" style="color: #030303;font-size: 16px;margin: 0px 0px 0px 7px">
+			<span class="eltdf-icon-holder eltdf-normal"><span class="eltdf-social-icon-widget social_pinterest"></span></span>					</a>
+		</section>	
+	<div class="eltdf-wrapper eltdf-404-page">
+	    <div class="eltdf-wrapper-inner">
+		    <div class="eltdf-fullscreen-search-holder">
+	<div class="eltdf-fullscreen-search-close-container">
+		<div class="eltdf-search-close-holder">
+			<a class="eltdf-fullscreen-search-close" href="javascript:void(0)">
+				<span class="icon-arrows-remove"></span>
+			</a>
+		</div>
+	</div>
+	<div class="eltdf-fullscreen-search-table">
+		<div class="eltdf-fullscreen-search-cell">
+			<div class="eltdf-fullscreen-search-inner">
+				<form action="https://cocoaberrycake.com/" class="eltdf-fullscreen-search-form" method="get">
+					<div class="eltdf-form-holder">
+						<div class="eltdf-form-holder-inner">
+							<div class="eltdf-field-holder">
+								<input type="text"  placeholder="Search On Site..." name="s" class="eltdf-search-field" autocomplete="off" />
+							</div>
+							<button type="submit" class="eltdf-search-submit"><i class="eltdf-icon-simple-line-icon icon-magnifier "></i></button>
+							<div class="eltdf-line"></div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<header class="eltdf-page-header">
+		
+    <div class="eltdf-logo-area">
+	    	    
+        			
+            <div class="eltdf-vertical-align-containers">
+                <div class="eltdf-position-center">
+                    <div class="eltdf-position-center-inner">
+                        
+
+<div class="eltdf-logo-wrapper">
+	<a itemprop="url" href="https://cocoaberrycake.com/" style="height: 332px;">
+		<img itemprop="image" class="eltdf-normal-logo lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArQAAAKYAQAAAACqK1Y6AAAAAnRSTlMAAHaTzTgAAABPSURBVHja7cExAQAAAMKg9U9tDB+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgZ+RAAAFZhde+AAAAAElFTkSuQmCC" width="692" height="664"  alt="logo" data-src="https://cocoaberrycake.com/wp-content/uploads/2019/09/CCC-Logo.jpg" decoding="async" data-eio-rwidth="692" data-eio-rheight="664" /><noscript><img itemprop="image" class="eltdf-normal-logo" src="https://cocoaberrycake.com/wp-content/uploads/2019/09/CCC-Logo.jpg" width="692" height="664"  alt="logo" data-eio="l" /></noscript>
+		<img itemprop="image" class="eltdf-dark-logo lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArQAAAKYAQAAAACqK1Y6AAAAAnRSTlMAAHaTzTgAAABPSURBVHja7cExAQAAAMKg9U9tDB+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgZ+RAAAFZhde+AAAAAElFTkSuQmCC" width="692" height="664"  alt="dark logo" data-src="https://cocoaberrycake.com/wp-content/uploads/2019/09/CCC-Logo.jpg" decoding="async" data-eio-rwidth="692" data-eio-rheight="664" /><noscript><img itemprop="image" class="eltdf-dark-logo" src="https://cocoaberrycake.com/wp-content/uploads/2019/09/CCC-Logo.jpg" width="692" height="664"  alt="dark logo" data-eio="l" /></noscript>		<img itemprop="image" class="eltdf-light-logo lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArQAAAKYAQAAAACqK1Y6AAAAAnRSTlMAAHaTzTgAAABPSURBVHja7cExAQAAAMKg9U9tDB+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgZ+RAAAFZhde+AAAAAElFTkSuQmCC" width="692" height="664"  alt="light logo" data-src="https://cocoaberrycake.com/wp-content/uploads/2019/09/CCC-Logo.jpg" decoding="async" data-eio-rwidth="692" data-eio-rheight="664" /><noscript><img itemprop="image" class="eltdf-light-logo" src="https://cocoaberrycake.com/wp-content/uploads/2019/09/CCC-Logo.jpg" width="692" height="664"  alt="light logo" data-eio="l" /></noscript>	</a>
+</div>
+
+                    </div>
+                </div>
+            </div>
+	            
+            </div>
+	
+            <div class="eltdf-fixed-wrapper">
+    	        
+    <div class="eltdf-menu-area">
+	    	    
+        	            
+            <div class="eltdf-vertical-align-containers">
+                <div class="eltdf-position-center">
+                    <div class="eltdf-position-center-inner">
+                        
+<nav class="eltdf-main-menu eltdf-drop-down eltdf-default-nav">
+    <ul id="menu-services" class="clearfix"><li id="nav-menu-item-11435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  narrow"><a href="https://cocoaberrycake.com/" class=""><span class="item_outer"><span class="item_text">Home</span></span></a></li>
+<li id="nav-menu-item-11894" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="https://cocoaberrycake.com/Cakes%20and%20Celebrations" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Cakes and Desserts</span><i class="eltdf-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-11482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub"><a href="https://cocoaberrycake.com/wedding-cakes/" class=""><span class="item_outer"><span class="item_text">Signature Luxury Wedding Cakes</span></span></a>
+	<ul>
+		<li id="nav-menu-item-15422" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-1/" class=""><span class="item_outer"><span class="item_text">Lux Wedding Cakes – White Collection</span></span></a></li>
+		<li id="nav-menu-item-15421" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-2/" class=""><span class="item_outer"><span class="item_text">Lux Wedding Cakes – Pink &#038; Red Collection</span></span></a></li>
+		<li id="nav-menu-item-15396" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-3/" class=""><span class="item_outer"><span class="item_text">Lux Wedding Cakes – Blue Collection</span></span></a></li>
+		<li id="nav-menu-item-15400" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-4/" class=""><span class="item_outer"><span class="item_text">Lux Wedding Cakes – Black Collection</span></span></a></li>
+		<li id="nav-menu-item-15403" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-5/" class=""><span class="item_outer"><span class="item_text">Lux Wedding Cakes – Green Collection</span></span></a></li>
+		<li id="nav-menu-item-15406" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-6/" class=""><span class="item_outer"><span class="item_text">Lux Wedding Cakes – Themed Collection</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-11485" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub"><a href="https://cocoaberrycake.com/signature-cakes/" class=""><span class="item_outer"><span class="item_text">Signature Luxury Cakes</span></span></a>
+	<ul>
+		<li id="nav-menu-item-15431" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-cakes-portfolio-3/" class=""><span class="item_outer"><span class="item_text">Lux Signature Cakes – White &#038; Blush Collection</span></span></a></li>
+		<li id="nav-menu-item-15424" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-cakes-portfolio-1/" class=""><span class="item_outer"><span class="item_text">Lux Signature Cakes – Pink Collection</span></span></a></li>
+		<li id="nav-menu-item-15454" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-cakes-portfolio-2/" class=""><span class="item_outer"><span class="item_text">Lux Signature Cakes – Blue &#038; Lavender Collection</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-19183" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/mini-lux-cakes/" class=""><span class="item_outer"><span class="item_text">Mini LUX Cakes</span></span></a></li>
+	<li id="nav-menu-item-11491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub"><a href="https://cocoaberrycake.com/cupcakes/" class=""><span class="item_outer"><span class="item_text">Petals &#038; LUX Cupcakes</span></span></a>
+	<ul>
+		<li id="nav-menu-item-15519" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-cupcakes-portfolio-1/" class=""><span class="item_outer"><span class="item_text">Petals &#038; LUX Collection 1</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-16070" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/sweet-blooms/" class=""><span class="item_outer"><span class="item_text">Signature “Sweet Blooms” Brownie Box</span></span></a></li>
+	<li id="nav-menu-item-11497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub"><a href="https://cocoaberrycake.com/raw-and-vegan/" class=""><span class="item_outer"><span class="item_text">Signature Custom Shapes, Letters &#038; Number Cookie Cakes</span></span></a>
+	<ul>
+		<li id="nav-menu-item-15487" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/cookie-cakes-portfolio-1/" class=""><span class="item_outer"><span class="item_text">Cookie Cakes Collection 1</span></span></a></li>
+		<li id="nav-menu-item-15491" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/cookie-cakes-portfolio-2/" class=""><span class="item_outer"><span class="item_text">Cookie Cakes Collection 2</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-20360" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/letters-number-custom-shapes-cupcakes/" class=""><span class="item_outer"><span class="item_text">Letters, Number &#038; Custom Shapes Cupcakes</span></span></a></li>
+	<li id="nav-menu-item-20641" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/lux-macaroon-wreaths/" class=""><span class="item_outer"><span class="item_text">LuX Macaroon Wreaths</span></span></a></li>
+	<li id="nav-menu-item-11488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub"><a href="https://cocoaberrycake.com/macarons/" class=""><span class="item_outer"><span class="item_text">Signature Macaroons</span></span></a>
+	<ul>
+		<li id="nav-menu-item-15552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-macaroons-portfolio-1/" class=""><span class="item_outer"><span class="item_text">Signature Macaroons Collection 1</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-11500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub"><a href="https://cocoaberrycake.com/themed-cakes/" class=""><span class="item_outer"><span class="item_text">Signature Themed Cakes</span></span></a>
+	<ul>
+		<li id="nav-menu-item-15456" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-themed-cakes-portfolio-1/" class=""><span class="item_outer"><span class="item_text">Signature Themed Cakes Collection1</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-11763" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-cookies/" class=""><span class="item_outer"><span class="item_text">Signature Sugar Cookies</span></span></a></li>
+	<li id="nav-menu-item-11494" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/artisan-chocolates/" class=""><span class="item_outer"><span class="item_text">Signature Artisan Chocolates</span></span></a></li>
+	<li id="nav-menu-item-12922" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/cakes-and-celebrations/keto-desserts-and-keto-cakes/" class=""><span class="item_outer"><span class="item_text">Keto Cakes, Keto Breads, Keto Desserts and More</span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-11895" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="https://cocoaberrycake.com/The%20Bakery" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">The Bakery</span><i class="eltdf-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-11343" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/about-us/" class=""><span class="item_outer"><span class="item_text">About Us</span></span></a></li>
+	<li id="nav-menu-item-16640" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/contact/" class=""><span class="item_outer"><span class="item_text">Contact Us</span></span></a></li>
+	<li id="nav-menu-item-16705" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/faqs/" class=""><span class="item_outer"><span class="item_text">FAQS</span></span></a></li>
+	<li id="nav-menu-item-11876" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/news/" class=""><span class="item_outer"><span class="item_text">Services</span></span></a></li>
+	<li id="nav-menu-item-16929" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/courses/" class=""><span class="item_outer"><span class="item_text">Courses</span></span></a></li>
+	<li id="nav-menu-item-16930" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/cake-tasting/" class=""><span class="item_outer"><span class="item_text">Cake Tasting</span></span></a></li>
+	<li id="nav-menu-item-11444" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/testimonials/" class=""><span class="item_outer"><span class="item_text">Testimonials</span></span></a></li>
+	<li id="nav-menu-item-13425" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/preferred-vendors/" class=""><span class="item_outer"><span class="item_text">Preferred Vendors</span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-11532" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="https://cocoaberrycake.com/flavors/" class=""><span class="item_outer"><span class="item_text">Flavors</span></span></a></li>
+<li id="nav-menu-item-11365" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="https://cocoaberrycake.com/the-news/" class=""><span class="item_outer"><span class="item_text">Press</span></span></a></li>
+<li id="nav-menu-item-11344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow"><a href="https://cocoaberrycake.com/store/" class=""><span class="item_outer"><span class="item_text">Store</span><i class="eltdf-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-12620" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/shop/" class=""><span class="item_outer"><span class="item_text">Cart</span></span></a>
+	    <a  		    class="eltdf-search-opener eltdf-icon-has-hover" href="javascript:void(0)">
+            <span class="eltdf-search-opener-wrapper">
+                <span aria-hidden="true" class="eltdf-icon-font-elegant icon_search "></span>	                        </span>
+	    </a>
+    		<div class="eltdf-shopping-cart-holder eltdf-cart-info-is-disabled" >
+			<div class="eltdf-shopping-cart-inner">
+								<a itemprop="url" class="eltdf-header-cart" href="https://cocoaberrycake.com/shop/">
+					<span class="eltdf-cart-icon ion-ios-cart-outline">
+						<span class="eltdf-cart-info-number">
+							<span class="eltdf-info-number-inner">0</span>
+						</span>
+					</span>
+					<span class="eltdf-cart-info">
+						<span class="eltdf-cart-info-number">0 items</span>
+						<span class="eltdf-cart-info-total"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>0.00</span></span>
+					</span>
+				</a>
+									<div class="eltdf-shopping-cart-dropdown">
+						<ul>
+							<li class="eltdf-empty-cart">No products in the cart.</li>
+						</ul>
+					</div>
+							</div>
+		</div>
+				<a class="eltdf-side-menu-button-opener eltdf-icon-has-hover"  href="javascript:void(0)" >
+						<span class="eltdf-side-menu-lines">
+        		<span class="eltdf-side-menu-line eltdf-line-1"></span>
+        		<span class="eltdf-side-menu-line eltdf-line-2"></span>
+                <span class="eltdf-side-menu-line eltdf-line-3"></span>
+        	</span>
+		</a>
+	</li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-13667" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="https://cocoaberrycake.com/subscribe/" class=""><span class="item_outer"><span class="item_text">Subscribe</span></span></a></li>
+<li id="nav-menu-item-16044" class="store-menu menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://cocoaberrycake.com/store/" class=""><span class="item_outer"><span class="item_text">Shop Online</span></span></a></li>
+</ul></nav>
+
+                        
+	    <a  		    class="eltdf-search-opener eltdf-icon-has-hover" href="javascript:void(0)">
+            <span class="eltdf-search-opener-wrapper">
+                <span aria-hidden="true" class="eltdf-icon-font-elegant icon_search "></span>	                        </span>
+	    </a>
+    		<div class="eltdf-shopping-cart-holder eltdf-cart-info-is-disabled" >
+			<div class="eltdf-shopping-cart-inner">
+								<a itemprop="url" class="eltdf-header-cart" href="https://cocoaberrycake.com/shop/">
+					<span class="eltdf-cart-icon ion-ios-cart-outline">
+						<span class="eltdf-cart-info-number">
+							<span class="eltdf-info-number-inner">0</span>
+						</span>
+					</span>
+					<span class="eltdf-cart-info">
+						<span class="eltdf-cart-info-number">0 items</span>
+						<span class="eltdf-cart-info-total"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>0.00</span></span>
+					</span>
+				</a>
+									<div class="eltdf-shopping-cart-dropdown">
+						<ul>
+							<li class="eltdf-empty-cart">No products in the cart.</li>
+						</ul>
+					</div>
+							</div>
+		</div>
+				<a class="eltdf-side-menu-button-opener eltdf-icon-has-hover"  href="javascript:void(0)" >
+						<span class="eltdf-side-menu-lines">
+        		<span class="eltdf-side-menu-line eltdf-line-1"></span>
+        		<span class="eltdf-side-menu-line eltdf-line-2"></span>
+                <span class="eltdf-side-menu-line eltdf-line-3"></span>
+        	</span>
+		</a>
+	                    </div>
+                </div>
+            </div>
+	            
+            </div>
+	
+            </div>
+		
+		
+	</header>
+
+
+<header class="eltdf-mobile-header">
+		
+	<div class="eltdf-mobile-header-inner">
+		<div class="eltdf-mobile-header-holder">
+			<div class="eltdf-grid">
+				<div class="eltdf-vertical-align-containers">
+					<div class="eltdf-vertical-align-containers">
+													<div class="eltdf-mobile-menu-opener">
+								<a href="javascript:void(0)">
+									<span class="eltdf-mm-lines">
+										<span class="eltdf-mm-line eltdf-line-1"></span>
+										<span class="eltdf-mm-line eltdf-line-2"></span>
+										<span class="eltdf-mm-line eltdf-line-3"></span>
+									</span>
+																	</a>
+							</div>
+												<div class="eltdf-position-center">
+							<div class="eltdf-position-center-inner">
+								
+
+<div class="eltdf-mobile-logo-wrapper">
+	<a itemprop="url" href="https://cocoaberrycake.com/" style="height: 332px">
+		<img itemprop="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArQAAAKYAQAAAACqK1Y6AAAAAnRSTlMAAHaTzTgAAABPSURBVHja7cExAQAAAMKg9U9tDB+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgZ+RAAAFZhde+AAAAAElFTkSuQmCC" width="692" height="664"  alt="Mobile Logo" data-src="https://cocoaberrycake.com/wp-content/uploads/2019/09/CCC-Logo.jpg" decoding="async" class="lazyload" data-eio-rwidth="692" data-eio-rheight="664" /><noscript><img itemprop="image" src="https://cocoaberrycake.com/wp-content/uploads/2019/09/CCC-Logo.jpg" width="692" height="664"  alt="Mobile Logo" data-eio="l" /></noscript>
+	</a>
+</div>
+
+							</div>
+						</div>
+						<div class="eltdf-position-right">
+							<div class="eltdf-position-right-inner">
+															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+<nav class="eltdf-mobile-nav">
+    <div class="eltdf-grid">
+        <ul id="menu-services-1" class=""><li id="mobile-menu-item-11435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home "><a href="https://cocoaberrycake.com/" class=""><span>Home</span></a></li>
+<li id="mobile-menu-item-11894" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>Cakes and Desserts</span></h6><span class="mobile_arrow"><i class="eltdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-11482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><a href="https://cocoaberrycake.com/wedding-cakes/" class=""><span>Signature Luxury Wedding Cakes</span></a><span class="mobile_arrow"><i class="eltdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-15422" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-1/" class=""><span>Lux Wedding Cakes – White Collection</span></a></li>
+		<li id="mobile-menu-item-15421" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-2/" class=""><span>Lux Wedding Cakes – Pink &#038; Red Collection</span></a></li>
+		<li id="mobile-menu-item-15396" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-3/" class=""><span>Lux Wedding Cakes – Blue Collection</span></a></li>
+		<li id="mobile-menu-item-15400" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-4/" class=""><span>Lux Wedding Cakes – Black Collection</span></a></li>
+		<li id="mobile-menu-item-15403" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-5/" class=""><span>Lux Wedding Cakes – Green Collection</span></a></li>
+		<li id="mobile-menu-item-15406" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/wedding-cakes-portfolio-6/" class=""><span>Lux Wedding Cakes – Themed Collection</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-11485" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><a href="https://cocoaberrycake.com/signature-cakes/" class=""><span>Signature Luxury Cakes</span></a><span class="mobile_arrow"><i class="eltdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-15431" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-cakes-portfolio-3/" class=""><span>Lux Signature Cakes – White &#038; Blush Collection</span></a></li>
+		<li id="mobile-menu-item-15424" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-cakes-portfolio-1/" class=""><span>Lux Signature Cakes – Pink Collection</span></a></li>
+		<li id="mobile-menu-item-15454" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-cakes-portfolio-2/" class=""><span>Lux Signature Cakes – Blue &#038; Lavender Collection</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-19183" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/mini-lux-cakes/" class=""><span>Mini LUX Cakes</span></a></li>
+	<li id="mobile-menu-item-11491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><a href="https://cocoaberrycake.com/cupcakes/" class=""><span>Petals &#038; LUX Cupcakes</span></a><span class="mobile_arrow"><i class="eltdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-15519" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-cupcakes-portfolio-1/" class=""><span>Petals &#038; LUX Collection 1</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-16070" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/sweet-blooms/" class=""><span>Signature “Sweet Blooms” Brownie Box</span></a></li>
+	<li id="mobile-menu-item-11497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><a href="https://cocoaberrycake.com/raw-and-vegan/" class=""><span>Signature Custom Shapes, Letters &#038; Number Cookie Cakes</span></a><span class="mobile_arrow"><i class="eltdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-15487" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/cookie-cakes-portfolio-1/" class=""><span>Cookie Cakes Collection 1</span></a></li>
+		<li id="mobile-menu-item-15491" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/cookie-cakes-portfolio-2/" class=""><span>Cookie Cakes Collection 2</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-20360" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/letters-number-custom-shapes-cupcakes/" class=""><span>Letters, Number &#038; Custom Shapes Cupcakes</span></a></li>
+	<li id="mobile-menu-item-20641" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/lux-macaroon-wreaths/" class=""><span>LuX Macaroon Wreaths</span></a></li>
+	<li id="mobile-menu-item-11488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><a href="https://cocoaberrycake.com/macarons/" class=""><span>Signature Macaroons</span></a><span class="mobile_arrow"><i class="eltdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-15552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-macaroons-portfolio-1/" class=""><span>Signature Macaroons Collection 1</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-11500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><a href="https://cocoaberrycake.com/themed-cakes/" class=""><span>Signature Themed Cakes</span></a><span class="mobile_arrow"><i class="eltdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-15456" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-themed-cakes-portfolio-1/" class=""><span>Signature Themed Cakes Collection1</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-11763" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/signature-cookies/" class=""><span>Signature Sugar Cookies</span></a></li>
+	<li id="mobile-menu-item-11494" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/artisan-chocolates/" class=""><span>Signature Artisan Chocolates</span></a></li>
+	<li id="mobile-menu-item-12922" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/cakes-and-celebrations/keto-desserts-and-keto-cakes/" class=""><span>Keto Cakes, Keto Breads, Keto Desserts and More</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-11895" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>The Bakery</span></h6><span class="mobile_arrow"><i class="eltdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-11343" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/about-us/" class=""><span>About Us</span></a></li>
+	<li id="mobile-menu-item-16640" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/contact/" class=""><span>Contact Us</span></a></li>
+	<li id="mobile-menu-item-16705" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/faqs/" class=""><span>FAQS</span></a></li>
+	<li id="mobile-menu-item-11876" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/news/" class=""><span>Services</span></a></li>
+	<li id="mobile-menu-item-16929" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/courses/" class=""><span>Courses</span></a></li>
+	<li id="mobile-menu-item-16930" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/cake-tasting/" class=""><span>Cake Tasting</span></a></li>
+	<li id="mobile-menu-item-11444" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/testimonials/" class=""><span>Testimonials</span></a></li>
+	<li id="mobile-menu-item-13425" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/preferred-vendors/" class=""><span>Preferred Vendors</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-11532" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/flavors/" class=""><span>Flavors</span></a></li>
+<li id="mobile-menu-item-11365" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/the-news/" class=""><span>Press</span></a></li>
+<li id="mobile-menu-item-11344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><a href="https://cocoaberrycake.com/store/" class=""><span>Store</span></a><span class="mobile_arrow"><i class="eltdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-12620" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/shop/" class=""><span>Cart</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-13667" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://cocoaberrycake.com/subscribe/" class=""><span>Subscribe</span></a></li>
+<li id="mobile-menu-item-16044" class="store-menu menu-item menu-item-type-custom menu-item-object-custom "><a href="https://cocoaberrycake.com/store/" class=""><span>Shop Online</span></a></li>
+</ul>    </div>
+</nav>
+
+	</div>
+	
+	</header>
+
+		    
+			<div class="eltdf-content" style="margin-top: -180px">
+	            <div class="eltdf-content-inner">
+					<div class="eltdf-page-not-found">
+						
+						
+						<h1 class="eltdf-page-not-found-title">
+							404						</h1>
+
+						<h4 class="eltdf-page-not-found-subtitle">
+							Page not found						</h4>
+
+						<p class="eltdf-page-not-found-text">
+													</p>
+						
+						<a itemprop="url" href="https://cocoaberrycake.com/" target="_self"  class="eltdf-btn eltdf-btn-large eltdf-btn-solid"  >
+    <span class="eltdf-btn-text">BACK TO HOME</span>
+    </a>					</div>
+				</div>	
+			</div>
+		</div>
+	</div>		
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/sweettooth\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>
+// 	WC-259389-220602-AVU START
+	window.addEventListener('load', () => {
+		const couponCodeField = document.querySelector('.woocommerce-cart-form__contents tbody tr:last-child')
+		
+		if (couponCodeField) {
+			couponCodeField.remove()
+			
+			const giftCardForm = document.getElementById('pwgc-redeem-form')
+			giftCardForm.appendChild(couponCodeField)
+		}
+	})
+// 	WC-259389-220602-AVU END
+</script>	<script>
+		document.addEventListener('cmplz_before_cookiebanner', function() {
+			if (cmplz_has_consent('statistics')) {
+				enableButtonizer();
+			}
+		});
+		document.addEventListener('cmplz_status_change', function (e) {
+			if (e.detail.category === 'statistics' && e.detail.value==='allow') {
+				enableButtonizer();
+			}
+		});
+	</script>
+				<!-- Facebook Pixel Code -->
+			<noscript>
+				<img
+					height="1"
+					width="1"
+					style="display:none"
+					alt="fbpx"
+					src="https://www.facebook.com/tr?id=401709854849967&ev=PageView&noscript=1"
+				/>
+			</noscript>
+			<!-- End Facebook Pixel Code -->
+				<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='wc-blocks-style-css' href='https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_reset_css-css' href='https://cocoaberrycake.com/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.8.18' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_datepicker_css-css' href='https://cocoaberrycake.com/wp-content/plugins/gravityforms/legacy/css/datepicker.min.css?ver=2.8.18' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css' href='https://cocoaberrycake.com/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.8.18' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css' href='https://cocoaberrycake.com/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.8.18' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css' href='https://cocoaberrycake.com/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.8.18' type='text/css' media='all' />
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/data-tables-generator-by-supsystic/app/assets/js/dtgsnonce.js?ver=0.01" id="dtgs_nonce_frontend-js"></script>
+<script type="text/javascript" id="dtgs_nonce_frontend-js-after">
+/* <![CDATA[ */
+var DTGS_NONCE_FRONTEND = "31973d5945"
+/* ]]> */
+</script>
+<script type="text/javascript" id="eio-lazy-load-js-before">
+/* <![CDATA[ */
+var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":0,"bg_min_dpr":1.1,"threshold":0,"use_dpr":1};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=831" id="eio-lazy-load-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1" id="react-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?ver=18.3.1" id="react-jsx-runtime-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/deprecated.min.js?ver=e1f84915c5e8ae38964c" id="wp-deprecated-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/dom.min.js?ver=80bd57c84b45cf04f4ce" id="wp-dom-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1" id="react-dom-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2" id="wp-escape-html-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/element.min.js?ver=a4eeeadd23c0d7ab1d2d" id="wp-element-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=e0f9f1d78d83f5196979" id="wp-is-shallow-equal-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/keycodes.min.js?ver=034ff647a54b018581d3" id="wp-keycodes-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/priority-queue.min.js?ver=9c21c957c7e50ffdbf48" id="wp-priority-queue-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/compose.min.js?ver=84bcf832a5c99203f3db" id="wp-compose-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/primitives.min.js?ver=aef2543ab60c8c9bb609" id="wp-primitives-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/plugins.min.js?ver=20303a2de19246c83e5a" id="wp-plugins-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14" id="wp-a11y-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1" id="moment-js"></script>
+<script type="text/javascript" id="moment-js-after">
+/* <![CDATA[ */
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/date.min.js?ver=85ff222add187a4e358f" id="wp-date-js"></script>
+<script type="text/javascript" id="wp-date-js-after">
+/* <![CDATA[ */
+wp.date.setSettings( {"l10n":{"locale":"en_US","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s from now","past":"%s ago","s":"a second","ss":"%d seconds","m":"a minute","mm":"%d minutes","h":"an hour","hh":"%d hours","d":"a day","dd":"%d days","M":"a month","MM":"%d months","y":"a year","yy":"%d years"},"startOfWeek":1},"formats":{"time":"g:i a","date":"F j, Y","datetime":"F j, Y g:i a","datetimeAbbreviated":"M j, Y g:i a"},"timezone":{"offset":0,"offsetFormatted":"0","string":"","abbr":""}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/html-entities.min.js?ver=2cd3358363e0675638fb" id="wp-html-entities-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/private-apis.min.js?ver=0f8478f1ba7e0eea562b" id="wp-private-apis-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/redux-routine.min.js?ver=8bb92d45458b29590f53" id="wp-redux-routine-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/data.min.js?ver=fe6c4835cd00e12493c3" id="wp-data-js"></script>
+<script type="text/javascript" id="wp-data-js-after">
+/* <![CDATA[ */
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/rich-text.min.js?ver=74178fc8c4d67d66f1a8" id="wp-rich-text-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/warning.min.js?ver=ed7c8b0940914f4fe44b" id="wp-warning-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/components.min.js?ver=865f2ec3b5f5195705e0" id="wp-components-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-cart-checkout-base-frontend.js?ver=56daaae21456ba6fa364" id="wc-cart-checkout-base-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-cart-checkout-vendors-frontend.js?ver=d179e1f113881cf2f0a9" id="wc-cart-checkout-vendors-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-types.js?ver=de925be9bc9f555c810c" id="wc-types-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/blocks/blocks-checkout-events.js?ver=2d0fd4590f6cc663947c" id="wc-blocks-checkout-events-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/url.min.js?ver=c2964167dfe2477c14ea" id="wp-url-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/api-fetch.min.js?ver=3623a576c78df404ff20" id="wp-api-fetch-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-after">
+/* <![CDATA[ */
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://cocoaberrycake.com/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "57d58f515f" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://cocoaberrycake.com/wp-admin/admin-ajax.php?action=rest-nonce";
+/* ]]> */
+</script>
+<script type="text/javascript" id="wc-settings-js-before">
+/* <![CDATA[ */
+var wcSettings = JSON.parse( decodeURIComponent( '%7B%22shippingCostRequiresAddress%22%3Atrue%2C%22defaultFields%22%3A%7B%22email%22%3A%7B%22label%22%3A%22Email%20address%22%2C%22optionalLabel%22%3A%22Email%20address%20%28optional%29%22%2C%22required%22%3Atrue%2C%22hidden%22%3Afalse%2C%22autocomplete%22%3A%22email%22%2C%22autocapitalize%22%3A%22none%22%2C%22type%22%3A%22email%22%2C%22index%22%3A0%7D%2C%22country%22%3A%7B%22label%22%3A%22Country%20%5C%2F%20Region%22%2C%22optionalLabel%22%3A%22Country%20%5C%2F%20Region%20%28optional%29%22%2C%22required%22%3Atrue%2C%22hidden%22%3Afalse%2C%22autocomplete%22%3A%22country%22%2C%22index%22%3A20%7D%2C%22first_name%22%3A%7B%22label%22%3A%22First%20name%22%2C%22optionalLabel%22%3A%22First%20name%20%28optional%29%22%2C%22required%22%3Atrue%2C%22hidden%22%3Afalse%2C%22autocomplete%22%3A%22given-name%22%2C%22autocapitalize%22%3A%22sentences%22%2C%22index%22%3A110%7D%2C%22last_name%22%3A%7B%22label%22%3A%22Last%20name%22%2C%22optionalLabel%22%3A%22Last%20name%20%28optional%29%22%2C%22required%22%3Atrue%2C%22hidden%22%3Afalse%2C%22autocomplete%22%3A%22family-name%22%2C%22autocapitalize%22%3A%22sentences%22%2C%22index%22%3A210%7D%2C%22company%22%3A%7B%22label%22%3A%22Company%20name%22%2C%22optionalLabel%22%3A%22Company%20name%20%28optional%29%22%2C%22required%22%3Afalse%2C%22hidden%22%3Afalse%2C%22autocomplete%22%3A%22organization%22%2C%22autocapitalize%22%3A%22sentences%22%2C%22index%22%3A310%7D%2C%22address_1%22%3A%7B%22label%22%3A%22Street%20address%22%2C%22optionalLabel%22%3A%22Street%20address%20%28optional%29%22%2C%22required%22%3Atrue%2C%22hidden%22%3Afalse%2C%22autocomplete%22%3A%22address-line1%22%2C%22autocapitalize%22%3A%22sentences%22%2C%22index%22%3A410%7D%2C%22address_2%22%3A%7B%22label%22%3A%22Apartment%2C%20suite%2C%20unit%2C%20etc.%22%2C%22optionalLabel%22%3A%22Apartment%2C%20suite%2C%20unit%2C%20etc.%20%28optional%29%22%2C%22required%22%3Afalse%2C%22hidden%22%3Afalse%2C%22autocomplete%22%3A%22address-line2%22%2C%22autocapitalize%22%3A%22sentences%22%2C%22index%22%3A510%7D%2C%22city%22%3A%7B%22label%22%3A%22Town%20%5C%2F%20City%22%2C%22optionalLabel%22%3A%22Town%20%5C%2F%20City%20%28optional%29%22%2C%22required%22%3Atrue%2C%22hidden%22%3Afalse%2C%22autocomplete%22%3A%22address-level2%22%2C%22autocapitalize%22%3A%22sentences%22%2C%22index%22%3A710%7D%2C%22state%22%3A%7B%22label%22%3A%22State%20%5C%2F%20County%22%2C%22optionalLabel%22%3A%22State%20%5C%2F%20County%20%28optional%29%22%2C%22required%22%3Atrue%2C%22hidden%22%3Afalse%2C%22autocomplete%22%3A%22address-level1%22%2C%22autocapitalize%22%3A%22sentences%22%2C%22index%22%3A810%7D%2C%22postcode%22%3A%7B%22label%22%3A%22Postcode%20%5C%2F%20ZIP%22%2C%22optionalLabel%22%3A%22Postcode%20%5C%2F%20ZIP%20%28optional%29%22%2C%22required%22%3Atrue%2C%22hidden%22%3Afalse%2C%22autocomplete%22%3A%22postal-code%22%2C%22autocapitalize%22%3A%22characters%22%2C%22index%22%3A910%7D%2C%22phone%22%3A%7B%22label%22%3A%22Phone%22%2C%22optionalLabel%22%3A%22Phone%20%28optional%29%22%2C%22required%22%3Afalse%2C%22hidden%22%3Afalse%2C%22type%22%3A%22tel%22%2C%22autocomplete%22%3A%22tel%22%2C%22autocapitalize%22%3A%22characters%22%2C%22index%22%3A810%7D%7D%2C%22adminUrl%22%3A%22https%3A%5C%2F%5C%2Fcocoaberrycake.com%5C%2Fwp-admin%5C%2F%22%2C%22countries%22%3A%7B%22AF%22%3A%22Afghanistan%22%2C%22AX%22%3A%22%5Cu00c5land%20Islands%22%2C%22AL%22%3A%22Albania%22%2C%22DZ%22%3A%22Algeria%22%2C%22AS%22%3A%22American%20Samoa%22%2C%22AD%22%3A%22Andorra%22%2C%22AO%22%3A%22Angola%22%2C%22AI%22%3A%22Anguilla%22%2C%22AQ%22%3A%22Antarctica%22%2C%22AG%22%3A%22Antigua%20and%20Barbuda%22%2C%22AR%22%3A%22Argentina%22%2C%22AM%22%3A%22Armenia%22%2C%22AW%22%3A%22Aruba%22%2C%22AU%22%3A%22Australia%22%2C%22AT%22%3A%22Austria%22%2C%22AZ%22%3A%22Azerbaijan%22%2C%22BS%22%3A%22Bahamas%22%2C%22BH%22%3A%22Bahrain%22%2C%22BD%22%3A%22Bangladesh%22%2C%22BB%22%3A%22Barbados%22%2C%22BY%22%3A%22Belarus%22%2C%22PW%22%3A%22Belau%22%2C%22BE%22%3A%22Belgium%22%2C%22BZ%22%3A%22Belize%22%2C%22BJ%22%3A%22Benin%22%2C%22BM%22%3A%22Bermuda%22%2C%22BT%22%3A%22Bhutan%22%2C%22BO%22%3A%22Bolivia%22%2C%22BQ%22%3A%22Bonaire%2C%20Saint%20Eustatius%20and%20Saba%22%2C%22BA%22%3A%22Bosnia%20and%20Herzegovina%22%2C%22BW%22%3A%22Botswana%22%2C%22BV%22%3A%22Bouvet%20Island%22%2C%22BR%22%3A%22Brazil%22%2C%22IO%22%3A%22British%20Indian%20Ocean%20Territory%22%2C%22BN%22%3A%22Brunei%22%2C%22BG%22%3A%22Bulgaria%22%2C%22BF%22%3A%22Burkina%20Faso%22%2C%22BI%22%3A%22Burundi%22%2C%22KH%22%3A%22Cambodia%22%2C%22CM%22%3A%22Cameroon%22%2C%22CA%22%3A%22Canada%22%2C%22CV%22%3A%22Cape%20Verde%22%2C%22KY%22%3A%22Cayman%20Islands%22%2C%22CF%22%3A%22Central%20African%20Republic%22%2C%22TD%22%3A%22Chad%22%2C%22CL%22%3A%22Chile%22%2C%22CN%22%3A%22China%22%2C%22CX%22%3A%22Christmas%20Island%22%2C%22CC%22%3A%22Cocos%20%28Keeling%29%20Islands%22%2C%22CO%22%3A%22Colombia%22%2C%22KM%22%3A%22Comoros%22%2C%22CG%22%3A%22Congo%20%28Brazzaville%29%22%2C%22CD%22%3A%22Congo%20%28Kinshasa%29%22%2C%22CK%22%3A%22Cook%20Islands%22%2C%22CR%22%3A%22Costa%20Rica%22%2C%22HR%22%3A%22Croatia%22%2C%22CU%22%3A%22Cuba%22%2C%22CW%22%3A%22Cura%26ccedil%3Bao%22%2C%22CY%22%3A%22Cyprus%22%2C%22CZ%22%3A%22Czech%20Republic%22%2C%22DK%22%3A%22Denmark%22%2C%22DJ%22%3A%22Djibouti%22%2C%22DM%22%3A%22Dominica%22%2C%22DO%22%3A%22Dominican%20Republic%22%2C%22EC%22%3A%22Ecuador%22%2C%22EG%22%3A%22Egypt%22%2C%22SV%22%3A%22El%20Salvador%22%2C%22GQ%22%3A%22Equatorial%20Guinea%22%2C%22ER%22%3A%22Eritrea%22%2C%22EE%22%3A%22Estonia%22%2C%22SZ%22%3A%22Eswatini%22%2C%22ET%22%3A%22Ethiopia%22%2C%22FK%22%3A%22Falkland%20Islands%22%2C%22FO%22%3A%22Faroe%20Islands%22%2C%22FJ%22%3A%22Fiji%22%2C%22FI%22%3A%22Finland%22%2C%22FR%22%3A%22France%22%2C%22GF%22%3A%22French%20Guiana%22%2C%22PF%22%3A%22French%20Polynesia%22%2C%22TF%22%3A%22French%20Southern%20Territories%22%2C%22GA%22%3A%22Gabon%22%2C%22GM%22%3A%22Gambia%22%2C%22GE%22%3A%22Georgia%22%2C%22DE%22%3A%22Germany%22%2C%22GH%22%3A%22Ghana%22%2C%22GI%22%3A%22Gibraltar%22%2C%22GR%22%3A%22Greece%22%2C%22GL%22%3A%22Greenland%22%2C%22GD%22%3A%22Grenada%22%2C%22GP%22%3A%22Guadeloupe%22%2C%22GU%22%3A%22Guam%22%2C%22GT%22%3A%22Guatemala%22%2C%22GG%22%3A%22Guernsey%22%2C%22GN%22%3A%22Guinea%22%2C%22GW%22%3A%22Guinea-Bissau%22%2C%22GY%22%3A%22Guyana%22%2C%22HT%22%3A%22Haiti%22%2C%22HM%22%3A%22Heard%20Island%20and%20McDonald%20Islands%22%2C%22HN%22%3A%22Honduras%22%2C%22HK%22%3A%22Hong%20Kong%22%2C%22HU%22%3A%22Hungary%22%2C%22IS%22%3A%22Iceland%22%2C%22IN%22%3A%22India%22%2C%22ID%22%3A%22Indonesia%22%2C%22IR%22%3A%22Iran%22%2C%22IQ%22%3A%22Iraq%22%2C%22IE%22%3A%22Ireland%22%2C%22IM%22%3A%22Isle%20of%20Man%22%2C%22IL%22%3A%22Israel%22%2C%22IT%22%3A%22Italy%22%2C%22CI%22%3A%22Ivory%20Coast%22%2C%22JM%22%3A%22Jamaica%22%2C%22JP%22%3A%22Japan%22%2C%22JE%22%3A%22Jersey%22%2C%22JO%22%3A%22Jordan%22%2C%22KZ%22%3A%22Kazakhstan%22%2C%22KE%22%3A%22Kenya%22%2C%22KI%22%3A%22Kiribati%22%2C%22XK%22%3A%22Kosovo%22%2C%22KW%22%3A%22Kuwait%22%2C%22KG%22%3A%22Kyrgyzstan%22%2C%22LA%22%3A%22Laos%22%2C%22LV%22%3A%22Latvia%22%2C%22LB%22%3A%22Lebanon%22%2C%22LS%22%3A%22Lesotho%22%2C%22LR%22%3A%22Liberia%22%2C%22LY%22%3A%22Libya%22%2C%22LI%22%3A%22Liechtenstein%22%2C%22LT%22%3A%22Lithuania%22%2C%22LU%22%3A%22Luxembourg%22%2C%22MO%22%3A%22Macao%22%2C%22MG%22%3A%22Madagascar%22%2C%22MW%22%3A%22Malawi%22%2C%22MY%22%3A%22Malaysia%22%2C%22MV%22%3A%22Maldives%22%2C%22ML%22%3A%22Mali%22%2C%22MT%22%3A%22Malta%22%2C%22MH%22%3A%22Marshall%20Islands%22%2C%22MQ%22%3A%22Martinique%22%2C%22MR%22%3A%22Mauritania%22%2C%22MU%22%3A%22Mauritius%22%2C%22YT%22%3A%22Mayotte%22%2C%22MX%22%3A%22Mexico%22%2C%22FM%22%3A%22Micronesia%22%2C%22MD%22%3A%22Moldova%22%2C%22MC%22%3A%22Monaco%22%2C%22MN%22%3A%22Mongolia%22%2C%22ME%22%3A%22Montenegro%22%2C%22MS%22%3A%22Montserrat%22%2C%22MA%22%3A%22Morocco%22%2C%22MZ%22%3A%22Mozambique%22%2C%22MM%22%3A%22Myanmar%22%2C%22NA%22%3A%22Namibia%22%2C%22NR%22%3A%22Nauru%22%2C%22NP%22%3A%22Nepal%22%2C%22NL%22%3A%22Netherlands%22%2C%22NC%22%3A%22New%20Caledonia%22%2C%22NZ%22%3A%22New%20Zealand%22%2C%22NI%22%3A%22Nicaragua%22%2C%22NE%22%3A%22Niger%22%2C%22NG%22%3A%22Nigeria%22%2C%22NU%22%3A%22Niue%22%2C%22NF%22%3A%22Norfolk%20Island%22%2C%22KP%22%3A%22North%20Korea%22%2C%22MK%22%3A%22North%20Macedonia%22%2C%22MP%22%3A%22Northern%20Mariana%20Islands%22%2C%22NO%22%3A%22Norway%22%2C%22OM%22%3A%22Oman%22%2C%22PK%22%3A%22Pakistan%22%2C%22PS%22%3A%22Palestinian%20Territory%22%2C%22PA%22%3A%22Panama%22%2C%22PG%22%3A%22Papua%20New%20Guinea%22%2C%22PY%22%3A%22Paraguay%22%2C%22PE%22%3A%22Peru%22%2C%22PH%22%3A%22Philippines%22%2C%22PN%22%3A%22Pitcairn%22%2C%22PL%22%3A%22Poland%22%2C%22PT%22%3A%22Portugal%22%2C%22PR%22%3A%22Puerto%20Rico%22%2C%22QA%22%3A%22Qatar%22%2C%22RE%22%3A%22Reunion%22%2C%22RO%22%3A%22Romania%22%2C%22RU%22%3A%22Russia%22%2C%22RW%22%3A%22Rwanda%22%2C%22ST%22%3A%22S%26atilde%3Bo%20Tom%26eacute%3B%20and%20Pr%26iacute%3Bncipe%22%2C%22BL%22%3A%22Saint%20Barth%26eacute%3Blemy%22%2C%22SH%22%3A%22Saint%20Helena%22%2C%22KN%22%3A%22Saint%20Kitts%20and%20Nevis%22%2C%22LC%22%3A%22Saint%20Lucia%22%2C%22SX%22%3A%22Saint%20Martin%20%28Dutch%20part%29%22%2C%22MF%22%3A%22Saint%20Martin%20%28French%20part%29%22%2C%22PM%22%3A%22Saint%20Pierre%20and%20Miquelon%22%2C%22VC%22%3A%22Saint%20Vincent%20and%20the%20Grenadines%22%2C%22WS%22%3A%22Samoa%22%2C%22SM%22%3A%22San%20Marino%22%2C%22SA%22%3A%22Saudi%20Arabia%22%2C%22SN%22%3A%22Senegal%22%2C%22RS%22%3A%22Serbia%22%2C%22SC%22%3A%22Seychelles%22%2C%22SL%22%3A%22Sierra%20Leone%22%2C%22SG%22%3A%22Singapore%22%2C%22SK%22%3A%22Slovakia%22%2C%22SI%22%3A%22Slovenia%22%2C%22SB%22%3A%22Solomon%20Islands%22%2C%22SO%22%3A%22Somalia%22%2C%22ZA%22%3A%22South%20Africa%22%2C%22GS%22%3A%22South%20Georgia%5C%2FSandwich%20Islands%22%2C%22KR%22%3A%22South%20Korea%22%2C%22SS%22%3A%22South%20Sudan%22%2C%22ES%22%3A%22Spain%22%2C%22LK%22%3A%22Sri%20Lanka%22%2C%22SD%22%3A%22Sudan%22%2C%22SR%22%3A%22Suriname%22%2C%22SJ%22%3A%22Svalbard%20and%20Jan%20Mayen%22%2C%22SE%22%3A%22Sweden%22%2C%22CH%22%3A%22Switzerland%22%2C%22SY%22%3A%22Syria%22%2C%22TW%22%3A%22Taiwan%22%2C%22TJ%22%3A%22Tajikistan%22%2C%22TZ%22%3A%22Tanzania%22%2C%22TH%22%3A%22Thailand%22%2C%22TL%22%3A%22Timor-Leste%22%2C%22TG%22%3A%22Togo%22%2C%22TK%22%3A%22Tokelau%22%2C%22TO%22%3A%22Tonga%22%2C%22TT%22%3A%22Trinidad%20and%20Tobago%22%2C%22TN%22%3A%22Tunisia%22%2C%22TR%22%3A%22T%5Cu00fcrkiye%22%2C%22TM%22%3A%22Turkmenistan%22%2C%22TC%22%3A%22Turks%20and%20Caicos%20Islands%22%2C%22TV%22%3A%22Tuvalu%22%2C%22UG%22%3A%22Uganda%22%2C%22UA%22%3A%22Ukraine%22%2C%22AE%22%3A%22United%20Arab%20Emirates%22%2C%22GB%22%3A%22United%20Kingdom%20%28UK%29%22%2C%22US%22%3A%22United%20States%20%28US%29%22%2C%22UM%22%3A%22United%20States%20%28US%29%20Minor%20Outlying%20Islands%22%2C%22UY%22%3A%22Uruguay%22%2C%22UZ%22%3A%22Uzbekistan%22%2C%22VU%22%3A%22Vanuatu%22%2C%22VA%22%3A%22Vatican%22%2C%22VE%22%3A%22Venezuela%22%2C%22VN%22%3A%22Vietnam%22%2C%22VG%22%3A%22Virgin%20Islands%20%28British%29%22%2C%22VI%22%3A%22Virgin%20Islands%20%28US%29%22%2C%22WF%22%3A%22Wallis%20and%20Futuna%22%2C%22EH%22%3A%22Western%20Sahara%22%2C%22YE%22%3A%22Yemen%22%2C%22ZM%22%3A%22Zambia%22%2C%22ZW%22%3A%22Zimbabwe%22%7D%2C%22currency%22%3A%7B%22code%22%3A%22USD%22%2C%22precision%22%3A2%2C%22symbol%22%3A%22%24%22%2C%22symbolPosition%22%3A%22left%22%2C%22decimalSeparator%22%3A%22.%22%2C%22thousandSeparator%22%3A%22%2C%22%2C%22priceFormat%22%3A%22%251%24s%252%24s%22%7D%2C%22currentUserId%22%3A0%2C%22currentUserIsAdmin%22%3Afalse%2C%22currentThemeIsFSETheme%22%3Afalse%2C%22dateFormat%22%3A%22F%20j%2C%20Y%22%2C%22homeUrl%22%3A%22https%3A%5C%2F%5C%2Fcocoaberrycake.com%5C%2F%22%2C%22locale%22%3A%7B%22siteLocale%22%3A%22en_US%22%2C%22userLocale%22%3A%22en_US%22%2C%22weekdaysShort%22%3A%5B%22Sun%22%2C%22Mon%22%2C%22Tue%22%2C%22Wed%22%2C%22Thu%22%2C%22Fri%22%2C%22Sat%22%5D%7D%2C%22isRemoteLoggingEnabled%22%3Atrue%2C%22dashboardUrl%22%3A%22https%3A%5C%2F%5C%2Fcocoaberrycake.com%5C%2Fmy-account%5C%2F%22%2C%22orderStatuses%22%3A%7B%22pending%22%3A%22Pending%20payment%22%2C%22processing%22%3A%22Processing%22%2C%22on-hold%22%3A%22On%20hold%22%2C%22completed%22%3A%22Completed%22%2C%22cancelled%22%3A%22Cancelled%22%2C%22refunded%22%3A%22Refunded%22%2C%22failed%22%3A%22Failed%22%2C%22checkout-draft%22%3A%22Draft%22%7D%2C%22placeholderImgSrc%22%3A%22https%3A%5C%2F%5C%2Fcocoaberrycake.com%5C%2Fwp-content%5C%2Fuploads%5C%2Fwoocommerce-placeholder-300x300.png%22%2C%22productsSettings%22%3A%7B%22cartRedirectAfterAdd%22%3Atrue%7D%2C%22siteTitle%22%3A%22CocoaBerry%20Cake%20Co.%22%2C%22storePages%22%3A%7B%22myaccount%22%3A%7B%22id%22%3A7%2C%22title%22%3A%22My%20Account%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fcocoaberrycake.com%5C%2Fmy-account%5C%2F%22%7D%2C%22shop%22%3A%7B%22id%22%3A5%2C%22title%22%3A%22Store%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fcocoaberrycake.com%5C%2Fstore%5C%2F%22%7D%2C%22cart%22%3A%7B%22id%22%3A4%2C%22title%22%3A%22Cart%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fcocoaberrycake.com%5C%2Fshop%5C%2F%22%7D%2C%22checkout%22%3A%7B%22id%22%3A6%2C%22title%22%3A%22Checkout%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fcocoaberrycake.com%5C%2Fcheckout%5C%2F%22%7D%2C%22privacy%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%2C%22terms%22%3A%7B%22id%22%3A17%2C%22title%22%3A%22Services%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fcocoaberrycake.com%5C%2Fnews%5C%2F%22%7D%7D%2C%22wcAssetUrl%22%3A%22https%3A%5C%2F%5C%2Fcocoaberrycake.com%5C%2Fwp-content%5C%2Fplugins%5C%2Fwoocommerce%5C%2Fassets%5C%2F%22%2C%22wcVersion%22%3A%2210.4.3%22%2C%22wpLoginUrl%22%3A%22https%3A%5C%2F%5C%2Fcocoaberrycake.com%5C%2Fwp-login.php%22%2C%22wpVersion%22%3A%226.8.3%22%2C%22experimentalWcRestApiV4%22%3Afalse%7D' ) );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-settings.js?ver=508473c3c2ece9af8f8f" id="wc-settings-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-registry.js?ver=a16aa912ffa0a15063f1" id="wc-blocks-registry-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/data-controls.min.js?ver=49f5587e8b90f9e7cc7e" id="wp-data-controls-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/dist/notices.min.js?ver=673a68a7ac2f556ed50b" id="wp-notices-js"></script>
+<script type="text/javascript" id="wc-blocks-middleware-js-before">
+/* <![CDATA[ */
+			var wcBlocksMiddlewareConfig = {
+				storeApiNonce: 'ac7cc6676c',
+				wcStoreApiNonceTimestamp: '1768330926'
+			};
+			
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-middleware.js?ver=d79dedade2f2e4dc9df4" id="wc-blocks-middleware-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-data.js?ver=d62ecc40f192d0f05f05" id="wc-blocks-data-store-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/admin/sanitize/index.js?ver=c7a741f8dc5bec166999" id="wc-sanitize-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/blocks/blocks-components.js?ver=1cecc164412419d4282d" id="wc-blocks-components-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/client/blocks/blocks-checkout.js?ver=c71566edd56265d976c6" id="wc-blocks-checkout-js"></script>
+<script type="text/javascript" id="pwgc-wc-blocks-js-extra">
+/* <![CDATA[ */
+var pwgcBlocks = {"hideRedeemForm":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/pw-woocommerce-gift-cards/assets/dist/blocks.js?ver=2.29" id="pwgc-wc-blocks-js"></script>
+<script type="text/javascript" id="buttonizer_frontend_javascript-js-extra">
+/* <![CDATA[ */
+var buttonizer_ajax = {"ajaxurl":"https:\/\/cocoaberrycake.com\/wp-admin\/admin-ajax.php","version":"3.4.12","buttonizer_path":"https:\/\/cocoaberrycake.com\/wp-content\/plugins\/buttonizer-multifunctional-button","buttonizer_assets":"https:\/\/cocoaberrycake.com\/wp-content\/plugins\/buttonizer-multifunctional-button\/assets\/legacy\/","base_url":"https:\/\/cocoaberrycake.com","current":[],"in_preview":"","is_admin":"","cache":"a33989e7714ea817778fc2c6e36031d3","enable_ga_clicks":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/buttonizer-multifunctional-button/assets/legacy/frontend.min.js?v=a39bd9eefa47cf9346743d6e29db2d87&amp;ver=6.8.3" id="buttonizer_frontend_javascript-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/coblocks/dist/js/coblocks-animation.js?ver=3.1.16" id="coblocks-animation-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/coblocks/dist/js/vendors/tiny-swiper.js?ver=3.1.16" id="coblocks-tiny-swiper-js"></script>
+<script type="text/javascript" id="coblocks-tinyswiper-initializer-js-extra">
+/* <![CDATA[ */
+var coblocksTinyswiper = {"carouselPrevButtonAriaLabel":"Previous","carouselNextButtonAriaLabel":"Next","sliderImageAriaLabel":"Image"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/coblocks/dist/js/coblocks-tinyswiper-initializer.js?ver=3.1.16" id="coblocks-tinyswiper-initializer-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.13.3" id="jquery-ui-tabs-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.3" id="jquery-ui-accordion-js"></script>
+<script type="text/javascript" id="mediaelement-core-js-before">
+/* <![CDATA[ */
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17" id="mediaelement-core-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.8.3" id="mediaelement-migrate-js"></script>
+<script type="text/javascript" id="mediaelement-js-extra">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.8.3" id="wp-mediaelement-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/jquery.appear.js?ver=6.8.3" id="appear-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/modernizr.min.js?ver=6.8.3" id="modernizr-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/jquery.plugin.js?ver=6.8.3" id="jquery-plugin-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/owl.carousel.min.js?ver=6.8.3" id="owl-carousel-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/jquery.waypoints.min.js?ver=6.8.3" id="waypoints-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/Chart.min.js?ver=6.8.3" id="chart-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/fluidvids.min.js?ver=6.8.3" id="fluidvids-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=7.3" id="prettyphoto-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/jquery.nicescroll.min.js?ver=6.8.3" id="nicescroll-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/ScrollToPlugin.min.js?ver=6.8.3" id="ScrollToPlugin-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/parallax.min.js?ver=6.8.3" id="parallax-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/jquery.waitforimages.js?ver=6.8.3" id="waitforimages-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/jquery.easing.1.3.js?ver=6.8.3" id="jquery-easing-1.3-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=7.3" id="isotope-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules/plugins/packery-mode.pkgd.min.js?ver=6.8.3" id="packery-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/eltdf-core/shortcodes/countdown/assets/js/plugins/jquery.countdown.min.js?ver=6.8.3" id="countdown-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/eltdf-core/shortcodes/counter/assets/js/plugins/counter.js?ver=6.8.3" id="counter-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/eltdf-core/shortcodes/counter/assets/js/plugins/absoluteCounter.min.js?ver=6.8.3" id="absoluteCounter-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/eltdf-core/shortcodes/full-screen-sections/assets/js/plugins/jquery.fullPage.min.js?ver=6.8.3" id="fullPage-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/eltdf-core/shortcodes/pie-chart/assets/js/plugins/easypiechart.js?ver=6.8.3" id="easypiechart-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/eltdf-core/shortcodes/vertical-split-slider/assets/js/plugins/jquery.multiscroll.min.js?ver=6.8.3" id="multiscroll-js"></script>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?ver=6.8.3" id="sweettooth_elated_script_google_map_api-js"></script>
+<script type="text/javascript" id="sweettooth_elated_script_modules-js-extra">
+/* <![CDATA[ */
+var eltdfGlobalVars = {"vars":{"eltdfAddForAdminBar":0,"eltdfElementAppearAmount":-100,"eltdfAjaxUrl":"https:\/\/cocoaberrycake.com\/wp-admin\/admin-ajax.php","eltdfAddingToCart":"Adding to Cart...","eltdfStickyHeaderHeight":0,"eltdfStickyHeaderTransparencyHeight":70,"eltdfTopBarHeight":0,"eltdfLogoAreaHeight":90,"eltdfMenuAreaHeight":90,"eltdfMobileHeaderHeight":70}};
+var eltdfPerPageVars = {"vars":{"eltdfStickyScrollAmount":0,"eltdfHeaderTransparencyHeight":180}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/themes/sweettooth/assets/js/modules.min.js?ver=6.8.3" id="sweettooth_elated_script_modules-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=7.3" id="wpb_composer_front_js-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/build/woocommerce-analytics-client.js?minify=false&amp;ver=75adc3c1e2933e2c8c6a" id="woocommerce-analytics-client-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.4.3" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/cocoaberrycake.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.4.3" id="wc-order-attribution-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/assets/js/wc-gateway-ppec-order-review.js?ver=2.1.3" id="wc-gateway-ppec-order-review-js"></script>
+<script type="text/javascript" src="https://capi-automation.s3.us-east-2.amazonaws.com/public/client_js/capiParamBuilder/clientParamBuilder.bundle.js" id="facebook-capi-param-builder-js"></script>
+<script type="text/javascript" id="facebook-capi-param-builder-js-after">
+/* <![CDATA[ */
+if (typeof clientParamBuilder !== "undefined") {
+					clientParamBuilder.processAndCollectAllParams(window.location.href);
+				}
+/* ]]> */
+</script>
+<script type="text/javascript" id="jetpack-stats-js-before">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", {"v":"ext","blog":"126635394","post":"0","tz":"0","srv":"cocoaberrycake.com","arch_err":"/wp-content/uploads/2022/07/sugar-flowers-finespun-cakes-3-300x400.jpeg","j":"1:15.4"} ]);
+_stq.push([ "clickTrackerInit", "126635394", "0" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://stats.wp.com/e-202603.js" id="jetpack-stats-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wapf-frontend-js-extra">
+/* <![CDATA[ */
+var wapf_config = {"ajax":"https:\/\/cocoaberrycake.com\/wp-admin\/admin-ajax.php","page_type":"other","display_options":{"format":"%1$s%2$s","symbol":"&#36;","decimals":2,"decimal":".","thousand":",","trimzero":false},"slider_support":"","hint":"(+{x})"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-content/plugins/advanced-product-fields-for-woocommerce-pro/assets/js/frontend.min.js?ver=2.7.4" id="wapf-frontend-js"></script>
+<script type="text/javascript" defer='defer' src="https://cocoaberrycake.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.8.18" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/cocoaberrycake.com\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/cocoaberrycake.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/cocoaberrycake.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"d76f8b69dcadb487da4fb99925a62fab","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://cocoaberrycake.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.8.18" id="gform_gravityforms-js"></script>
+<script type="text/javascript" src="https://cocoaberrycake.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
+<script type="text/javascript" defer='defer' src="https://cocoaberrycake.com/wp-content/plugins/gravityforms/js/datepicker-legacy.min.js?ver=2.8.18" id="gform_datepicker_legacy-js"></script>
+<script type="text/javascript" defer='defer' src="https://cocoaberrycake.com/wp-content/plugins/gravityforms/js/datepicker.min.js?ver=2.8.18" id="gform_datepicker_init-js"></script>
+<script type="text/javascript" defer='defer' src="https://cocoaberrycake.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.8.18" id="gform_masked_input-js"></script>
+<script type="text/javascript" defer='defer' src="https://cocoaberrycake.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.8.18" id="gform_placeholder-js"></script>
+<script type="text/javascript" defer='defer' src="https://cocoaberrycake.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=50c7bea9c2320e16728e44ae9fde5f26" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" defer='defer' src="https://cocoaberrycake.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=54e7080aa7a02c83aa61fae430b9d869" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"d76f8b69dcadb487da4fb99925a62fab"}}},"hmr_dev":"","public_path":"https:\/\/cocoaberrycake.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://cocoaberrycake.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=bab19fd84843dabc070e73326d787910" id="gform_gravityforms_theme-js"></script>
+			<script data-category="functional">
+											</script>
+			<script></script><!-- WooCommerce JavaScript -->
+<script type="text/javascript">
+jQuery(function($) { 
+/* WooCommerce Facebook Integration Event Tracking */
+fbq('set', 'agent', 'woocommerce_0-10.4.3-3.5.15', '401709854849967');
+fbq('track', 'PageView', {
+    "source": "woocommerce_0",
+    "version": "10.4.3",
+    "pluginVersion": "3.5.15",
+    "user_data": {}
+}, {
+    "eventID": "129b7b80-a623-4935-a966-bb7e09e1911e"
+});
+ });
+</script>
+		<script type="text/javascript">
+			(function() {
+				window.wcAnalytics = window.wcAnalytics || {};
+				const wcAnalytics = window.wcAnalytics;
+
+				// Set the assets URL for webpack to find the split assets.
+				wcAnalytics.assets_url = 'https://cocoaberrycake.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/src/../build/';
+
+				// Set the REST API tracking endpoint URL.
+				wcAnalytics.trackEndpoint = 'https://cocoaberrycake.com/wp-json/woocommerce-analytics/v1/track';
+
+				// Set common properties for all events.
+				wcAnalytics.commonProps = {"blog_id":126635394,"store_id":"1ca5bfbb-76d9-44de-b226-f3b252e9076d","ui":null,"url":"https://cocoaberrycake.com","woo_version":"10.4.3","wp_version":"6.8.3","store_admin":0,"device":"desktop","store_currency":"USD","timezone":"+00:00","is_guest":1};
+
+				// Set the event queue.
+				wcAnalytics.eventQueue = [];
+
+				// Features.
+				wcAnalytics.features = {
+					ch: false,
+					sessionTracking: false,
+					proxy: false,
+				};
+
+				wcAnalytics.breadcrumbs = ["Error 404"];
+
+				// Page context flags.
+				wcAnalytics.pages = {
+					isAccountPage: false,
+					isCart: false,
+				};
+			})();
+		</script>
+		<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }jQuery('#input_1_3').mask('(999) 999-9999').bind('keypress', function(e){if(e.which == 13){jQuery(this).blur();} } );} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [1, 1] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 1, currentPage: 1 } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+<div class="wttw" aria-hidden="true"><div class="wapf-ttp"></div></div>		<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),
+                _trfd.push({'tccl.baseHost':'secureserver.net'}),
+                _trfd.push({'ap':'wpaas_v2'},
+                    {'server':'bb3d3272e745'},
+                    {'pod':'c29-prod-p3-us-west-2'},
+                                        {'xid':'45325244'},
+                    {'wp':'6.8.3'},
+                    {'php':'7.4.33.11'},
+                    {'loggedin':'0'},
+                    {'cdn':'1'},
+                    {'builder':'wp-classic-editor'},
+                    {'theme':'sweettooth'},
+                    {'wds':'0'},
+                    {'wp_alloptions_count':'1349'},
+                    {'wp_alloptions_bytes':'543186'},
+                    {'gdl_coming_soon_page':'0'}
+                    , {'appid':'710215'}                 );
+            var trafficScript = document.createElement('script'); trafficScript.src = 'https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'; window.document.head.appendChild(trafficScript);</script>
+		<script>window.addEventListener('click', function (elem) { var _elem$target, _elem$target$dataset, _window, _window$_trfq; return (elem === null || elem === void 0 ? void 0 : (_elem$target = elem.target) === null || _elem$target === void 0 ? void 0 : (_elem$target$dataset = _elem$target.dataset) === null || _elem$target$dataset === void 0 ? void 0 : _elem$target$dataset.eid) && ((_window = window) === null || _window === void 0 ? void 0 : (_window$_trfq = _window._trfq) === null || _window$_trfq === void 0 ? void 0 : _window$_trfq.push(["cmdLogEvent", "click", elem.target.dataset.eid]));});</script>
+		<script src='https://img1.wsimg.com/traffic-assets/js/tccl-tti.min.js' onload="window.tti.calculateTTI()"></script>
+		</body>
+</html>

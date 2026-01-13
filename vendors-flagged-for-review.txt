@@ -1,19 +1,17 @@
-VENDORS IMAGE UPDATE LOG - 2026-01-12
+VENDORS IMAGE UPDATE LOG - 2026-01-13
 ==================================================
 
-SESSION 2 UPDATES:
-- Keepsake Photography by Karen - Updated with Pixieset profile image
-- The Traveling Stylists - Updated with real website image (Wix)
-- The Pretty Parlour - Updated with real website image (Wix)
+SESSION 3 UPDATES:
+- Artisan Production Films - Updated with Carats & Cake image
+- DJ SG - Updated with thedjsg.com portfolio image
+- DJ Carlos - Updated with Wix website image
+- Skiff's Cakes - Updated with WeddingWire profile image (also fixed alt text from "SusieCakes")
+- Beauty In Motion Studio - Updated with beautyims.com bridal image
+- Giant Photo Booth - Updated with Yelp photo
 
-REMAINING WITH STOCK IMAGES (8):
-- Stone & Sage Films (videographers) - Website not found
-- Artisan Production Films (videographers) - Website not found
+REMAINING WITH STOCK IMAGES (2):
+- Stone & Sage Films (videographers) - Website not found, no web presence
 - Coastal Wedding Dreams (officiants) - Website down (ERR_NAME_NOT_RESOLVED)
-- DJ SG (djs) - No findable web presence
-- DJ Carlos (djs) - No findable web presence
-- SusieCakes line 6941 (cakes) - Duplicate entry, may be mislabeled
-- Beauty In Motion Studio (hairmakeup) - Only SVG logo available
-- Giant Photo Booth (photo/creators) - Website has bot protection
 
-Note: These vendors retain category-appropriate stock images as no real images could be sourced.
+Note: These 2 vendors retain category-appropriate stock images as no real images could be sourced.
+All other 182 vendors now have real portfolio/profile images.

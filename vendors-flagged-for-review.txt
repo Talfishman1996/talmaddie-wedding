@@ -1,18 +1,19 @@
 VENDORS IMAGE UPDATE LOG - 2026-01-12
 ==================================================
 
-All 8 flagged vendors have been updated.
+SESSION 2 UPDATES:
+- Keepsake Photography by Karen - Updated with Pixieset profile image
+- The Traveling Stylists - Updated with real website image (Wix)
+- The Pretty Parlour - Updated with real website image (Wix)
 
-UPDATED WITH WEDDINGWIRE IMAGES (3):
-- EverTwo Films (videographers) - WeddingWire profile image
-- Santa Barbara Wedding Films (videographers) - WeddingWire profile image
-- Besame Floral & Events (florists) - WeddingWire profile image
+REMAINING WITH STOCK IMAGES (8):
+- Stone & Sage Films (videographers) - Website not found
+- Artisan Production Films (videographers) - Website not found
+- Coastal Wedding Dreams (officiants) - Website down (ERR_NAME_NOT_RESOLVED)
+- DJ SG (djs) - No findable web presence
+- DJ Carlos (djs) - No findable web presence
+- SusieCakes line 6941 (cakes) - Duplicate entry, may be mislabeled
+- Beauty In Motion Studio (hairmakeup) - Only SVG logo available
+- Giant Photo Booth (photo/creators) - Website has bot protection
 
-UPDATED WITH CATEGORY FALLBACKS (5):
-- Stone & Sage Films (videographers) - Using videographers fallback (not found on WeddingWire)
-- Dean Merrill Weddings (officiants) - Using officiants fallback (WeddingWire has no photos)
-- DJ SG (djs) - Using djs fallback (not found on WeddingWire)
-- The Traveling Stylists (hairmakeup) - Using hairmakeup fallback (WeddingWire listing is different location)
-- The Pretty Parlour (hairmakeup) - Using hairmakeup fallback (WeddingWire listing is different location)
-
-Note: Category fallback images are high-quality Unsplash photos representing each vendor type.
+Note: These vendors retain category-appropriate stock images as no real images could be sourced.

@@ -1,0 +1,37 @@
+VENDORS FLAGGED FOR MANUAL IMAGE REVIEW
+==================================================
+
+Total flagged: 8
+
+- Stone & Sage Films (videographers)
+  Image from: smilestationevents.com
+  Reason: Image domain does not match vendor
+
+- EverTwo Films (videographers)
+  Image from: cdn.prod.website-files.com
+  Reason: Image domain does not match vendor
+
+- Santa Barbara Wedding Films (videographers)
+  Image from: somethingbluebts.com
+  Reason: Image domain does not match vendor
+
+- Dean Merrill Weddings (officiants)
+  Image from: dmgphotoboothrental.com
+  Reason: Image domain does not match vendor
+
+- DJ SG (djs)
+  Image from: staygoldenphotobooth.com
+  Reason: Image domain does not match vendor
+
+- Besame Floral & Events (florists)
+  Image from: static1.squarespace.com
+  Reason: Image domain does not match vendor
+
+- The Traveling Stylists (hairmakeup)
+  Image from: topshotphotobooth.com
+  Reason: Image domain does not match vendor
+
+- The Pretty Parlour (hairmakeup)
+  Image from: pixsterphotobooths.com
+  Reason: Image domain does not match vendor
+

@@ -55,3 +55,34 @@ For multi-vendor research tasks:
 - Venue: Los Robles Golf Course, Thousand Oaks, CA
 - Guest count: ~40
 - Budget documented in MASTER-VENDOR-SUMMARY.md
+
+---
+
+## Current Task: Vendor Image Update (CCV3)
+
+### Goal
+Replace generic/mismatched images with REAL vendor portfolio images from Instagram, websites, or Yelp.
+
+### State Files
+- `vendor-images.json` - Manifest of all 184 vendors with image status
+- `vendors-flagged-for-review.txt` - Vendors using fallback images
+- `.claude/ralph-loop.local.md` - Loop progress state
+
+### Workflow
+See `.claude/rules/vendor-image-workflow.md` for detailed workflow.
+
+### Image Source Priority
+1. Instagram profile grid
+2. Vendor website portfolio
+3. Yelp business photos
+4. WeddingWire/TheKnot
+5. Category stock fallback (flag for manual review)
+
+### Completion Criteria
+- All 184 vendors processed
+- Each vendor has status: "updated" or "fallback"
+- Flagged vendors listed for manual review
+- Push to GitHub Pages
+
+### Key Rule
+**ONE edit to index.html at a time** - Sequential processing only!

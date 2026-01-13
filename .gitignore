@@ -1,5 +1,6 @@
 # Claude Code internal
 .claude/
+tmpclaude-*
 
 # OS files
 .DS_Store

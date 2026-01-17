@@ -1,0 +1,897 @@
+{
+  "scrape_date": "2026-01-13",
+  "status": "in_progress",
+  "summary": {
+    "total_vendors": 184,
+    "emails_found": 108,
+    "emails_verified": 108,
+    "emails_invalid": 1,
+    "pending_lookup": 42,
+    "last_updated": "2026-01-17",
+    "update_note": "Added 8 new emails from batch search (batches 1-12)"
+  },
+  "verified_emails": [
+    {
+      "name": "Kiernan Michelle Photography",
+      "email": "info@kiernanmichellephotography.com",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "Carissa Woo Photography",
+      "email": "carissawoo@gmail.com",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "The Sanadas",
+      "email": "HI@THESANADAS.COM",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "Adam Kent Photography",
+      "email": "adam@adamkentphotography.com",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "Kingdom Photography",
+      "email": "info@thekingdomphotography.com",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "Elizabeth Victoria Photography",
+      "email": "hello@elizabethvictoriaphotography.com",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "Brenna Weeks Photography",
+      "email": "brenna@brennaweeks.com",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "Emma + Josh Photography",
+      "email": "info@emmaandjosh.com",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "Jillian Rose Photography",
+      "email": "jillian@jillianrosephotography.com",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "Teresa Marie Photography",
+      "email": "info@teresamariephotos.com",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "Isabel Lawrence Photographers",
+      "email": "info@isabellawrence.com",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "Leslie Joy Photography",
+      "email": "hello@lesliejoyphotography.com",
+      "category": "photographers",
+      "verified": true
+    },
+    {
+      "name": "Shutter and Sound",
+      "email": "hello@shutterandsound.com",
+      "category": "videographers",
+      "verified": true
+    },
+    {
+      "name": "NST Pictures",
+      "email": "info@nstpictures.com",
+      "category": "videographers",
+      "verified": true
+    },
+    {
+      "name": "Amari Productions",
+      "email": "info@amariproductions.com",
+      "category": "videographers",
+      "verified": true
+    },
+    {
+      "name": "Symboll",
+      "email": "hello@symboll.com",
+      "category": "videographers",
+      "verified": true
+    },
+    {
+      "name": "O'Malley Reels",
+      "email": "omalleyreels@gmail.com",
+      "category": "videographers",
+      "verified": true
+    },
+    {
+      "name": "EverTwo Films",
+      "email": "evertwofilms@gmail.com",
+      "category": "videographers",
+      "verified": true
+    },
+    {
+      "name": "A Colored Mind",
+      "email": "acoloredmind168@gmail.com",
+      "category": "videographers",
+      "verified": true
+    },
+    {
+      "name": "Buena Weddings",
+      "email": "Oscar@BuenaWeddings.com",
+      "category": "videographers",
+      "verified": true
+    },
+    {
+      "name": "Devan Shae Media",
+      "email": "devanshaemedia@gmail.com",
+      "category": "videographers",
+      "verified": true
+    },
+    {
+      "name": "Santa Barbara Wedding Films",
+      "email": "SantaBarbaraWeddingFilms@gmail.com",
+      "category": "videographers",
+      "verified": true
+    },
+    {
+      "name": "Great Officiants",
+      "email": "info@greatofficiants.com",
+      "category": "officiants",
+      "verified": true
+    },
+    {
+      "name": "The Officiant Guy",
+      "email": "Chris@OfficiantGuy.com",
+      "category": "officiants",
+      "verified": true
+    },
+    {
+      "name": "Rabbi Michael Sternfield",
+      "email": "rabbimps@yahoo.com",
+      "category": "officiants",
+      "verified": true
+    },
+    {
+      "name": "Ceremonies by Bethel",
+      "email": "bethel@ceremoniesbybethel.com",
+      "category": "officiants",
+      "verified": true
+    },
+    {
+      "name": "JP Reynolds (JPR Weddings)",
+      "email": "jp@jprweddings.com",
+      "category": "officiants",
+      "verified": true
+    },
+    {
+      "name": "Officiant Eric",
+      "email": "eric@officianteric.com",
+      "category": "officiants",
+      "verified": true
+    },
+    {
+      "name": "Pastor Joshua Kapchinsky",
+      "email": "joshk@granitecreek.org",
+      "category": "officiants",
+      "verified": true
+    },
+    {
+      "name": "Rabbi Jonathan Klein",
+      "email": "rabbi@ravklein.com",
+      "category": "officiants",
+      "verified": true
+    },
+    {
+      "name": "Avow Ceremonies & Services",
+      "email": "avow.ceremony@gmail.com",
+      "category": "officiants",
+      "verified": true
+    },
+    {
+      "name": "Rabbi Barry Tuchman",
+      "email": "rabbi@weddingsandketubahs.com",
+      "category": "officiants",
+      "verified": true
+    },
+    {
+      "name": "DJ Sota Entertainment",
+      "email": "DJSotaEntertainment@gmail.com",
+      "category": "djs",
+      "verified": true
+    },
+    {
+      "name": "Elegant Event Entertainment",
+      "email": "info@elegantevententertainment.com",
+      "category": "djs",
+      "verified": true
+    },
+    {
+      "name": "Fuzion Entertainment",
+      "email": "admin@fuzionentertainment.com",
+      "category": "djs",
+      "verified": true
+    },
+    {
+      "name": "Spire",
+      "email": "JayByam@gmail.com",
+      "category": "djs",
+      "verified": true
+    },
+    {
+      "name": "Bouquet Sound",
+      "email": "info@bouquetsound.com",
+      "category": "djs",
+      "verified": true
+    },
+    {
+      "name": "Tangled Lotus",
+      "email": "tangledlotusfloraldesigns@gmail.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Fleur De Lis Floral",
+      "email": "wecare@fleurdelisfloral.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "The English Garden",
+      "email": "hello@theenglishgarden.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Primrose & Petals",
+      "email": "primroseandpetals@gmail.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Sherwood Florist",
+      "email": "hello@SherwoodFloristClaremont.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Greenwich Floral Design",
+      "email": "flowers@greenwichfloral.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Velvet Blooms",
+      "email": "hello@velvetblooms.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Angela's Florist",
+      "email": "angelasfloristnp@gmail.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Besame Floral & Events",
+      "email": "besamefloralevents@gmail.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Chaganti Florals",
+      "email": "chagantiflorals@gmail.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Flourish Design & Co.",
+      "email": "info@flourishdesignandco.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Shell's Petals",
+      "email": "shellspetals1@hotmail.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Sweet E's Bake Shop",
+      "email": "hello@sweetesbakeshop.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Butter Cake Shoppe",
+      "email": "letsparty@buttercakeshoppe.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Cocoaberry Cake Co.",
+      "email": "info@cocoaberrycake.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Sugar Blossom Bake Shop",
+      "email": "info@sugarblossombakeshop.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Sugar Lab Bake Shop",
+      "email": "hello@sugarlabbakeshop.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Sweet Art Bake Shop",
+      "email": "sweetartbysierra@gmail.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "SusieCakes",
+      "email": "Susie@SusieCakes.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Cake and Art",
+      "email": "order@cakeandart.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Awkward Pastry",
+      "email": "hello@awkwardpastry.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Beauty In Motion Studio",
+      "email": "info@beautyims.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "Beauty by Blythe",
+      "email": "Frances@beautybyblythe.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "On Location Glam",
+      "email": "INFO@FRANCESMARQUEZ.COM",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "Beholden Beauty",
+      "email": "Beholdenbeauties@gmail.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "Jana & Co Makeup and Hair",
+      "email": "info@janaandco.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "The Natural Dose",
+      "email": "MakeUpArtbyAlex@gmail.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "Vintage Vixen Vanity",
+      "email": "vintagevixenvanity@gmail.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "Bliss Makeup Artistry",
+      "email": "info@blissbridalbeauty.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "360 and Beyond",
+      "email": "events@360andbeyondpb.com",
+      "category": "photobooths",
+      "verified": true
+    },
+    {
+      "name": "I Heart Momo Photo Booth",
+      "email": "iheartmomophotobooth@gmail.com",
+      "category": "photobooths",
+      "verified": true
+    },
+    {
+      "name": "Annnd...Action! Photo Booth",
+      "email": "annndactionphoto@gmail.com",
+      "category": "photobooths",
+      "verified": true
+    },
+    {
+      "name": "Smile Station Events",
+      "email": "Smilestationeventsofficial@gmail.com",
+      "category": "photobooths",
+      "verified": true
+    },
+    {
+      "name": "Aura Booth",
+      "email": "info@aurabooth.com",
+      "category": "photobooths",
+      "verified": true
+    },
+    {
+      "name": "Allie Dearie Photography",
+      "email": "alliedearie@gmail.com",
+      "category": "creators",
+      "verified": true
+    },
+    {
+      "name": "Vivian Hana Socials",
+      "email": "viv.hana.socials@gmail.com",
+      "category": "creators",
+      "verified": true
+    },
+    {
+      "name": "Cupid Content Co.",
+      "email": "hello@cupidcontentco.com",
+      "category": "creators",
+      "verified": true
+    },
+    {
+      "name": "Candid Content",
+      "email": "candidcontentco@yahoo.com",
+      "category": "creators",
+      "verified": true
+    },
+    {
+      "name": "Something Blue BTS",
+      "email": "somethingblue.bts@gmail.com",
+      "category": "creators",
+      "verified": true
+    },
+    {
+      "name": "Jasper & Oak",
+      "email": "jasperoakevents@gmail.com",
+      "category": "creators",
+      "verified": true
+    },
+    {
+      "name": "RomCom Weddings",
+      "email": "RomComWeddings@gmail.com",
+      "category": "officiants",
+      "verified": true
+    },
+    {
+      "name": "Shells Petals Florist",
+      "email": "shellspetals1@hotmail.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Into-Blooms LLC",
+      "email": "info@into-blooms.com",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Curly Willow",
+      "email": "curlywillow@verizon.net",
+      "category": "florists",
+      "verified": true
+    },
+    {
+      "name": "Pastries By Vreeke",
+      "email": "pastriesbyvreeke@gmail.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Cafe Ficelle",
+      "email": "customercare@cafeficelle.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Camarillo Cupcake",
+      "email": "camarillocupcake@gmail.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Sweet Escake",
+      "email": "info@sweetescake.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "So.Cal Confections",
+      "email": "So.cal.cakery@gmail.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Cottage Confectionary",
+      "email": "cottageconfectionary@gmail.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Baked by Tallulah",
+      "email": "bakedbytallulah@gmail.com",
+      "category": "cakes",
+      "verified": true
+    },
+    {
+      "name": "Beauty by Hidi",
+      "email": "vkhaida@yahoo.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "Fairytale Hair & Makeup",
+      "email": "Fairytalehairandmakeup@gmail.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "Jazmin Uranga Beauty",
+      "email": "Jazminurangabeauty@gmail.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "The Artists Collective",
+      "email": "info@theartistcollectivestudio.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "The Pretty Parlour",
+      "email": "prettyparlorsalon@gmail.com",
+      "category": "hairmakeup",
+      "verified": true
+    },
+    {
+      "name": "Birdy Grey",
+      "email": "sup@birdygrey.com",
+      "category": "dresses",
+      "verified": true
+    },
+    {
+      "name": "Azazie",
+      "email": "customerservice@azazie.com",
+      "category": "dresses",
+      "verified": true
+    },
+    {
+      "name": "Revelry",
+      "email": "hello@shoprevelry.com",
+      "category": "dresses",
+      "verified": true
+    },
+    {
+      "name": "Show Me Your Mumu",
+      "email": "helpme@showmeyourmumu.com",
+      "category": "dresses",
+      "verified": true
+    },
+    {
+      "name": "Bella Bridesmaids",
+      "email": "shop@bellabridesmaid.com",
+      "category": "dresses",
+      "verified": true
+    },
+    {
+      "name": "Jenny Yoo",
+      "email": "wholesale@jennyyoo.com",
+      "category": "dresses",
+      "verified": true
+    },
+    {
+      "name": "Ever After Bridal Boutique",
+      "email": "info@eabridal.love",
+      "category": "dresses",
+      "verified": true
+    },
+    {
+      "name": "Joey Carman Photography",
+      "email": "studio@joeycarmanphotography.com",
+      "category": "photographers",
+      "verified": true,
+      "note": "Found via web search 2026-01-17"
+    },
+    {
+      "name": "Chris Schmitt Photography",
+      "email": "info@chrisschmitt.com",
+      "category": "photographers",
+      "verified": true,
+      "note": "Found via web search 2026-01-17"
+    },
+    {
+      "name": "Sohi Productions",
+      "email": "meena@sohiproductions.com",
+      "category": "videographers",
+      "verified": true,
+      "note": "Found via RocketReach email format 2026-01-17"
+    },
+    {
+      "name": "April Story Films",
+      "email": "aprilstoryfilms@gmail.com",
+      "category": "videographers",
+      "verified": true,
+      "note": "Found via Yelp/web search 2026-01-17"
+    },
+    {
+      "name": "Crucible Creativity",
+      "email": "cruciblecreativity@gmail.com",
+      "category": "videographers",
+      "verified": true,
+      "note": "Found via website 2026-01-17"
+    },
+    {
+      "name": "Dean Merrill Weddings",
+      "email": "DeanMerrill3000@Gmail.com",
+      "category": "officiants",
+      "verified": true,
+      "note": "Found via website 2026-01-17"
+    },
+    {
+      "name": "Coastal Wedding Dreams",
+      "email": "john@coastalweddingdreams.com",
+      "category": "officiants",
+      "verified": true,
+      "note": "Found via website, Rev. John Huffman 2026-01-17"
+    },
+    {
+      "name": "Father Jerry Bellamy",
+      "email": "jerry@bellamyservices.com",
+      "category": "officiants",
+      "verified": true,
+      "note": "Found via santabarbaraweddingminister.com 2026-01-17"
+    }
+  ],
+  "invalid_emails": [
+    {
+      "name": "One Spirit Ministries",
+      "wrong_email": "wayneonespirit@charter.net",
+      "correct_email": "edmistonwayne@gmail.com",
+      "reason": "The Knot listing shows different email",
+      "category": "officiants"
+    }
+  ],
+  "no_email_found": [
+    {
+      "name": "Sara Knobel Photo",
+      "contact": "contact form only",
+      "category": "photographers"
+    },
+    {
+      "name": "Honey & Hive",
+      "contact": "contact form only",
+      "category": "photographers"
+    },
+    {
+      "name": "Robert Orsa Photography",
+      "contact": "contact page blocked 403/404",
+      "category": "photographers"
+    },
+    {
+      "name": "Keepsake Photography by Karen",
+      "contact": "no web presence",
+      "category": "photographers"
+    },
+    {
+      "name": "Stone & Sage Films",
+      "contact": "domain not resolving",
+      "category": "videographers"
+    },
+    {
+      "name": "Married in Motion",
+      "contact": "contact form only",
+      "category": "videographers"
+    },
+    {
+      "name": "Henry Chen Films",
+      "contact": "contact form only",
+      "category": "videographers"
+    },
+    {
+      "name": "Weddings by Kora",
+      "contact": "contact form only",
+      "category": "videographers"
+    },
+    {
+      "name": "Wedding Officiant Jon",
+      "contact": "phone 310-856-9000 only",
+      "category": "officiants"
+    },
+    {
+      "name": "DJ Kamayo Entertainment",
+      "contact": "phone (805) 514-0338 only",
+      "category": "djs"
+    },
+    {
+      "name": "On the Go DJ Pro",
+      "contact": "phone only",
+      "category": "djs"
+    },
+    {
+      "name": "Time of Your Life!",
+      "contact": "phone (805) 557-4900 only",
+      "category": "djs"
+    },
+    {
+      "name": "Ventura County DJ",
+      "contact": "domain not found",
+      "category": "djs"
+    },
+    {
+      "name": "Great Rate DJs",
+      "contact": "phone 1-877-888-9933 only",
+      "category": "djs"
+    },
+    {
+      "name": "Green Light Entertainment",
+      "contact": "no email found",
+      "category": "djs"
+    },
+    {
+      "name": "Porto's Bakery",
+      "contact": "contact form only",
+      "category": "cakes"
+    },
+    {
+      "name": "Crescent Moon Floral",
+      "contact": "phone (805) 456-0973 only",
+      "category": "florists"
+    },
+    {
+      "name": "Gilded Blossoms",
+      "contact": "phone (805) 796-5909 only",
+      "category": "florists"
+    },
+    {
+      "name": "Floral Designs by Roni",
+      "contact": "website expired, phone (805) 660-2239",
+      "category": "florists"
+    },
+    {
+      "name": "Edna Love Floral",
+      "contact": "contact form, phone (805) 816-2111",
+      "category": "florists"
+    },
+    {
+      "name": "L.A. Glamm",
+      "contact": "phone (818) 447-8896 only",
+      "category": "hairmakeup"
+    },
+    {
+      "name": "Cheyenne",
+      "contact": "contact form only",
+      "category": "hairmakeup"
+    },
+    {
+      "name": "LMS Studio Beauty",
+      "contact": "phone (818) 448-3805 only",
+      "category": "hairmakeup"
+    },
+    {
+      "name": "Bridal Chic Beauty Co.",
+      "contact": "phone (805) 342-8331 only",
+      "category": "hairmakeup"
+    },
+    {
+      "name": "Blush and Bangs Co.",
+      "contact": "phone (805) 444-0023 only",
+      "category": "hairmakeup"
+    },
+    {
+      "name": "Giant Photo Booth",
+      "contact": "domain expired, phone (805) 630-2470",
+      "category": "photobooths"
+    },
+    {
+      "name": "DMG Photo Booth Rental",
+      "contact": "phone (805) 340-6137 only",
+      "category": "photobooths"
+    },
+    {
+      "name": "Pixel Party Photo Booth",
+      "contact": "Instagram only",
+      "category": "photobooths"
+    },
+    {
+      "name": "VW Photo Bus Options",
+      "contact": "contact form only",
+      "category": "photobooths"
+    },
+    {
+      "name": "I Do Crew",
+      "contact": "contact form only",
+      "category": "creators"
+    },
+    {
+      "name": "MH Content Creation",
+      "contact": "contact form only",
+      "category": "creators"
+    },
+    {
+      "name": "The Wedding Content Co",
+      "contact": "Ireland-based, Instagram only",
+      "category": "creators"
+    },
+    {
+      "name": "Crystal Rose Events",
+      "contact": "phone (310) 425-5432 only",
+      "category": "creators"
+    },
+    {
+      "name": "Cantor Marc Bachrach",
+      "contact": "phone (805) 492-7189 only",
+      "category": "officiants"
+    },
+    {
+      "name": "Prince William DJ & MC",
+      "contact": "phone (213) 566-1069 only",
+      "category": "djs"
+    },
+    {
+      "name": "MC Benny D",
+      "contact": "Instagram profile removed",
+      "category": "djs"
+    },
+    {
+      "name": "Frost It Cakery",
+      "contact": "phone (805) 379-0390 only",
+      "category": "cakes"
+    },
+    {
+      "name": "Skiffs Cakes",
+      "contact": "phone (805) 582-4882 only",
+      "category": "cakes"
+    },
+    {
+      "name": "Pastrygirl123",
+      "contact": "phone (818) 903-5070 only",
+      "category": "cakes"
+    },
+    {
+      "name": "Cake and Love",
+      "contact": "phone (818) 849-2953 only",
+      "category": "cakes"
+    },
+    {
+      "name": "The Traveling Stylists",
+      "contact": "phone (315) 427-9478 only",
+      "category": "hairmakeup"
+    },
+    {
+      "name": "The Bridal Collection",
+      "contact": "domain does not resolve",
+      "category": "dresses"
+    },
+    {
+      "name": "Dessy Group",
+      "contact": "phone 1.646.638.9600 only",
+      "category": "dresses"
+    }
+  ]
+}

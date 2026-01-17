@@ -11151,7 +11151,7 @@
                 const email = mailtoLink.href.replace('mailto:', '').toLowerCase();
 
                 const gmailBtn = document.createElement('a');
-                gmailBtn.href = `https://mail.google.com/mail/u/0/#search/to%3A${encodeURIComponent(email)}+OR+from%3A${encodeURIComponent(email)}`;
+                gmailBtn.href = `https://mail.google.com/mail/?authuser=talfishmanorg@gmail.com#search/to%3A${encodeURIComponent(email)}+OR+from%3A${encodeURIComponent(email)}`;
                 gmailBtn.target = '_blank';
                 gmailBtn.className = 'action-btn gmail-thread';
                 gmailBtn.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px;margin-right:4px;"><path d="M20 18h-2V9.25L12 13 6 9.25V18H4V6h1.2l6.8 4.25L18.8 6H20v12z"/></svg>Thread`;
